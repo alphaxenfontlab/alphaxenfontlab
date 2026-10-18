@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ArrowRight, Sun, ShoppingBag, ExternalLink, KeyRound, Grid, Sparkles, Eye, Layers } from 'lucide-react';
+import { Menu, X, ArrowRight, Volume2, VolumeX, ShoppingBag, ExternalLink, KeyRound, Grid, Sparkles, Eye, Layers } from 'lucide-react';
 import { soundFx } from '../services/soundFx';
 import { getAssetUrl } from '../services/fontData';
 import { fastScrollTo } from '../services/fastScroll';
@@ -124,20 +124,26 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
             <ArrowRight className="w-2.5 h-2.5 sm:w-3 sm:h-3 stroke-[2.5] group-hover:translate-x-0.5 transition-transform shrink-0" />
           </a>
 
-          {/* Button 2: Circular Dark Glass Sun/Audio Mode Button */}
+          {/* Button 2: Circular Dark Glass Modern Audio / Sound Button */}
           <button
             onClick={() => {
               const isNowMuted = soundFx.toggleMute();
               setSoundMuted(isNowMuted);
             }}
-            className="navbar-btn-circle-mode cursor-pointer"
-            title={soundMuted ? 'Atmospheric Audio: Muted (Click to Activate)' : 'Atmospheric Audio: Active (Click to Mute)'}
+            className={`navbar-btn-circle-mode cursor-pointer ${
+              !soundMuted ? 'border-cyan-400/60 shadow-[0_0_18px_rgba(56,189,248,0.45)]' : 'border-white/10'
+            }`}
+            title={soundMuted ? 'Cyber Haptic Sound: Muted (Click to Turn On)' : 'Cyber Haptic Sound: Active (Click to Mute)'}
+            aria-label={soundMuted ? 'Turn on sound' : 'Mute sound'}
           >
-            <Sun
-              className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-colors ${
-                soundMuted ? 'text-slate-400' : 'text-cyan-300 drop-shadow-[0_0_8px_rgba(56,189,248,0.8)]'
-              }`}
-            />
+            {soundMuted ? (
+              <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400 transition-colors" />
+            ) : (
+              <div className="relative flex items-center justify-center">
+                <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-300 drop-shadow-[0_0_8px_rgba(56,189,248,0.85)] transition-colors" />
+                <span className="absolute -top-0.5 -right-0.5 w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_6px_#22d3ee]" />
+              </div>
+            )}
           </button>
 
           {/* Button 3: COMMISSION / LICENSE (Visible on Desktop) */}
@@ -203,6 +209,21 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
             className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2 rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>Licensing</span>
+          </button>
+          <button
+            onClick={() => {
+              const isNowMuted = soundFx.toggleMute();
+              setSoundMuted(isNowMuted);
+            }}
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
+          >
+            <span className="flex items-center gap-2">
+              {soundMuted ? <VolumeX size={15} className="text-slate-400" /> : <Volume2 size={15} className="text-cyan-300" />}
+              <span>Sound Effects</span>
+            </span>
+            <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold ${!soundMuted ? 'bg-cyan-500/20 text-cyan-300' : 'bg-white/10 text-slate-400'}`}>
+              {!soundMuted ? 'ON' : 'OFF'}
+            </span>
           </button>
         </div>
       )}
