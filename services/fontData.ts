@@ -88,7 +88,7 @@ export function preloadGlyphs(text: string, fontDetail: FontDetail) {
 }
 
 /**
- * Loads the master catalog of all 22 real fonts (with promise deduplication)
+ * Loads the master catalog of all foundry real fonts (with promise deduplication)
  */
 export function getFoundryCatalog(): Promise<FontSummary[]> {
   if (cachedCatalog) return Promise.resolve(cachedCatalog);

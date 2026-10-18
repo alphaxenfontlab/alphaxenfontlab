@@ -146,11 +146,11 @@ export const MobileDemoShowcase: React.FC = () => {
   // Type Asset Locker - Alphaxen Real Typeface Data Manifests
   const fontAssets = [
     { name: 'Alphaxen-Dragon-Manifest.json', size: '142 KB', format: 'Vector Glyphs', hash: 'SHA256:0x89F4...22C1' },
-    { name: 'Alphaxen-Eagle-Manifest.json', size: '98 KB', format: 'Vector Glyphs', hash: 'SHA256:0x71A9...99E0' },
+    { name: 'Alphaxen-Peacock-Manifest.json', size: '164 KB', format: 'Vector Glyphs', hash: 'SHA256:0x71A9...99E0' },
     { name: 'Alphaxen-Molten-Manifest.json', size: '184 KB', format: 'Vector Glyphs', hash: 'SHA256:0x55E2...34B8' },
     { name: 'Alphaxen-Galaxy-Manifest.json', size: '128 KB', format: 'Vector Glyphs', hash: 'SHA256:0x12C0...77A4' },
     { name: 'Alphaxen-Future-Manifest.json', size: '110 KB', format: 'Vector Glyphs', hash: 'SHA256:0x34A1...56D2' },
-    { name: 'Alphaxen-Elvaria-Manifest.json', size: '156 KB', format: 'Vector Glyphs', hash: 'SHA256:0x98E2...11B4' }
+    { name: 'Alphaxen-Jellyfish-Manifest.json', size: '152 KB', format: 'Vector Glyphs', hash: 'SHA256:0x98E2...11B4' }
   ];
 
   // Live Glyph Render Ticker
