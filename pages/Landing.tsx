@@ -926,8 +926,8 @@ export const Landing: React.FC = () => {
             </div>
           </div>
 
-          {/* Cascading Waterfall Container inside High-Impact Organic Waterball (Full Text Safe Clearance) */}
-          <div className="waterbox-waterfall py-12 sm:py-16 md:py-20 px-5 sm:px-12 md:px-16 lg:px-20 shadow-2xl relative">
+          {/* Cascading Waterfall Container inside High-Impact Organic Waterball (Pure Water Ball Shape) */}
+          <div className="waterbox-waterfall py-14 sm:py-20 md:py-24 px-6 sm:px-14 md:px-20 lg:px-24 shadow-2xl relative">
             <div className="relative z-10 w-full max-w-4xl mx-auto space-y-6 sm:space-y-7">
               {/* Waterball Top Telemetry & Font Status */}
               <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-white/10 text-xs font-mono">

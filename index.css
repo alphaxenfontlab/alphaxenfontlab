@@ -1189,32 +1189,13 @@ textarea::placeholder,
   z-index: 1;
 }
 
-/* Specimen Waterfall Dedicated Oceanic Waterball Container (GPU Accelerated) */
-@keyframes waterfall-waterball-morph {
-  0% {
-    border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translate3d(0, 0, 0);
-  }
-  33% {
-    border-radius: 52% 48% 46% 54% / 25% 22% 23% 25%;
-    transform: translate3d(0, 0, 0);
-  }
-  66% {
-    border-radius: 47% 53% 52% 48% / 23% 24% 25% 22%;
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
+/* Specimen Waterfall Dedicated Oceanic Waterball Container (Pure Water Ball Shape) */
 .waterbox-waterfall {
-  border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-  animation: waterfall-waterball-morph 14s ease-in-out infinite alternate;
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
   background: 
-    radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.55) 0%, transparent 55%),
-    radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.45) 0%, transparent 55%),
+    radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.6) 0%, transparent 55%),
+    radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.5) 0%, transparent 55%),
     radial-gradient(ellipse 75% 65% at 50% 50%, rgba(3, 10, 26, 0.75) 0%, rgba(2, 5, 18, 0.96) 100%);
   border: 3px solid rgba(255, 255, 255, 0.16);
   border-top: 4px solid #ffffff;
@@ -1244,11 +1225,11 @@ textarea::placeholder,
   content: '';
   position: absolute;
   top: 4px;
-  left: 15%;
-  right: 20%;
-  height: 18%;
+  left: 12%;
+  right: 18%;
+  height: 30%;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.08) 70%, transparent 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
   pointer-events: none;
   filter: blur(2px);
   z-index: 1;
@@ -1268,10 +1249,10 @@ textarea::placeholder,
   z-index: 1;
 }
 
-/* Hero Stage Waterbox with Safe Full Clearance */
+/* Hero Stage Waterbox with Pure Water Ball Shape */
 .waterbox-stage {
-  border-radius: 48% 52% 50% 50% / 20% 22% 24% 22%;
-  animation: waterfall-waterball-morph 14s ease-in-out infinite alternate;
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
   background: 
     radial-gradient(circle at 85% 15%, rgba(255, 69, 0, 0.35) 0%, transparent 55%),
     radial-gradient(circle at 18% 85%, rgba(0, 242, 254, 0.35) 0%, transparent 55%),
@@ -1307,11 +1288,11 @@ textarea::placeholder,
   content: '';
   position: absolute;
   top: 4px;
-  left: 15%;
-  right: 20%;
-  height: 18%;
+  left: 12%;
+  right: 18%;
+  height: 30%;
   border-radius: 50%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.08) 70%, transparent 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
   pointer-events: none;
   filter: blur(2px);
   z-index: 1;
