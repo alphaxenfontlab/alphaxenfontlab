@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, Heart, Sparkles, Terminal, ShoppingBag, ExternalLink } from 'lucide-react';
 import { MYFONTS_SHOP_URL, getAssetUrl } from '../services/fontData';
+import { fastScrollTo } from '../services/fastScroll';
 
 interface FoundryFooterProps {
   onScrollToSection?: (sectionId: string) => void;
@@ -11,6 +12,14 @@ export const FoundryFooter: React.FC<FoundryFooterProps> = ({
   onScrollToSection,
   onOpenLicense,
 }) => {
+  const handleFooterNav = (e: React.MouseEvent, targetId: string) => {
+    e.preventDefault();
+    if (onScrollToSection) {
+      onScrollToSection(targetId);
+    } else {
+      fastScrollTo(targetId, 76, 380);
+    }
+  };
   return (
     <footer className="border-t border-white/10 bg-[#06080e] text-slate-400 py-16 px-4 sm:px-6 lg:px-8 mt-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -66,22 +75,38 @@ export const FoundryFooter: React.FC<FoundryFooterProps> = ({
               </a>
             </li>
             <li>
-              <a href="#catalog" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="#catalog" 
+                onClick={(e) => handleFooterNav(e, 'catalog')}
+                className="hover:text-purple-400 transition-colors cursor-pointer"
+              >
                 Typeface Catalog (22)
               </a>
             </li>
             <li>
-              <a href="#type-tester" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="#type-tester" 
+                onClick={(e) => handleFooterNav(e, 'type-tester')}
+                className="hover:text-purple-400 transition-colors cursor-pointer"
+              >
                 Interactive Type Tester
               </a>
             </li>
             <li>
-              <a href="#specimen" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="#specimen-waterfall" 
+                onClick={(e) => handleFooterNav(e, 'specimen-waterfall')}
+                className="hover:text-purple-400 transition-colors cursor-pointer"
+              >
                 Specimen Waterfalls
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-purple-400 transition-colors">
+              <a 
+                href="#philosophy" 
+                onClick={(e) => handleFooterNav(e, 'philosophy')}
+                className="hover:text-purple-400 transition-colors cursor-pointer"
+              >
                 Foundry Story
               </a>
             </li>

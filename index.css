@@ -19,6 +19,8 @@
 html {
   scroll-behavior: auto;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+  scroll-padding-top: 76px;
 }
 
 html, body {
@@ -31,20 +33,23 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
 }
 
 button, a, input, select, textarea {
   touch-action: manipulation;
 }
 
-/* Pause costly hover recalculations and heavy animations during active scroll gestures for solid 60-120fps */
-body.is-scrolling * {
+/* Fast 60-120fps hardware-composited scroll optimization */
+body.is-scrolling {
   pointer-events: none !important;
 }
 
-body.is-scrolling .catalog-card-contain,
-body.is-scrolling .molten-blob {
-  animation-play-state: paused !important;
+/* Off-screen section virtualization for instantaneous scroll reaction */
+.scroll-fast-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
+  contain: layout style paint;
 }
 
 /* Ensure all images, svgs, and media stay inside containers */

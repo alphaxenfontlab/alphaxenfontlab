@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowRight, Sun, ShoppingBag, ExternalLink, KeyRound, Grid, Sparkles, Eye, Layers } from 'lucide-react';
 import { soundFx } from '../services/soundFx';
 import { getAssetUrl } from '../services/fontData';
+import { fastScrollTo } from '../services/fastScroll';
 
 interface FoundryNavbarProps {
   onOpenLicenseModal?: () => void;
@@ -20,10 +21,7 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
     if (onScrollToSection) {
       onScrollToSection(sectionId);
     } else {
-      const el = document.getElementById(sectionId);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth' });
-      }
+      fastScrollTo(sectionId, 76, 380);
     }
   };
 
@@ -37,7 +35,7 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
           {/* Brand Monogram: Logo + ALPHAXEN FONT LAB */}
           <div
             className="flex items-center gap-1.5 sm:gap-2.5 lg:gap-3 cursor-pointer group shrink-0"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => fastScrollTo(0, 0, 350)}
           >
             {/* Real Circular Logo Badge */}
             <div className="w-7 h-7 sm:w-8 sm:h-8 lg:w-10 lg:h-10 rounded-full p-[1.5px] bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-500 shadow-[0_0_15px_rgba(56,189,248,0.5)] group-hover:shadow-[0_0_25px_rgba(168,85,247,0.7)] group-hover:scale-105 transition-all overflow-hidden shrink-0 flex items-center justify-center">

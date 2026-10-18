@@ -16,6 +16,7 @@ import { FoundryFooter } from '../components/FoundryFooter';
 import { LiveTypeTester } from '../components/LiveTypeTester';
 import { LicenseInquiryModal } from '../components/LicenseInquiryModal';
 import { DemoGlyph } from '../components/DemoGlyph';
+import { fastScrollTo } from '../services/fastScroll';
 import {
   Sparkles,
   ArrowRight,
@@ -191,10 +192,7 @@ export const Landing: React.FC = () => {
   }, [catalog, activeCategory, searchQuery]);
 
   const scrollToSection = (id: string) => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
+    fastScrollTo(id, 76, 380);
   };
 
   const openLicense = (font?: FontSummary) => {

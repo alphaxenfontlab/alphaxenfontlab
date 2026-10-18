@@ -25,6 +25,8 @@ class WaterPhysicsEngine {
   private gyroY = 0;
   private observer: MutationObserver | null = null;
   private keyPulseTimeout: ReturnType<typeof setTimeout> | null = null;
+  private isScrolling = false;
+  private scrollResetTimer: ReturnType<typeof setTimeout> | null = null;
 
   public init(): void {
     if (this.isInitialized || typeof window === 'undefined') return;
@@ -46,7 +48,10 @@ class WaterPhysicsEngine {
     // 5. Mobile Gyroscope Gravity Tilt
     this.setupGyroscope();
 
-    // 6. Start Physics Animation Loop
+    // 6. Active Scroll Detection - Yields 100% frame rate to scroll compositor
+    window.addEventListener('scroll', this.handleScroll, { passive: true });
+
+    // 7. Start Physics Animation Loop
     this.startLoop();
   }
 
@@ -104,10 +109,20 @@ class WaterPhysicsEngine {
     });
   }
 
+  private handleScroll = (): void => {
+    this.isScrolling = true;
+    if (this.scrollResetTimer) clearTimeout(this.scrollResetTimer);
+    this.scrollResetTimer = setTimeout(() => {
+      this.isScrolling = false;
+    }, 120);
+  };
+
   /**
    * Feature 1: Cursor Surface Tension Pull & 3D Highlight Parallax
    */
   private handlePointerMove = (e: PointerEvent): void => {
+    if (this.isScrolling) return;
+
     const target = (e.target as HTMLElement)?.closest<HTMLElement>(`
       .waterbox,
       .waterbox-stage,
@@ -287,6 +302,7 @@ class WaterPhysicsEngine {
     window.removeEventListener('pointermove', this.handlePointerMove);
     window.removeEventListener('pointerdown', this.handlePointerDown);
     window.removeEventListener('keydown', this.handleKeyDown);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 }
 
