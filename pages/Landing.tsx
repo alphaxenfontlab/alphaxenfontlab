@@ -206,42 +206,47 @@ export const Landing: React.FC = () => {
     const cat = (font.subCategory || '').toLowerCase();
     const theme = (font.theme || '').toLowerCase();
     const id = (font.id || '').toLowerCase();
+    const stagger = `water-stagger-${(idx % 4) + 1}`;
+
+    let base = 'waterbox';
 
     // 1. Dragon / Volcanic Magma / Lava: Shape 2 (multi-wave fluid splash blob)
     if (cat.includes('fantasy') || cat.includes('magma') || theme.includes('lava') || theme.includes('fire') || id.includes('dragon')) {
-      return 'waterbox-lava waterbox-blob-splash';
+      base = 'waterbox-lava waterbox-blob-splash';
     } 
     // 2. Polar / Arctic / Ice: Keep pure spherical water droplet
-    if (cat.includes('polar') || cat.includes('arctic') || id.includes('penguin') || theme.includes('ice')) {
-      return 'waterbox-oceanic';
+    else if (cat.includes('polar') || cat.includes('arctic') || id.includes('penguin') || theme.includes('ice')) {
+      base = 'waterbox-oceanic';
     }
     // 3. Oceanic / Deep Water / Marine: Shape 5 (fluid landscape pod blob)
-    if (cat.includes('oceanic') || theme.includes('water') || id.includes('octopus')) {
-      return 'waterbox-oceanic waterbox-blob-landscape';
+    else if (cat.includes('oceanic') || theme.includes('water') || id.includes('octopus')) {
+      base = 'waterbox-oceanic waterbox-blob-landscape';
     } 
     // 4. Sci-Fi / Cyber / Cosmic / Amethyst: Shape 3 (diagonal elongated fluid droplet)
-    if (cat.includes('sci-fi') || cat.includes('cosmic') || cat.includes('cyber') || cat.includes('amethyst') || theme.includes('violet')) {
-      return 'waterbox-violet waterbox-blob-diagonal';
+    else if (cat.includes('sci-fi') || cat.includes('cosmic') || cat.includes('cyber') || cat.includes('amethyst') || theme.includes('violet')) {
+      base = 'waterbox-violet waterbox-blob-diagonal';
     } 
     // 5. Luxury / Flora / Honey / Nature: Shape 1 (organic puddle) or Shape 4 (fluid pebble)
-    if (cat.includes('luxury') || cat.includes('gold') || theme.includes('honey')) {
-      return 'waterbox-honey waterbox-blob-pebble';
+    else if (cat.includes('luxury') || cat.includes('gold') || theme.includes('honey')) {
+      base = 'waterbox-honey waterbox-blob-pebble';
     }
-    if (cat.includes('flora') || cat.includes('nature') || id.includes('peacock') || id.includes('chameleon')) {
-      return 'waterbox-honey waterbox-blob-puddle';
+    else if (cat.includes('flora') || cat.includes('nature') || id.includes('peacock') || id.includes('chameleon')) {
+      base = 'waterbox-honey waterbox-blob-puddle';
+    } else {
+      // Diverse distribution matching the 6 user reference shapes and round spheres:
+      const organicFlavors = [
+        'waterbox waterbox-blob-puddle',
+        'waterbox-oceanic waterbox-blob-landscape',
+        'waterbox-violet waterbox-blob-diagonal',
+        'waterbox-lava waterbox-blob-splash',
+        'waterbox-honey waterbox-blob-pebble',
+        'waterbox waterbox-blob-droplet',
+        'waterbox-oceanic',
+      ];
+      base = organicFlavors[idx % organicFlavors.length];
     }
 
-    // Diverse distribution matching the 6 user reference shapes and round spheres:
-    const organicFlavors = [
-      'waterbox waterbox-blob-puddle',
-      'waterbox-oceanic waterbox-blob-landscape',
-      'waterbox-violet waterbox-blob-diagonal',
-      'waterbox-lava waterbox-blob-splash',
-      'waterbox-honey waterbox-blob-pebble',
-      'waterbox waterbox-blob-droplet',
-      'waterbox-oceanic',
-    ];
-    return organicFlavors[idx % organicFlavors.length];
+    return `${base} ${stagger}`;
   };
 
   return (
@@ -410,8 +415,22 @@ export const Landing: React.FC = () => {
             </div>
 
             {/* Right Col: Monumental Master Waterbox (Pure Organic Fluid Water Vessel) */}
-            <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full">
-              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
+            <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full relative">
+              {/* Floating Ambient Live Waterball Satellites */}
+              <div 
+                className="absolute -top-3 left-4 sm:left-12 w-8 h-8 rounded-full waterbox-oceanic waterbox-blob-droplet pointer-events-none hidden sm:block shadow-xl z-20"
+                style={{ animationDuration: '4.8s' }}
+              />
+              <div 
+                className="absolute -bottom-2 right-4 sm:right-10 w-7 h-7 rounded-full waterbox-lava waterbox-blob-pebble pointer-events-none hidden sm:block shadow-xl z-20"
+                style={{ animationDuration: '5.4s', animationDelay: '-1.5s' }}
+              />
+              <div 
+                className="absolute top-1/2 -left-4 w-9 h-9 rounded-full waterbox-violet waterbox-blob-splash pointer-events-none hidden md:block shadow-xl z-20"
+                style={{ animationDuration: '6.2s', animationDelay: '-3.1s' }}
+              />
+
+              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between relative">
                 <div className="relative z-10 flex flex-col justify-between h-full w-full space-y-6">
                   
                   {/* Top Badge Row - Placed comfortably inside safe curved bounds */}
@@ -600,7 +619,7 @@ export const Landing: React.FC = () => {
               href={MYFONTS_SHOP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="waterbox waterbox-blob-puddle p-7 sm:p-8 flex flex-col justify-between cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-puddle water-stagger-1 p-7 sm:p-8 flex flex-col justify-between cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -627,7 +646,7 @@ export const Landing: React.FC = () => {
             {/* Card 2: Open Type Tester (Organic Fluid Blob 4 - Pebble) */}
             <button
               onClick={() => scrollToSection('type-tester')}
-              className="waterbox waterbox-blob-pebble w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-pebble water-stagger-2 w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -654,7 +673,7 @@ export const Landing: React.FC = () => {
             {/* Card 3: Explore Fonts (Organic Fluid Blob 3 - Diagonal Droplet) */}
             <button
               onClick={() => scrollToSection('catalog')}
-              className="waterbox waterbox-blob-diagonal w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-diagonal water-stagger-3 w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
