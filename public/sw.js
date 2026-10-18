@@ -1,13 +1,13 @@
 // Alphaxen Type Foundry PWA Service Worker
-const CACHE_NAME = 'alphaxen-fonts-v2';
+const CACHE_NAME = 'alphaxen-fonts-v3';
 const PRECACHE_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/logo.png',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/icon-512-maskable.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './logo.png',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-512-maskable.png'
 ];
 
 // Install Event - Pre-cache essential shell assets

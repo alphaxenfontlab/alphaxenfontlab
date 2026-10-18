@@ -12,7 +12,14 @@ export const getAssetUrl = (path: string): string => {
     return path;
   }
   const cleanPath = path.replace(/^\.?\//, '');
-  const base = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.BASE_URL) || './';
+  let base = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.BASE_URL) || '';
+  if (!base || base === './' || base === '.') {
+    if (typeof window !== 'undefined' && window.location.pathname.startsWith('/alphaxenfontlab')) {
+      base = '/alphaxenfontlab/';
+    } else {
+      base = '/';
+    }
+  }
   const cleanBase = base.endsWith('/') ? base : `${base}/`;
   return `${cleanBase}${cleanPath}`;
 };
@@ -62,13 +69,14 @@ export async function getFoundryCatalog(): Promise<FontSummary[]> {
   if (cachedCatalog) return cachedCatalog;
 
   try {
-    const res = await fetch('/foundry_data/catalog.json');
+    const url = getAssetUrl('foundry_data/catalog.json');
+    const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     const data: FontSummary[] = await res.json();
     cachedCatalog = data;
     return data;
   } catch (err) {
-    console.error('Failed to fetch /foundry_data/catalog.json:', err);
+    console.error('Failed to fetch catalog.json:', err);
     return [];
   }
 }
@@ -89,7 +97,8 @@ export async function getFontDetail(fontId: string): Promise<FontDetail | null> 
   }
 
   try {
-    const res = await fetch(`/foundry_data/${fontId}.json`);
+    const url = getAssetUrl(`foundry_data/${fontId}.json`);
+    const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     const data: FontDetail = await res.json();
     cachedFontDetails[fontId] = data;

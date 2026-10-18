@@ -7,6 +7,7 @@ import {
   mapTextToGlyphs,
   CATEGORY_FILTERS,
   MYFONTS_SHOP_URL,
+  getAssetUrl,
 } from '../services/fontData';
 import { FoundryNavbar } from '../components/FoundryNavbar';
 import { FoundryFooter } from '../components/FoundryFooter';
@@ -187,7 +188,7 @@ export const Landing: React.FC = () => {
       <div 
         className="md:hidden fixed inset-0 pointer-events-none z-0"
         style={{
-          backgroundImage: "url('/background.png')",
+          backgroundImage: `url('${getAssetUrl('background.png')}')`,
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center top',
           backgroundSize: 'cover',
@@ -261,7 +262,7 @@ export const Landing: React.FC = () => {
                     </div>
                   ) : (
                     <img
-                      src="/art-molten-word.png"
+                      src={getAssetUrl('art-molten-word.png')}
                       alt="MOLTEN"
                       className="h-10 sm:h-12 md:h-14 w-auto object-contain filter drop-shadow-[0_8px_20px_rgba(236,72,153,0.55)] transform -ml-0.5"
                     />

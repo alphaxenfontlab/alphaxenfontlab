@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Heart, Sparkles, Terminal, ShoppingBag, ExternalLink } from 'lucide-react';
-import { MYFONTS_SHOP_URL } from '../services/fontData';
+import { MYFONTS_SHOP_URL, getAssetUrl } from '../services/fontData';
 
 interface FoundryFooterProps {
   onScrollToSection?: (sectionId: string) => void;
@@ -19,7 +19,7 @@ export const FoundryFooter: React.FC<FoundryFooterProps> = ({
           <div className="flex items-center gap-3.5">
             <div className="w-11 h-11 rounded-full overflow-hidden p-[2px] bg-gradient-to-tr from-cyan-400 via-indigo-500 to-amber-400 shadow-[0_0_20px_rgba(56,189,248,0.5)]">
               <img
-                src="/logo.png"
+                src={getAssetUrl('logo.png')}
                 alt="Alphaxen Type Foundry"
                 className="w-full h-full object-cover rounded-full bg-black"
               />

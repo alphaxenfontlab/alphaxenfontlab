@@ -12,14 +12,15 @@ type BrandMarkProps = {
 const BrandMark: React.FC<BrandMarkProps> = ({ mode = 'default', suffix, className = '', disableLink = false }) => {
   const compact = mode === 'compact';
   const large = mode === 'large';
-  const [imgSrc, setImgSrc] = useState<string>('/logo.png');
+  const [imgSrc, setImgSrc] = useState<string>(() => getAssetUrl('logo.png'));
 
   useEffect(() => {
-    setImgSrc('/logo.png');
+    setImgSrc(getAssetUrl('logo.png'));
   }, []);
 
   const handleImgError = () => {
-    setImgSrc('logo.png');
+    // If failed, retain or suppress broken image loops
+    console.warn('BrandMark logo failed to load:', imgSrc);
   };
 
   const normalizedSuffix = suffix?.trim().toUpperCase();
