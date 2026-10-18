@@ -4,6 +4,7 @@ import { AlertTriangle, RefreshCw, Home } from 'lucide-react';
 import Landing from './pages/Landing';
 import TOS from './pages/TOS';
 import { soundFx } from './services/soundFx';
+import { waterPhysics } from './services/waterPhysics';
 
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -77,6 +78,7 @@ class GlobalErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySta
 const App: React.FC = () => {
   useEffect(() => {
     soundFx.initGlobalListeners();
+    waterPhysics.init();
   }, []);
 
   return (
