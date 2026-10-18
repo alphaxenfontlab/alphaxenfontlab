@@ -17,9 +17,8 @@
 }
 
 html {
-  scroll-behavior: auto;
   -webkit-overflow-scrolling: touch;
-  overscroll-behavior-y: none;
+  scroll-behavior: auto;
   scroll-padding-top: 76px;
 }
 
@@ -31,18 +30,20 @@ html, body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  touch-action: manipulation;
+  touch-action: pan-y pinch-zoom;
   -webkit-tap-highlight-color: transparent;
-  overscroll-behavior-y: none;
 }
 
 button, a, input, select, textarea {
   touch-action: manipulation;
 }
 
-/* Fast 60-120fps hardware-composited scroll optimization */
-body.is-scrolling {
-  pointer-events: none !important;
+/* Touch-friendly horizontal containers: ensure vertical swipes pass through cleanly without blocking */
+.custom-scrollbar,
+[class*="overflow-x-auto"] {
+  touch-action: pan-x pan-y;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 
 /* Off-screen section virtualization for instantaneous scroll reaction */

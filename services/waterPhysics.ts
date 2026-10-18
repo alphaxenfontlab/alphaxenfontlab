@@ -38,9 +38,9 @@ class WaterPhysicsEngine {
     // 2. MutationObserver to automatically equip newly rendered catalog font cards
     this.setupMutationObserver();
 
-    // 3. Pointer Move & Surface Tension Pull
+    // 3. Pointer Move & Surface Tension Pull (Desktop Mouse Only)
     window.addEventListener('pointermove', this.handlePointerMove, { passive: true });
-    window.addEventListener('pointerdown', this.handlePointerDown, { passive: true });
+    window.addEventListener('click', this.handleClick, { passive: true });
 
     // 4. Keyboard Typing Resonance on Inputs/Textareas
     window.addEventListener('keydown', this.handleKeyDown, { passive: true });
@@ -121,7 +121,8 @@ class WaterPhysicsEngine {
    * Feature 1: Cursor Surface Tension Pull & 3D Highlight Parallax
    */
   private handlePointerMove = (e: PointerEvent): void => {
-    if (this.isScrolling) return;
+    // On touch devices or active scrolling, skip hover calculations so touch scrolling is 100% free and native
+    if (e.pointerType === 'touch' || this.isScrolling) return;
 
     const target = (e.target as HTMLElement)?.closest<HTMLElement>(`
       .waterbox,
@@ -159,9 +160,15 @@ class WaterPhysicsEngine {
   };
 
   /**
-   * Feature 7: Click Splash Wave & Damped Elastic Springback
+   * Feature 7: Click/Tap Splash Wave & Damped Elastic Springback
+   * Uses standard 'click' event so it ONLY triggers on intentional taps, NEVER during mobile scroll swipes!
    */
-  private handlePointerDown = (e: PointerEvent): void => {
+  private handleClick = (e: MouseEvent): void => {
+    if (this.isScrolling) return;
+
+    // Do not trigger splash if clicking an interactive control
+    if ((e.target as HTMLElement)?.closest('button, a, input, select, textarea, label')) return;
+
     const target = (e.target as HTMLElement)?.closest<HTMLElement>(`
       .waterbox,
       .waterbox-stage,
@@ -190,11 +197,11 @@ class WaterPhysicsEngine {
     ring.style.top = `${clickY}px`;
     target.appendChild(ring);
 
-    // 2. Trigger elastic liquid springback
+    // 2. Trigger elastic liquid springback via animation frame (no synchronous layout thrashing)
     target.classList.remove('water-spring-bounce');
-    // Force reflow
-    void target.offsetWidth;
-    target.classList.add('water-spring-bounce');
+    requestAnimationFrame(() => {
+      target.classList.add('water-spring-bounce');
+    });
 
     // 3. Subtle organic water drop haptic audio
     soundFx.play('watermark');
@@ -300,7 +307,7 @@ class WaterPhysicsEngine {
     if (this.observer) this.observer.disconnect();
 
     window.removeEventListener('pointermove', this.handlePointerMove);
-    window.removeEventListener('pointerdown', this.handlePointerDown);
+    window.removeEventListener('click', this.handleClick);
     window.removeEventListener('keydown', this.handleKeyDown);
     window.removeEventListener('scroll', this.handleScroll);
   }

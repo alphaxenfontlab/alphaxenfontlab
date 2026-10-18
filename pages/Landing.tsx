@@ -83,38 +83,7 @@ export const Landing: React.FC = () => {
     };
   }, []);
 
-  // Defer heavy hover work during active scroll for 60-120fps responsiveness
-  useEffect(() => {
-    let scrollTimeout = 0;
-    const onScrollStart = () => {
-      if (!document.body.classList.contains('is-scrolling')) {
-        document.body.classList.add('is-scrolling');
-      }
-      clearTimeout(scrollTimeout);
-      scrollTimeout = window.setTimeout(() => {
-        document.body.classList.remove('is-scrolling');
-      }, 100);
-    };
 
-    const onScrollEnd = () => {
-      clearTimeout(scrollTimeout);
-      document.body.classList.remove('is-scrolling');
-    };
-
-    window.addEventListener('scroll', onScrollStart, { passive: true });
-    if ('onscrollend' in window) {
-      window.addEventListener('scrollend', onScrollEnd, { passive: true });
-    }
-
-    return () => {
-      clearTimeout(scrollTimeout);
-      window.removeEventListener('scroll', onScrollStart);
-      if ('onscrollend' in window) {
-        window.removeEventListener('scrollend', onScrollEnd);
-      }
-      document.body.classList.remove('is-scrolling');
-    };
-  }, []);
 
   const heroBallGlyphSize = useMemo(() => {
     if (windowWidth < 400) return 26;
