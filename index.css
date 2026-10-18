@@ -1066,8 +1066,14 @@ textarea::placeholder,
   animation: water-glint-flow 5s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
 }
 
-/* Water Caustic Swirl Shimmer Overlay */
+/* Water Caustic Swirl Shimmer Overlay (Oceanic Wave Shimmer inside all waterballs) */
 .waterbox::after,
+.waterbox-lava::after,
+.waterbox-oceanic::after,
+.waterbox-violet::after,
+.waterbox-honey::after,
+.waterbox-stage::after,
+.waterbox-waterfall::after,
 .molten-master-box::after,
 .molten-master-card::after,
 .molten-hero-glass-card::after,
@@ -1481,7 +1487,7 @@ textarea::placeholder,
 
 /* =========================================================
    SCULPTED ORGANIC FLUID SHAPES (MATCHING USER REFERENCE BLOBS)
-   Smooth frequency harmonic undulation with stable fixed container
+   Rich ocean wave frequency undulation with stable fixed container
    ========================================================= */
 
 /* Shape 1: Soft 4-Lobe Organic Puddle (Top-Left of reference) */
@@ -1495,16 +1501,20 @@ textarea::placeholder,
     border-radius: 58% 42% 54% 46% / 46% 56% 44% 54%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 52% 48% 60% 40% / 52% 48% 40% 60%;
+  20% {
+    border-radius: 46% 54% 64% 36% / 56% 44% 58% 42%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 62% 38% 48% 52% / 42% 60% 50% 50%;
+  40% {
+    border-radius: 64% 36% 46% 54% / 42% 58% 40% 60%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
-    border-radius: 54% 46% 56% 44% / 48% 52% 42% 58%;
+  60% {
+    border-radius: 48% 52% 60% 40% / 58% 42% 56% 44%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 62% 38% 50% 50% / 44% 56% 42% 58%;
     transform: translate3d(0, 0, 0);
   }
   100% {
@@ -1524,16 +1534,20 @@ textarea::placeholder,
     border-radius: 46% 54% 60% 40% / 54% 42% 58% 46%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 52% 48% 54% 46% / 48% 52% 62% 38%;
+  20% {
+    border-radius: 58% 42% 46% 54% / 44% 56% 46% 54%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 42% 58% 64% 36% / 58% 38% 52% 48%;
+  40% {
+    border-radius: 40% 60% 66% 34% / 60% 40% 64% 36%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
-    border-radius: 48% 52% 58% 42% / 52% 46% 56% 44%;
+  60% {
+    border-radius: 56% 44% 50% 50% / 46% 54% 48% 52%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 44% 56% 62% 38% / 58% 42% 56% 44%;
     transform: translate3d(0, 0, 0);
   }
   100% {
@@ -1553,15 +1567,19 @@ textarea::placeholder,
     border-radius: 64% 36% 42% 58% / 42% 62% 38% 58%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 58% 42% 48% 52% / 48% 56% 44% 56%;
+  20% {
+    border-radius: 50% 50% 56% 44% / 56% 44% 52% 48%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 68% 32% 38% 62% / 38% 66% 34% 62%;
+  40% {
+    border-radius: 70% 30% 36% 64% / 36% 68% 32% 68%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
+  60% {
+    border-radius: 48% 52% 60% 40% / 58% 42% 56% 44%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
     border-radius: 62% 38% 44% 56% / 44% 60% 40% 60%;
     transform: translate3d(0, 0, 0);
   }
@@ -1582,16 +1600,20 @@ textarea::placeholder,
     border-radius: 42% 58% 62% 38% / 58% 38% 62% 42%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 48% 52% 54% 46% / 52% 44% 56% 44%;
+  20% {
+    border-radius: 56% 44% 48% 52% / 44% 56% 48% 52%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 38% 62% 66% 34% / 64% 34% 66% 36%;
+  40% {
+    border-radius: 36% 64% 70% 30% / 66% 34% 68% 32%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
-    border-radius: 46% 54% 58% 42% / 56% 40% 60% 40%;
+  60% {
+    border-radius: 54% 46% 50% 50% / 46% 54% 52% 48%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 40% 60% 64% 36% / 60% 36% 62% 38%;
     transform: translate3d(0, 0, 0);
   }
   100% {
@@ -1611,16 +1633,20 @@ textarea::placeholder,
     border-radius: 54% 46% 48% 52% / 44% 56% 44% 56%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 50% 50% 52% 48% / 48% 52% 40% 60%;
+  20% {
+    border-radius: 42% 58% 60% 40% / 58% 42% 56% 44%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 58% 42% 44% 56% / 40% 60% 48% 52%;
+  40% {
+    border-radius: 64% 36% 40% 60% / 36% 64% 38% 62%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
-    border-radius: 52% 48% 50% 50% / 46% 54% 42% 58%;
+  60% {
+    border-radius: 46% 54% 58% 42% / 54% 46% 52% 48%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 60% 40% 44% 56% / 40% 60% 40% 60%;
     transform: translate3d(0, 0, 0);
   }
   100% {
@@ -1640,16 +1666,20 @@ textarea::placeholder,
     border-radius: 44% 56% 38% 62% / 58% 42% 58% 42%;
     transform: translate3d(0, 0, 0);
   }
-  25% {
-    border-radius: 50% 50% 44% 56% / 52% 48% 52% 48%;
+  20% {
+    border-radius: 58% 42% 52% 48% / 44% 56% 46% 54%;
     transform: translate3d(0, 0, 0);
   }
-  50% {
-    border-radius: 40% 60% 34% 66% / 62% 38% 62% 38%;
+  40% {
+    border-radius: 36% 64% 30% 70% / 68% 32% 66% 34%;
     transform: translate3d(0, 0, 0);
   }
-  75% {
-    border-radius: 46% 54% 40% 60% / 56% 44% 54% 46%;
+  60% {
+    border-radius: 52% 48% 46% 54% / 48% 52% 50% 50%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 40% 60% 36% 64% / 62% 38% 60% 40%;
     transform: translate3d(0, 0, 0);
   }
   100% {
