@@ -798,8 +798,6 @@ textarea::placeholder,
   border-bottom: 1.5px solid rgba(168, 85, 247, 0.45);
   box-shadow: 
     0 20px 50px rgba(0, 0, 0, 0.95),
-    0 0 35px rgba(0, 242, 254, 0.4),
-    0 0 45px rgba(168, 85, 247, 0.3),
     inset 0 2.5px 5px rgba(255, 255, 255, 0.7),
     inset 0 -2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -824,9 +822,6 @@ textarea::placeholder,
   border-right: 3px solid #ff5500;
   box-shadow: 
     0 35px 100px -10px rgba(0, 0, 0, 0.98),
-    0 0 65px rgba(0, 242, 254, 0.45),
-    0 0 65px rgba(192, 38, 211, 0.4),
-    0 0 55px rgba(255, 85, 0, 0.35),
     inset 0 3px 6px rgba(255, 255, 255, 0.85),
     inset 0 -4px 10px rgba(0, 0, 0, 0.85);
   position: relative;
@@ -849,7 +844,6 @@ textarea::placeholder,
   border-right: 1.5px solid rgba(192, 38, 211, 0.35);
   box-shadow: 
     0 35px 95px -10px rgba(0, 0, 0, 0.98),
-    0 0 45px rgba(192, 38, 211, 0.35),
     inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
     inset 0 -2px 6px rgba(0, 0, 0, 0.85);
   position: relative;
@@ -872,7 +866,6 @@ textarea::placeholder,
   border-right: 1.5px solid rgba(236, 72, 153, 0.35);
   box-shadow: 
     0 35px 95px -10px rgba(0, 0, 0, 0.98),
-    0 0 45px rgba(236, 72, 153, 0.35),
     inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
     inset 0 -2px 6px rgba(0, 0, 0, 0.85);
   position: relative;
@@ -895,7 +888,6 @@ textarea::placeholder,
   border-right: 1.5px solid rgba(59, 130, 246, 0.35);
   box-shadow: 
     0 35px 95px -10px rgba(0, 0, 0, 0.98),
-    0 0 45px rgba(0, 242, 254, 0.35),
     inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
     inset 0 -2px 6px rgba(0, 0, 0, 0.85);
   position: relative;
@@ -918,8 +910,6 @@ textarea::placeholder,
   border-right: 2.5px solid #ff5500;
   box-shadow: 
     0 30px 80px -10px rgba(0, 0, 0, 0.98),
-    0 0 55px rgba(0, 242, 254, 0.4),
-    0 0 55px rgba(255, 85, 0, 0.35),
     inset 0 3px 6px rgba(255, 255, 255, 0.75);
 }
 
@@ -1024,9 +1014,6 @@ textarea::placeholder,
   border-left: 3px solid #c026d3;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 75px rgba(255, 85, 0, 0.65),
-    0 0 75px rgba(0, 242, 254, 0.6),
-    0 0 65px rgba(192, 38, 211, 0.45),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.45),
     inset 10px 0 25px rgba(255, 85, 0, 0.45),
@@ -1115,8 +1102,6 @@ textarea::placeholder,
   border-left: 3px solid #ff1100;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 85px rgba(255, 69, 0, 0.75),
-    0 0 70px rgba(255, 140, 0, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(255, 69, 0, 0.5);
   backdrop-filter: blur(14px) saturate(180%);
@@ -1162,8 +1147,6 @@ textarea::placeholder,
   border-left: 3px solid #0284c7;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 85px rgba(0, 242, 254, 0.75),
-    0 0 70px rgba(59, 130, 246, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.5);
   backdrop-filter: blur(14px) saturate(180%);
@@ -1208,8 +1191,6 @@ textarea::placeholder,
   border-left: 3px solid #0284c7;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 85px rgba(0, 242, 254, 0.75),
-    0 0 70px rgba(59, 130, 246, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.45),
     inset 0 0 35px rgba(0, 0, 0, 0.85);
@@ -1249,7 +1230,7 @@ textarea::placeholder,
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(59, 130, 246, 0.18) 0%, transparent 60%);
   pointer-events: none;
   opacity: 0.85;
-  animation: water-shimmer 8s ease-in-out infinite alternate;
+  animation: water-shimmer 4.5s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   z-index: 1;
 }
 
@@ -1271,9 +1252,6 @@ textarea::placeholder,
   border-left: 3px solid #c026d3;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 75px rgba(255, 85, 0, 0.55),
-    0 0 75px rgba(0, 242, 254, 0.5),
-    0 0 65px rgba(192, 38, 211, 0.4),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.35),
     inset 10px 0 25px rgba(255, 85, 0, 0.35),
@@ -1332,8 +1310,6 @@ textarea::placeholder,
   border-left: 3px solid #8b5cf6;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 85px rgba(192, 38, 211, 0.75),
-    0 0 70px rgba(236, 72, 153, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(192, 38, 211, 0.5);
   backdrop-filter: blur(14px) saturate(180%);
@@ -1379,8 +1355,6 @@ textarea::placeholder,
   border-left: 3px solid #d97706;
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
-    0 0 85px rgba(245, 158, 11, 0.75),
-    0 0 70px rgba(251, 191, 36, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(245, 158, 11, 0.5);
   backdrop-filter: blur(14px) saturate(180%);
@@ -1746,9 +1720,6 @@ textarea::placeholder,
     -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
     box-shadow: 
       0 20px 45px -5px rgba(0, 0, 0, 0.95),
-      0 0 45px rgba(255, 85, 0, 0.55),
-      0 0 45px rgba(0, 242, 254, 0.5),
-      0 0 35px rgba(192, 38, 211, 0.4),
       inset 0 3px 8px rgba(255, 255, 255, 0.9),
       inset 0 -6px 16px rgba(0, 242, 254, 0.35),
       inset 6px 0 16px rgba(255, 85, 0, 0.35) !important;
