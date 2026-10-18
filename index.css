@@ -1001,13 +1001,13 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.45) 0%, transparent 55%),
-    radial-gradient(circle at 18% 82%, rgba(0, 242, 254, 0.42) 0%, transparent 55%),
-    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.22) 0%, transparent 65%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.78) 0%, rgba(3, 5, 14, 0.94) 100%);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
-  border: 3px solid rgba(255, 255, 255, 0.16);
+    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.22) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(0, 242, 254, 0.22) 0%, transparent 55%),
+    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.12) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 10, 24, 0.22) 0%, rgba(3, 5, 14, 0.42) 100%);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid rgba(255, 255, 255, 0.96);
   border-right: 3.5px solid #ff5500;
   border-bottom: 3.5px solid #00f2fe;
@@ -1015,9 +1015,9 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(0, 242, 254, 0.45),
-    inset 10px 0 25px rgba(255, 85, 0, 0.45),
-    inset 0 0 40px rgba(0, 0, 0, 0.85);
+    inset 0 -10px 25px rgba(0, 242, 254, 0.3),
+    inset 10px 0 25px rgba(255, 85, 0, 0.3),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1092,10 +1092,10 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.65) 0%, transparent 55%),
-    radial-gradient(circle at 18% 82%, rgba(251, 146, 60, 0.5) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(16, 5, 5, 0.6) 0%, rgba(8, 2, 2, 0.92) 100%);
-  border: 3px solid rgba(255, 255, 255, 0.15);
+    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.35) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(251, 146, 60, 0.28) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(20, 6, 6, 0.22) 0%, rgba(10, 3, 3, 0.42) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid #ffffff;
   border-right: 3.5px solid #ff3b00;
   border-bottom: 3.5px solid #ff8800;
@@ -1103,9 +1103,10 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(255, 69, 0, 0.5);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+    inset 0 -10px 25px rgba(255, 69, 0, 0.35),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1137,10 +1138,10 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 20%, rgba(0, 242, 254, 0.6) 0%, transparent 55%),
-    radial-gradient(circle at 18% 82%, rgba(59, 130, 246, 0.5) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(3, 10, 24, 0.6) 0%, rgba(2, 5, 16, 0.92) 100%);
-  border: 3px solid rgba(255, 255, 255, 0.15);
+    radial-gradient(circle at 85% 20%, rgba(0, 242, 254, 0.32) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(59, 130, 246, 0.28) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(3, 12, 28, 0.2) 0%, rgba(2, 6, 18, 0.4) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid #ffffff;
   border-right: 3.5px solid #00f2fe;
   border-bottom: 3.5px solid #3b82f6;
@@ -1148,9 +1149,10 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(0, 242, 254, 0.5);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+    inset 0 -10px 25px rgba(0, 242, 254, 0.35),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1181,10 +1183,10 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.6) 0%, transparent 55%),
-    radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.5) 0%, transparent 55%),
-    radial-gradient(ellipse 75% 65% at 50% 50%, rgba(3, 10, 26, 0.75) 0%, rgba(2, 5, 18, 0.96) 100%);
-  border: 3px solid rgba(255, 255, 255, 0.16);
+    radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.32) 0%, transparent 55%),
+    radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.28) 0%, transparent 55%),
+    radial-gradient(ellipse 75% 65% at 50% 50%, rgba(3, 12, 28, 0.22) 0%, rgba(2, 6, 20, 0.42) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid #ffffff;
   border-right: 3.5px solid #00f2fe;
   border-bottom: 3.5px solid #3b82f6;
@@ -1192,10 +1194,10 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(0, 242, 254, 0.45),
-    inset 0 0 35px rgba(0, 0, 0, 0.85);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+    inset 0 -10px 25px rgba(0, 242, 254, 0.35),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1239,13 +1241,13 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 15%, rgba(255, 69, 0, 0.35) 0%, transparent 55%),
-    radial-gradient(circle at 18% 85%, rgba(0, 242, 254, 0.35) 0%, transparent 55%),
-    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.18) 0%, transparent 65%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.82) 0%, rgba(3, 5, 14, 0.96) 100%);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
-  border: 3px solid rgba(255, 255, 255, 0.16);
+    radial-gradient(circle at 85% 15%, rgba(255, 69, 0, 0.25) 0%, transparent 55%),
+    radial-gradient(circle at 18% 85%, rgba(0, 242, 254, 0.25) 0%, transparent 55%),
+    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.14) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 10, 24, 0.22) 0%, rgba(3, 5, 16, 0.42) 100%);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid rgba(255, 255, 255, 0.96);
   border-right: 3.5px solid #ff5500;
   border-bottom: 3.5px solid #00f2fe;
@@ -1253,9 +1255,9 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(0, 242, 254, 0.35),
-    inset 10px 0 25px rgba(255, 85, 0, 0.35),
-    inset 0 0 40px rgba(0, 0, 0, 0.85);
+    inset 0 -10px 25px rgba(0, 242, 254, 0.25),
+    inset 10px 0 25px rgba(255, 85, 0, 0.25),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1300,10 +1302,10 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 20%, rgba(192, 38, 211, 0.6) 0%, transparent 55%),
-    radial-gradient(circle at 18% 82%, rgba(236, 72, 153, 0.5) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(14, 5, 24, 0.6) 0%, rgba(7, 2, 14, 0.92) 100%);
-  border: 3px solid rgba(255, 255, 255, 0.15);
+    radial-gradient(circle at 85% 20%, rgba(192, 38, 211, 0.32) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(236, 72, 153, 0.28) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(18, 6, 30, 0.22) 0%, rgba(8, 3, 16, 0.42) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid #ffffff;
   border-right: 3.5px solid #c026d3;
   border-bottom: 3.5px solid #ec4899;
@@ -1311,9 +1313,10 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(192, 38, 211, 0.5);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+    inset 0 -10px 25px rgba(192, 38, 211, 0.35),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1345,10 +1348,10 @@ textarea::placeholder,
   border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
-    radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.6) 0%, transparent 55%),
-    radial-gradient(circle at 18% 82%, rgba(251, 191, 36, 0.5) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(20, 14, 4, 0.6) 0%, rgba(10, 7, 2, 0.92) 100%);
-  border: 3px solid rgba(255, 255, 255, 0.15);
+    radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.32) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(251, 191, 36, 0.28) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(24, 16, 4, 0.22) 0%, rgba(12, 8, 2, 0.42) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.18);
   border-top: 4px solid #ffffff;
   border-right: 3.5px solid #f59e0b;
   border-bottom: 3.5px solid #fbbf24;
@@ -1356,9 +1359,10 @@ textarea::placeholder,
   box-shadow: 
     0 40px 120px -10px rgba(0, 0, 0, 0.98),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
-    inset 0 -10px 25px rgba(245, 158, 11, 0.5);
-  backdrop-filter: blur(14px) saturate(180%);
-  -webkit-backdrop-filter: blur(14px) saturate(180%);
+    inset 0 -10px 25px rgba(245, 158, 11, 0.35),
+    inset 0 0 25px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px) saturate(190%) contrast(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
   will-change: border-radius;
@@ -1475,7 +1479,9 @@ textarea::placeholder,
 
 /* Fluid Liquid Input Box */
 .pure-molten-input-wrap {
-  background: rgba(6, 8, 18, 0.85);
+  background: rgba(6, 8, 18, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1.5px solid rgba(168, 85, 247, 0.4);
   border-top: 1.5px solid rgba(255, 255, 255, 0.45);
   border-bottom: 1px solid rgba(56, 189, 248, 0.3);
@@ -1493,7 +1499,9 @@ textarea::placeholder,
 
 /* Sleek Pill Pod for Controls (Optimized nested glass with zero double-blur overdraw) */
 .pure-molten-pill-pod {
-  background: rgba(14, 18, 36, 0.72);
+  background: rgba(14, 18, 36, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-top: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 20px;
