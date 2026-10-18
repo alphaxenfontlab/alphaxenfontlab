@@ -205,24 +205,43 @@ export const Landing: React.FC = () => {
   const getFontWaterboxClass = (font: FontSummary, idx: number) => {
     const cat = (font.subCategory || '').toLowerCase();
     const theme = (font.theme || '').toLowerCase();
+    const id = (font.id || '').toLowerCase();
 
-    let base = 'waterbox';
-    if (cat.includes('fantasy') || cat.includes('magma') || theme.includes('lava') || theme.includes('fire') || font.id.includes('dragon')) {
-      base = 'waterbox-lava';
-    } else if (cat.includes('oceanic') || cat.includes('polar') || cat.includes('cyber') || cat.includes('arctic') || theme.includes('water')) {
-      base = 'waterbox-oceanic';
-    } else if (cat.includes('sci-fi') || cat.includes('cosmic') || cat.includes('amethyst') || theme.includes('violet')) {
-      base = 'waterbox-violet';
-    } else if (cat.includes('luxury') || cat.includes('flora') || theme.includes('gold') || theme.includes('honey')) {
-      base = 'waterbox-honey';
-    } else {
-      const variants = ['waterbox', 'waterbox-oceanic', 'waterbox-violet', 'waterbox-lava', 'waterbox-honey'];
-      base = variants[idx % variants.length];
+    // 1. Dragon / Volcanic Magma / Lava: Shape 2 (multi-wave fluid splash blob)
+    if (cat.includes('fantasy') || cat.includes('magma') || theme.includes('lava') || theme.includes('fire') || id.includes('dragon')) {
+      return 'waterbox-lava waterbox-blob-splash';
+    } 
+    // 2. Polar / Arctic / Ice: Keep pure spherical water droplet
+    if (cat.includes('polar') || cat.includes('arctic') || id.includes('penguin') || theme.includes('ice')) {
+      return 'waterbox-oceanic';
+    }
+    // 3. Oceanic / Deep Water / Marine: Shape 5 (fluid landscape pod blob)
+    if (cat.includes('oceanic') || theme.includes('water') || id.includes('octopus')) {
+      return 'waterbox-oceanic waterbox-blob-landscape';
+    } 
+    // 4. Sci-Fi / Cyber / Cosmic / Amethyst: Shape 3 (diagonal elongated fluid droplet)
+    if (cat.includes('sci-fi') || cat.includes('cosmic') || cat.includes('cyber') || cat.includes('amethyst') || theme.includes('violet')) {
+      return 'waterbox-violet waterbox-blob-diagonal';
+    } 
+    // 5. Luxury / Flora / Honey / Nature: Shape 1 (organic puddle) or Shape 4 (fluid pebble)
+    if (cat.includes('luxury') || cat.includes('gold') || theme.includes('honey')) {
+      return 'waterbox-honey waterbox-blob-pebble';
+    }
+    if (cat.includes('flora') || cat.includes('nature') || id.includes('peacock') || id.includes('chameleon')) {
+      return 'waterbox-honey waterbox-blob-puddle';
     }
 
-    const flowVariants = ['', ' waterbox-flow-reverse', ' waterbox-flow-drift'];
-    const flow = flowVariants[idx % flowVariants.length];
-    return `${base}${flow}`;
+    // Diverse distribution matching the 6 user reference shapes and round spheres:
+    const organicFlavors = [
+      'waterbox waterbox-blob-puddle',
+      'waterbox-oceanic waterbox-blob-landscape',
+      'waterbox-violet waterbox-blob-diagonal',
+      'waterbox-lava waterbox-blob-splash',
+      'waterbox-honey waterbox-blob-pebble',
+      'waterbox waterbox-blob-droplet',
+      'waterbox-oceanic',
+    ];
+    return organicFlavors[idx % organicFlavors.length];
   };
 
   return (
@@ -392,7 +411,7 @@ export const Landing: React.FC = () => {
 
             {/* Right Col: Monumental Master Waterbox (Pure Organic Fluid Water Vessel) */}
             <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full">
-              <div className="waterbox w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
+              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
                 <div className="relative z-10 flex flex-col justify-between h-full w-full space-y-6">
                   
                   {/* Top Badge Row - Placed comfortably inside safe curved bounds */}
@@ -576,12 +595,12 @@ export const Landing: React.FC = () => {
           {/* Organic Waterbox 3-Action Cards (Single Fluid Water Vessels) */}
           <div className="pt-4 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             
-            {/* Card 1: Shop on MyFonts */}
+            {/* Card 1: Shop on MyFonts (Organic Fluid Blob 1 - Puddle) */}
             <a
               href={MYFONTS_SHOP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="waterbox p-7 sm:p-8 flex flex-col justify-between cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-puddle p-7 sm:p-8 flex flex-col justify-between cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -605,10 +624,10 @@ export const Landing: React.FC = () => {
               </div>
             </a>
 
-            {/* Card 2: Open Type Tester */}
+            {/* Card 2: Open Type Tester (Organic Fluid Blob 4 - Pebble) */}
             <button
               onClick={() => scrollToSection('type-tester')}
-              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-pebble w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -632,10 +651,10 @@ export const Landing: React.FC = () => {
               </div>
             </button>
 
-            {/* Card 3: Explore Fonts */}
+            {/* Card 3: Explore Fonts (Organic Fluid Blob 3 - Diagonal Droplet) */}
             <button
               onClick={() => scrollToSection('catalog')}
-              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
+              className="waterbox waterbox-blob-diagonal w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -924,8 +943,8 @@ export const Landing: React.FC = () => {
             </div>
           </div>
 
-          {/* Cascading Waterfall Container inside High-Impact Organic Waterball (Pure Water Ball Shape) */}
-          <div className="waterbox-waterfall py-14 sm:py-20 md:py-24 px-6 sm:px-14 md:px-20 lg:px-24 shadow-2xl relative">
+          {/* Cascading Waterfall Container inside High-Impact Organic Waterball (Fluid Landscape Shape 5) */}
+          <div className="waterbox-waterfall waterbox-blob-landscape py-14 sm:py-20 md:py-24 px-6 sm:px-14 md:px-20 lg:px-24 shadow-2xl relative">
             <div className="relative z-10 w-full max-w-4xl mx-auto space-y-6 sm:space-y-7">
               {/* Waterball Top Telemetry & Font Status */}
               <div className="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-white/10 text-xs font-mono">
