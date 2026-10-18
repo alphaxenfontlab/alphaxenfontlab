@@ -416,7 +416,7 @@ export const Landing: React.FC = () => {
 
             {/* Right Col: Monumental Master Waterbox (Pure Organic Fluid Water Vessel) */}
             <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full">
-              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
+              <div className="waterbox molten-master-box w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
                 <div className="relative z-10 flex flex-col justify-between h-full w-full space-y-6">
                   
                   {/* Top Badge Row - Placed comfortably inside safe curved bounds */}

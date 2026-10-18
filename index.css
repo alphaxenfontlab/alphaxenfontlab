@@ -1038,6 +1038,39 @@ textarea::placeholder,
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
+/* Monumental Master Waterbox - Continuous Rolling Ocean Wave */
+.molten-master-box {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  animation: master-water-wave 5s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite !important;
+}
+
+@keyframes master-water-wave {
+  0% {
+    border-radius: 60% 40% 52% 48% / 46% 54% 46% 54%;
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    border-radius: 48% 52% 62% 38% / 56% 42% 58% 42%;
+    transform: translate3d(0, 0, 0);
+  }
+  40% {
+    border-radius: 42% 58% 48% 52% / 60% 40% 56% 44%;
+    transform: translate3d(0, 0, 0);
+  }
+  60% {
+    border-radius: 54% 46% 40% 60% / 44% 56% 42% 58%;
+    transform: translate3d(0, 0, 0);
+  }
+  80% {
+    border-radius: 62% 38% 52% 48% / 40% 60% 48% 52%;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    border-radius: 60% 40% 52% 48% / 46% 54% 46% 54%;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 /* Specular Water Surface Glint */
 .waterbox::before,
 .molten-master-box::before,
