@@ -1,9 +1,7 @@
 /* =========================================================
    ALPHAXEN - HIGH-PRECISION LIQUID GLASS MORPHISM THEME
    Red, Obsidian Black & Specular White Palette
-   ========================================================= */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
-
+  
 :root {
   --bg-dark: #0b0e17;
   --primary-glow: #8b5cf6;
@@ -39,13 +37,14 @@ button, a, input, select, textarea {
   touch-action: manipulation;
 }
 
-/* Pause costly hover recalculations and hit-testing during active scroll gestures for solid 60-120fps */
-body.is-scrolling .waterbox,
-body.is-scrolling .liquid-glass-interactive,
-body.is-scrolling .neu-card-interactive,
-body.is-scrolling button,
-body.is-scrolling a {
+/* Pause costly hover recalculations and heavy animations during active scroll gestures for solid 60-120fps */
+body.is-scrolling * {
   pointer-events: none !important;
+}
+
+body.is-scrolling .catalog-card-contain,
+body.is-scrolling .molten-blob {
+  animation-play-state: paused !important;
 }
 
 /* Ensure all images, svgs, and media stay inside containers */
@@ -1696,14 +1695,13 @@ textarea::placeholder,
   box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.9), 0 0 35px rgba(168, 85, 247, 0.5);
 }
 
-/* Sleek Pill Pod for Controls */
+/* Sleek Pill Pod for Controls (Optimized nested glass with zero double-blur overdraw) */
 .pure-molten-pill-pod {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(12px);
+  background: rgba(14, 18, 36, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 20px;
-  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.15), 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.12), 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Glowing Viscous Lava Bubbles */

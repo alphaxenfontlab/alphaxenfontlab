@@ -827,7 +827,7 @@ export const Landing: React.FC = () => {
                     <div className="pure-molten-input-wrap rounded-2xl p-4 flex items-center justify-center gap-2 mb-4 overflow-hidden min-h-[76px]">
                       {font.previewGlyphs && font.previewGlyphs.length > 0 ? (
                         font.previewGlyphs.map((glyph, gIdx) => (
-                          <span key={gIdx} className="transition-transform hover:scale-120 duration-200 filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
+                          <span key={gIdx} className="transition-transform hover:scale-120 duration-200 hover:filter hover:drop-shadow-[0_8px_16px_rgba(0,0,0,0.85)] inline-flex items-center justify-center">
                             <DemoGlyph
                               glyph={glyph}
                               size={36}
