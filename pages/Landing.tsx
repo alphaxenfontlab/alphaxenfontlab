@@ -82,6 +82,39 @@ export const Landing: React.FC = () => {
     };
   }, []);
 
+  // Defer heavy hover work during active scroll for 60-120fps responsiveness
+  useEffect(() => {
+    let scrollTimeout = 0;
+    const onScrollStart = () => {
+      if (!document.body.classList.contains('is-scrolling')) {
+        document.body.classList.add('is-scrolling');
+      }
+      clearTimeout(scrollTimeout);
+      scrollTimeout = window.setTimeout(() => {
+        document.body.classList.remove('is-scrolling');
+      }, 100);
+    };
+
+    const onScrollEnd = () => {
+      clearTimeout(scrollTimeout);
+      document.body.classList.remove('is-scrolling');
+    };
+
+    window.addEventListener('scroll', onScrollStart, { passive: true });
+    if ('onscrollend' in window) {
+      window.addEventListener('scrollend', onScrollEnd, { passive: true });
+    }
+
+    return () => {
+      clearTimeout(scrollTimeout);
+      window.removeEventListener('scroll', onScrollStart);
+      if ('onscrollend' in window) {
+        window.removeEventListener('scrollend', onScrollEnd);
+      }
+      document.body.classList.remove('is-scrolling');
+    };
+  }, []);
+
   const heroBallGlyphSize = useMemo(() => {
     if (windowWidth < 400) return 26;
     if (windowWidth < 520) return 30;
@@ -203,13 +236,21 @@ export const Landing: React.FC = () => {
           backgroundPosition: 'center top',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          willChange: 'transform',
+          contain: 'strict',
+          isolation: 'isolate',
           transform: 'translate3d(0, 0, 0)',
         }}
       />
 
       {/* Desktop Dynamic Molten Blobs Background Mesh (Hidden on Mobile so background.png shows crisp) */}
-      <div className="hidden md:block fixed inset-0 pointer-events-none overflow-hidden z-0">
+      <div 
+        className="hidden md:block fixed inset-0 pointer-events-none overflow-hidden z-0"
+        style={{
+          contain: 'strict',
+          isolation: 'isolate',
+          transform: 'translate3d(0, 0, 0)',
+        }}
+      >
         <div className="molten-blob molten-blob-purple w-[480px] sm:w-[700px] h-[450px] -top-32 -left-24" />
         <div className="molten-blob molten-blob-lava w-[420px] sm:w-[600px] h-[400px] top-1/4 -right-32" />
         <div className="molten-blob molten-blob-cyan w-[500px] sm:w-[750px] h-[500px] top-2/3 -left-40" />
@@ -750,7 +791,7 @@ export const Landing: React.FC = () => {
             {filteredCatalog.map((font, idx) => (
               <div
                 key={font.id}
-                className={`${getFontWaterboxClass(font, idx)} catalog-card-contain p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 h-full overflow-hidden`}
+                className={`${getFontWaterboxClass(font, idx)} catalog-card-contain p-6 sm:p-7 flex flex-col justify-between transition-[box-shadow,border-color] duration-300 h-full overflow-hidden`}
                 style={{
                   borderRightColor: font.accent,
                   borderBottomColor: font.accent,
@@ -786,7 +827,7 @@ export const Landing: React.FC = () => {
                     <div className="pure-molten-input-wrap rounded-2xl p-4 flex items-center justify-center gap-2 mb-4 overflow-hidden min-h-[76px]">
                       {font.previewGlyphs && font.previewGlyphs.length > 0 ? (
                         font.previewGlyphs.map((glyph, gIdx) => (
-                          <span key={gIdx} className="transition-transform hover:scale-120 duration-200 filter drop-shadow-[0_8px_16px_rgba(0,0,0,0.8)]">
+                          <span key={gIdx} className="transition-transform hover:scale-120 duration-200 filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.7)]">
                             <DemoGlyph
                               glyph={glyph}
                               size={36}

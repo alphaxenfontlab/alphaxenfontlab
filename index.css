@@ -18,6 +18,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 html, body {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: #0b0e17;
@@ -32,6 +37,15 @@ html, body {
 
 button, a, input, select, textarea {
   touch-action: manipulation;
+}
+
+/* Pause costly hover recalculations and hit-testing during active scroll gestures for solid 60-120fps */
+body.is-scrolling .waterbox,
+body.is-scrolling .liquid-glass-interactive,
+body.is-scrolling .neu-card-interactive,
+body.is-scrolling button,
+body.is-scrolling a {
+  pointer-events: none !important;
 }
 
 /* Ensure all images, svgs, and media stay inside containers */
@@ -1038,8 +1052,8 @@ textarea::placeholder,
     radial-gradient(circle at 18% 82%, rgba(0, 242, 254, 0.42) 0%, transparent 55%),
     radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.22) 0%, transparent 65%),
     radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.78) 0%, rgba(3, 5, 14, 0.94) 100%);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   border: 3px solid rgba(255, 255, 255, 0.16);
   border-top: 4px solid rgba(255, 255, 255, 0.96);
   border-right: 3.5px solid #ff5500;
@@ -1056,13 +1070,13 @@ textarea::placeholder,
     inset 0 0 40px rgba(0, 0, 0, 0.85);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 /* Specular Water Surface Glint */
@@ -1114,7 +1128,7 @@ textarea::placeholder,
     radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.2) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(255, 85, 0, 0.2) 0%, transparent 60%);
   pointer-events: none;
-  mix-blend-mode: screen;
+  opacity: 0.85;
   animation: water-shimmer 8s ease-in-out infinite alternate;
   z-index: 1;
 }
@@ -1178,17 +1192,17 @@ textarea::placeholder,
     0 0 70px rgba(255, 140, 0, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(255, 69, 0, 0.5);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-lava::before,
@@ -1242,17 +1256,17 @@ textarea::placeholder,
     0 0 70px rgba(59, 130, 246, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.5);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-oceanic::before,
@@ -1325,17 +1339,17 @@ textarea::placeholder,
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(0, 242, 254, 0.45),
     inset 0 0 35px rgba(0, 0, 0, 0.85);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-waterfall::before {
@@ -1361,7 +1375,7 @@ textarea::placeholder,
     radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(59, 130, 246, 0.18) 0%, transparent 60%);
   pointer-events: none;
-  mix-blend-mode: screen;
+  opacity: 0.85;
   animation: water-shimmer 8s ease-in-out infinite alternate;
   z-index: 1;
 }
@@ -1389,8 +1403,8 @@ textarea::placeholder,
     radial-gradient(circle at 18% 85%, rgba(0, 242, 254, 0.35) 0%, transparent 55%),
     radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.18) 0%, transparent 65%),
     radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.82) 0%, rgba(3, 5, 14, 0.96) 100%);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   border: 3px solid rgba(255, 255, 255, 0.16);
   border-top: 4px solid rgba(255, 255, 255, 0.96);
   border-right: 3.5px solid #ff5500;
@@ -1407,13 +1421,13 @@ textarea::placeholder,
     inset 0 0 40px rgba(0, 0, 0, 0.85);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-stage::before {
@@ -1439,7 +1453,7 @@ textarea::placeholder,
     radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(255, 85, 0, 0.18) 0%, transparent 60%);
   pointer-events: none;
-  mix-blend-mode: screen;
+  opacity: 0.85;
   animation: water-shimmer 8s ease-in-out infinite alternate;
   z-index: 1;
 }
@@ -1479,17 +1493,17 @@ textarea::placeholder,
     0 0 70px rgba(236, 72, 153, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(192, 38, 211, 0.5);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-violet::before,
@@ -1543,17 +1557,17 @@ textarea::placeholder,
     0 0 70px rgba(251, 191, 36, 0.6),
     inset 0 4px 12px rgba(255, 255, 255, 0.95),
     inset 0 -10px 25px rgba(245, 158, 11, 0.5);
-  backdrop-filter: blur(28px) saturate(220%);
-  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
   position: relative;
   overflow: hidden;
-  will-change: transform, border-radius;
+  will-change: border-radius;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style paint;
-  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  contain: layout style;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
 .waterbox-honey::before,
@@ -1644,10 +1658,9 @@ textarea::placeholder,
   animation: molten-water-flow-drift 10s ease-in-out infinite alternate !important;
 }
 
-/* Viewport offscreen containment for catalog cards - Instant 60-120fps scrolling */
+/* Layout and style containment for catalog cards - Instant 60-120fps scrolling */
 .catalog-card-contain {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 380px;
+  contain: layout style;
 }
 
 /* Ensure all child elements inside waterboxes remain 100% stationary, anchored and fixed */
@@ -1925,7 +1938,7 @@ textarea::placeholder,
 /* Off-screen section virtualization for instantaneous initial paint */
 .content-visibility-section {
   content-visibility: auto;
-  contain-intrinsic-size: 1px 700px;
+  contain-intrinsic-size: auto 1200px;
 }
 
 

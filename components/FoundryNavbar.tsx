@@ -12,17 +12,8 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
   onOpenLicenseModal,
   onScrollToSection,
 }) => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [soundMuted, setSoundMuted] = useState(() => soundFx.isMuted());
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 25);
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const handleNavClick = (sectionId: string) => {
     setIsMobileMenuOpen(false);
