@@ -22,9 +22,13 @@ class CyberHapticAudioEngine {
 
   constructor() {
     if (typeof window !== 'undefined') {
-      const savedMute = localStorage.getItem('alphaxen_sound_muted');
-      if (savedMute === 'true') {
-        this.muted = true;
+      try {
+        const savedMute = localStorage.getItem('alphaxen_sound_muted');
+        if (savedMute === 'true') {
+          this.muted = true;
+        }
+      } catch (_) {
+        // Storage restricted in embedded webviews (e.g. Facebook/Instagram)
       }
     }
   }
@@ -36,7 +40,11 @@ class CyberHapticAudioEngine {
   public toggleMute(): boolean {
     this.muted = !this.muted;
     if (typeof window !== 'undefined') {
-      localStorage.setItem('alphaxen_sound_muted', String(this.muted));
+      try {
+        localStorage.setItem('alphaxen_sound_muted', String(this.muted));
+      } catch (_) {
+        // Ignore storage errors in sandboxed in-app browsers
+      }
     }
     if (!this.muted) {
       this.play('pop');

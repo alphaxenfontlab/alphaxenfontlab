@@ -257,22 +257,28 @@ class WaterPhysicsEngine {
   private setupGyroscope(): void {
     if (typeof window === 'undefined') return;
 
-    const onDeviceOrientation = (e: DeviceOrientationEvent) => {
-      if (e.gamma !== null && e.beta !== null) {
-        // gamma: left-to-right (-90 to 90) -> clamp to -15..15
-        // beta: front-to-back (-180 to 180) -> clamp to -15..15
-        const clampedGamma = Math.max(-15, Math.min(15, e.gamma));
-        const clampedBeta = Math.max(-15, Math.min(15, e.beta - 45)); // assume ~45deg phone holding angle
+    try {
+      if (!('DeviceOrientationEvent' in window)) return;
 
-        this.gyroX = clampedGamma * 0.4;
-        this.gyroY = clampedBeta * 0.4;
+      const onDeviceOrientation = (e: DeviceOrientationEvent) => {
+        try {
+          if (e.gamma !== null && e.beta !== null) {
+            // gamma: left-to-right (-90 to 90) -> clamp to -15..15
+            // beta: front-to-back (-180 to 180) -> clamp to -15..15
+            const clampedGamma = Math.max(-15, Math.min(15, e.gamma));
+            const clampedBeta = Math.max(-15, Math.min(15, e.beta - 45)); // assume ~45deg phone holding angle
 
-        document.documentElement.style.setProperty('--gyro-x', `${this.gyroX.toFixed(2)}px`);
-        document.documentElement.style.setProperty('--gyro-y', `${this.gyroY.toFixed(2)}px`);
-      }
-    };
+            this.gyroX = clampedGamma * 0.4;
+            this.gyroY = clampedBeta * 0.4;
 
-    window.addEventListener('deviceorientation', onDeviceOrientation, { passive: true });
+            document.documentElement.style.setProperty('--gyro-x', `${this.gyroX.toFixed(2)}px`);
+            document.documentElement.style.setProperty('--gyro-y', `${this.gyroY.toFixed(2)}px`);
+          }
+        } catch (_) {}
+      };
+
+      window.addEventListener('deviceorientation', onDeviceOrientation, { passive: true });
+    } catch (_) {}
   }
 
   private resetElement(el: HTMLElement): void {

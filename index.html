@@ -13,9 +13,56 @@
   <link rel="manifest" href="./manifest.json">
   <meta name="theme-color" content="#08090d">
   <meta name="description" content="Alphaxen Type Foundry is an independent digital type studio specializing in chromatic OpenType typography, photorealistic material textures, and monumental display typefaces.">
+  <link rel="canonical" href="https://alphaxenfontlab.github.io/alphaxenfontlab/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Alphaxen Type Foundry" />
+  <meta property="og:title" content="Alphaxen Type Foundry | Chromatic & Next-Gen Typography" />
+  <meta property="og:description" content="Alphaxen Type Foundry is an independent digital type studio specializing in chromatic OpenType typography, photorealistic material textures, and monumental display typefaces." />
+  <meta property="og:url" content="https://alphaxenfontlab.github.io/alphaxenfontlab/" />
+  <meta property="og:image" content="https://alphaxenfontlab.github.io/alphaxenfontlab/hero-bg-master.jpg" />
+  <meta property="og:image:secure_url" content="https://alphaxenfontlab.github.io/alphaxenfontlab/hero-bg-master.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Alphaxen Type Foundry Specimen Showcase" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://alphaxenfontlab.github.io/alphaxenfontlab/" />
+  <meta name="twitter:title" content="Alphaxen Type Foundry | Chromatic & Next-Gen Typography" />
+  <meta name="twitter:description" content="Alphaxen Type Foundry is an independent digital type studio specializing in chromatic OpenType typography, photorealistic material textures, and monumental display typefaces." />
+  <meta name="twitter:image" content="https://alphaxenfontlab.github.io/alphaxenfontlab/hero-bg-master.jpg" />
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Alphaxen Foundry">
+
+  <!-- Facebook In-App Browser & Sandboxed Webview Storage Guard -->
+  <script>
+    (function() {
+      try {
+        var testKey = '__fb_storage_test__';
+        window.localStorage.setItem(testKey, '1');
+        window.localStorage.removeItem(testKey);
+      } catch (err) {
+        var memStorage = {};
+        try {
+          var shim = {
+            getItem: function(k) { return Object.prototype.hasOwnProperty.call(memStorage, k) ? memStorage[k] : null; },
+            setItem: function(k, v) { memStorage[k] = String(v); },
+            removeItem: function(k) { delete memStorage[k]; },
+            clear: function() { memStorage = {}; },
+            key: function(i) { return Object.keys(memStorage)[i] || null; },
+            get length() { return Object.keys(memStorage).length; }
+          };
+          Object.defineProperty(window, 'localStorage', { value: shim, configurable: true, enumerable: true, writable: true });
+        } catch (_) {}
+      }
+    })();
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

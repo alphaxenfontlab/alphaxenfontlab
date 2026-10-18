@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alphaxen Type Foundry | Chromatic & Next-Gen Typography</title>
+  
+  <!-- Open Graph for Facebook Crawler -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Alphaxen Type Foundry" />
+  <meta property="og:title" content="Alphaxen Type Foundry | Chromatic & Next-Gen Typography" />
+  <meta property="og:description" content="Alphaxen Type Foundry is an independent digital type studio specializing in chromatic OpenType typography, photorealistic material textures, and monumental display typefaces." />
+  <meta property="og:url" content="https://alphaxenfontlab.github.io/alphaxenfontlab/" />
+  <meta property="og:image" content="https://alphaxenfontlab.github.io/alphaxenfontlab/hero-bg-master.jpg" />
+  <meta property="og:image:secure_url" content="https://alphaxenfontlab.github.io/alphaxenfontlab/hero-bg-master.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  
+  <style>
+    body {
+      background-color: #08090d;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(139, 92, 246, 0.2);
+      border-top-color: #8b5cf6;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px auto;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #c084fc;
+      margin: 0 0 8px 0;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 0.85rem;
+      margin: 0;
+    }
+  </style>
+
+  <script>
+    (function() {
+      var repoBase = '/alphaxenfontlab/';
+      var pathname = window.location.pathname;
+      var search = window.location.search || '';
+      var hash = window.location.hash || '';
+
+      // Normalize pathname
+      var subPath = '';
+      if (pathname.indexOf(repoBase) === 0) {
+        subPath = pathname.slice(repoBase.length);
+      } else {
+        subPath = pathname.replace(/^\/+/, '');
+      }
+
+      // Remove trailing slash
+      subPath = subPath.replace(/\/+$/, '');
+
+      // Build target HashRouter URL
+      var targetHash = subPath ? '/' + subPath : '/';
+      var destination = repoBase + '#' + targetHash + search + hash;
+
+      // Fast instant redirect
+      window.location.replace(destination);
+    })();
+  </script>
+</head>
+<body>
+  <div>
+    <div class="spinner"></div>
+    <h2>Connecting to Alphaxen Foundry...</h2>
+    <p>Loading catalog resources...</p>
+  </div>
+</body>
+</html>
