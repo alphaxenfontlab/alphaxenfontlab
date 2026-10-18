@@ -8,6 +8,7 @@ interface DemoGlyphProps {
   className?: string;
   style?: React.CSSProperties;
   color?: string; // For vector glyphs
+  priority?: boolean;
 }
 
 export const DemoGlyph: React.FC<DemoGlyphProps> = React.memo(({
@@ -17,6 +18,7 @@ export const DemoGlyph: React.FC<DemoGlyphProps> = React.memo(({
   className = '',
   style = {},
   color = 'currentColor',
+  priority = false,
 }) => {
   const [imgError, setImgError] = useState(false);
 
@@ -53,7 +55,10 @@ export const DemoGlyph: React.FC<DemoGlyphProps> = React.memo(({
           ...style,
         }}
         draggable={false}
-        decoding="async"
+        decoding={priority ? "sync" : "async"}
+        loading={priority ? "eager" : "lazy"}
+        // @ts-expect-error React standard fetchpriority
+        fetchpriority={priority ? "high" : undefined}
         onError={() => setImgError(true)}
       />
     );

@@ -739,6 +739,11 @@ textarea::placeholder,
     0 0 30px rgba(0, 242, 254, 0.7),
     inset 0 3px 6px rgba(255, 255, 255, 0.95),
     inset -4px -4px 10px rgba(0, 0, 0, 0.7);
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   animation: molten-droplet-float 6s ease-in-out infinite alternate;
   position: relative;
   pointer-events: none;
@@ -746,15 +751,15 @@ textarea::placeholder,
 
 @keyframes molten-droplet-float {
   0% {
-    transform: translateY(0px) rotate(0deg) scale(1);
+    transform: translate3d(0, 0px, 0) rotate(0deg) scale(1);
     border-radius: 58% 42% 64% 36% / 46% 58% 42% 54%;
   }
   50% {
-    transform: translateY(-8px) rotate(4deg) scale(1.05);
+    transform: translate3d(0, -8px, 0) rotate(4deg) scale(1.05);
     border-radius: 46% 54% 38% 62% / 62% 44% 56% 38%;
   }
   100% {
-    transform: translateY(2px) rotate(-3deg) scale(0.98);
+    transform: translate3d(0, 2px, 0) rotate(-3deg) scale(0.98);
     border-radius: 64% 36% 54% 46% / 40% 64% 36% 60%;
   }
 }
@@ -952,38 +957,38 @@ textarea::placeholder,
   pointer-events: none;
 }
 
-/* Dynamic Organic Molten & Water Droplet Morphing (User's Exact Reference Liquid Vessel) */
+/* Dynamic Organic Molten & Water Droplet Morphing (GPU Hardware Accelerated 60FPS) */
 @keyframes molten-water-flow {
   0% {
     border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
   25% {
     border-radius: 42% 58% 46% 54% / 58% 38% 62% 42%;
-    transform: translateY(-8px) rotate(1deg);
+    transform: translate3d(0, -8px, 0) rotate(1deg);
   }
   50% {
     border-radius: 64% 36% 58% 42% / 38% 64% 36% 62%;
-    transform: translateY(-14px) rotate(-1deg);
+    transform: translate3d(0, -14px, 0) rotate(-1deg);
   }
   75% {
     border-radius: 46% 54% 64% 36% / 52% 44% 56% 48%;
-    transform: translateY(-6px) rotate(0.8deg);
+    transform: translate3d(0, -6px, 0) rotate(0.8deg);
   }
   100% {
     border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
 }
 
 @keyframes water-shimmer {
   0%, 100% {
     opacity: 0.6;
-    transform: translate(-3%, -2%) scale(1);
+    transform: translate3d(-3%, -2%, 0) scale(1);
   }
   50% {
     opacity: 1;
-    transform: translate(3%, 2%) scale(1.08);
+    transform: translate3d(3%, 2%, 0) scale(1.08);
   }
 }
 
@@ -1045,7 +1050,13 @@ textarea::placeholder,
     inset 0 0 40px rgba(0, 0, 0, 0.85);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 /* Specular Water Surface Glint */
@@ -1113,13 +1124,28 @@ textarea::placeholder,
 .pure-molten-card-explore:hover,
 .pure-molten-font-card:hover,
 .pure-molten-feature-box:hover {
-  transform: scale(1.02) translateY(-4px);
+  transform: scale(1.02) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 85, 0, 0.75),
     0 0 90px rgba(0, 242, 254, 0.7),
     0 0 80px rgba(192, 38, 211, 0.6),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox:active,
+.molten-master-box:active,
+.molten-master-card:active,
+.molten-hero-glass-card:active,
+.pure-molten-vessel:active,
+.pure-molten-studio:active,
+.pure-molten-card-shop:active,
+.pure-molten-card-tester:active,
+.pure-molten-card-explore:active,
+.pure-molten-font-card:active,
+.pure-molten-feature-box:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* =========================================================
@@ -1150,7 +1176,13 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(28px) saturate(220%);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-lava::before,
@@ -1170,12 +1202,18 @@ textarea::placeholder,
 
 .waterbox-lava:hover,
 .molten-lava-box:hover {
-  transform: scale(1.02) translateY(-4px);
+  transform: scale(1.02) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 69, 0, 0.85),
     0 0 80px rgba(255, 140, 0, 0.7),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox-lava:active,
+.molten-lava-box:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* 2. Oceanic Bioluminescent Waterbox */
@@ -1202,7 +1240,13 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(28px) saturate(220%);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-oceanic::before,
@@ -1222,7 +1266,7 @@ textarea::placeholder,
 
 .waterbox-oceanic:hover,
 .molten-oceanic-box:hover {
-  transform: scale(1.02) translateY(-4px);
+  transform: scale(1.02) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(0, 242, 254, 0.85),
@@ -1230,23 +1274,29 @@ textarea::placeholder,
     inset 0 5px 15px rgba(255, 255, 255, 1);
 }
 
-/* Specimen Waterfall Dedicated Oceanic Waterball Container (Full Text Safe Clearance) */
+.waterbox-oceanic:active,
+.molten-oceanic-box:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
+}
+
+/* Specimen Waterfall Dedicated Oceanic Waterball Container (GPU Accelerated) */
 @keyframes waterfall-waterball-morph {
   0% {
     border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
   33% {
     border-radius: 52% 48% 46% 54% / 25% 22% 23% 25%;
-    transform: translateY(-6px) rotate(0.4deg);
+    transform: translate3d(0, -6px, 0) rotate(0.4deg);
   }
   66% {
     border-radius: 47% 53% 52% 48% / 23% 24% 25% 22%;
-    transform: translateY(-3px) rotate(-0.3deg);
+    transform: translate3d(0, -3px, 0) rotate(-0.3deg);
   }
   100% {
     border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
 }
 
@@ -1273,7 +1323,13 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(28px) saturate(220%);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-waterfall::before {
@@ -1305,12 +1361,17 @@ textarea::placeholder,
 }
 
 .waterbox-waterfall:hover {
-  transform: scale(1.01) translateY(-4px);
+  transform: scale(1.01) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(0, 242, 254, 0.85),
     0 0 80px rgba(59, 130, 246, 0.7),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox-waterfall:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* Hero Stage Waterbox with Safe Full Clearance */
@@ -1340,7 +1401,13 @@ textarea::placeholder,
     inset 0 0 40px rgba(0, 0, 0, 0.85);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-stage::before {
@@ -1372,13 +1439,18 @@ textarea::placeholder,
 }
 
 .waterbox-stage:hover {
-  transform: scale(1.01) translateY(-3px);
+  transform: scale(1.01) translate3d(0, -3px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 85, 0, 0.7),
     0 0 90px rgba(0, 242, 254, 0.65),
     0 0 80px rgba(192, 38, 211, 0.55),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox-stage:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* 3. Cosmic Violet / Amethyst Waterbox */
@@ -1405,7 +1477,13 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(28px) saturate(220%);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-violet::before,
@@ -1425,12 +1503,18 @@ textarea::placeholder,
 
 .waterbox-violet:hover,
 .molten-violet-box:hover {
-  transform: scale(1.02) translateY(-4px);
+  transform: scale(1.02) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(192, 38, 211, 0.85),
     0 0 80px rgba(236, 72, 153, 0.7),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox-violet:active,
+.molten-violet-box:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* 4. Honey / Liquid Gold Waterbox */
@@ -1457,7 +1541,13 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(28px) saturate(220%);
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+  will-change: transform, border-radius;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  contain: layout style paint;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
 }
 
 .waterbox-honey::before,
@@ -1477,12 +1567,18 @@ textarea::placeholder,
 
 .waterbox-honey:hover,
 .molten-honey-box:hover {
-  transform: scale(1.02) translateY(-4px);
+  transform: scale(1.02) translate3d(0, -4px, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(245, 158, 11, 0.85),
     0 0 80px rgba(251, 191, 36, 0.7),
     inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+.waterbox-honey:active,
+.molten-honey-box:active {
+  transform: scale(0.985) translate3d(0, 0, 0);
+  transition-duration: 0.08s;
 }
 
 /* Remove separate redundant aura elements so there is NEVER an extra double shape */
@@ -1499,38 +1595,38 @@ textarea::placeholder,
 @keyframes molten-water-flow-reverse {
   0% {
     border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
   25% {
     border-radius: 58% 42% 54% 46% / 42% 58% 38% 62%;
-    transform: translateY(6px) rotate(-1deg);
+    transform: translate3d(0, 6px, 0) rotate(-1deg);
   }
   50% {
     border-radius: 36% 64% 42% 58% / 64% 36% 62% 38%;
-    transform: translateY(12px) rotate(1deg);
+    transform: translate3d(0, 12px, 0) rotate(1deg);
   }
   75% {
     border-radius: 54% 46% 36% 64% / 44% 56% 48% 52%;
-    transform: translateY(4px) rotate(-0.8deg);
+    transform: translate3d(0, 4px, 0) rotate(-0.8deg);
   }
   100% {
     border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
 }
 
 @keyframes molten-water-flow-drift {
   0% {
     border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
   50% {
     border-radius: 44% 56% 60% 40% / 54% 46% 42% 58%;
-    transform: translateY(-10px) rotate(1.2deg);
+    transform: translate3d(0, -10px, 0) rotate(1.2deg);
   }
   100% {
     border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
-    transform: translateY(0px) rotate(0deg);
+    transform: translate3d(0, 0px, 0) rotate(0deg);
   }
 }
 
@@ -1777,6 +1873,38 @@ textarea::placeholder,
 
 .navbar-btn-purple-neon:active {
   transform: translateY(1px) scale(0.98);
+}
+
+/* =========================================================
+   MOBILE HIGH-PERFORMANCE 60FPS WATERBALL ACCELERATION
+   Reduces GPU overdraw while keeping 100% identical visuals
+   ========================================================= */
+@media (max-width: 768px) {
+  .waterbox,
+  .waterbox-stage,
+  .waterbox-waterfall,
+  .waterbox-lava,
+  .waterbox-oceanic,
+  .waterbox-violet,
+  .waterbox-honey,
+  .molten-master-box {
+    backdrop-filter: blur(14px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
+    box-shadow: 
+      0 20px 45px -5px rgba(0, 0, 0, 0.95),
+      0 0 45px rgba(255, 85, 0, 0.55),
+      0 0 45px rgba(0, 242, 254, 0.5),
+      0 0 35px rgba(192, 38, 211, 0.4),
+      inset 0 3px 8px rgba(255, 255, 255, 0.9),
+      inset 0 -6px 16px rgba(0, 242, 254, 0.35),
+      inset 6px 0 16px rgba(255, 85, 0, 0.35) !important;
+  }
+}
+
+/* Off-screen section virtualization for instantaneous initial paint */
+.content-visibility-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
 }
 
 

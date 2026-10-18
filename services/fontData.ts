@@ -58,27 +58,50 @@ export interface FontDetail extends FontSummary {
   glyphs: Record<string, GlyphItem>;
 }
 
-// Memory caches
+// Memory caches & Promise deduplicators
 let cachedCatalog: FontSummary[] | null = null;
+let pendingCatalogPromise: Promise<FontSummary[]> | null = null;
 const cachedFontDetails: Record<string, FontDetail> = {};
+const pendingFontDetailPromises: Record<string, Promise<FontDetail | null>> = {};
 
 /**
- * Loads the master catalog of all 22 real fonts
+ * Pre-decodes image glyphs into browser cache for zero-delay instant rendering
  */
-export async function getFoundryCatalog(): Promise<FontSummary[]> {
-  if (cachedCatalog) return cachedCatalog;
+export function preloadGlyphs(text: string, fontDetail: FontDetail) {
+  if (typeof window === 'undefined') return;
+  const glyphs = mapTextToGlyphs(text, fontDetail);
+  glyphs.forEach((g) => {
+    if (g.type === 'image' && g.src) {
+      const img = new Image();
+      img.src = getAssetUrl(g.src);
+    }
+  });
+}
 
-  try {
-    const url = getAssetUrl('foundry_data/catalog.json');
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-    const data: FontSummary[] = await res.json();
-    cachedCatalog = data;
-    return data;
-  } catch (err) {
-    console.error('Failed to fetch catalog.json:', err);
-    return [];
-  }
+/**
+ * Loads the master catalog of all 22 real fonts (with promise deduplication)
+ */
+export function getFoundryCatalog(): Promise<FontSummary[]> {
+  if (cachedCatalog) return Promise.resolve(cachedCatalog);
+  if (pendingCatalogPromise) return pendingCatalogPromise;
+
+  pendingCatalogPromise = (async () => {
+    try {
+      const url = getAssetUrl('foundry_data/catalog.json');
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+      const data: FontSummary[] = await res.json();
+      cachedCatalog = data;
+      return data;
+    } catch (err) {
+      console.error('Failed to fetch catalog.json:', err);
+      return [];
+    } finally {
+      pendingCatalogPromise = null;
+    }
+  })();
+
+  return pendingCatalogPromise;
 }
 
 /**
@@ -89,24 +112,48 @@ export function getCachedFontDetail(fontId: string): FontDetail | null {
 }
 
 /**
- * Loads the complete glyph dictionary for a specific font
+ * Loads the complete glyph dictionary for a specific font (with promise deduplication & auto-preloading)
  */
-export async function getFontDetail(fontId: string): Promise<FontDetail | null> {
+export function getFontDetail(fontId: string): Promise<FontDetail | null> {
   if (cachedFontDetails[fontId]) {
-    return cachedFontDetails[fontId];
+    return Promise.resolve(cachedFontDetails[fontId]);
+  }
+  if (pendingFontDetailPromises[fontId]) {
+    return pendingFontDetailPromises[fontId];
   }
 
-  try {
-    const url = getAssetUrl(`foundry_data/${fontId}.json`);
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-    const data: FontDetail = await res.json();
-    cachedFontDetails[fontId] = data;
-    return data;
-  } catch (err) {
-    console.error(`Failed to fetch font detail for ${fontId}:`, err);
-    return null;
-  }
+  pendingFontDetailPromises[fontId] = (async () => {
+    try {
+      const url = getAssetUrl(`foundry_data/${fontId}.json`);
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+      const data: FontDetail = await res.json();
+      cachedFontDetails[fontId] = data;
+
+      // If it's the hero font, eagerly preload the signature specimens
+      if (fontId === 'alphaxen-future') {
+        preloadGlyphs('ALPHAXEN', data);
+        preloadGlyphs('MOLTEN', data);
+      }
+
+      return data;
+    } catch (err) {
+      console.error(`Failed to fetch font detail for ${fontId}:`, err);
+      return null;
+    } finally {
+      delete pendingFontDetailPromises[fontId];
+    }
+  })();
+
+  return pendingFontDetailPromises[fontId];
+}
+
+// Immediate non-blocking parallel background warmup
+if (typeof window !== 'undefined') {
+  setTimeout(() => {
+    getFoundryCatalog();
+    getFontDetail('alphaxen-future');
+  }, 0);
 }
 
 /**

@@ -186,13 +186,14 @@ export const Landing: React.FC = () => {
       
       {/* Mobile Fixed UI Background (High-Fidelity Cosmic Planet & Liquid Magma Landscape from background.png) */}
       <div 
-        className="md:hidden fixed inset-0 pointer-events-none z-0"
+        className="md:hidden fixed inset-0 pointer-events-none z-0 transform-gpu"
         style={{
           backgroundImage: `url('${getAssetUrl('background.png')}')`,
-          backgroundAttachment: 'fixed',
           backgroundPosition: 'center top',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
+          willChange: 'transform',
+          transform: 'translate3d(0, 0, 0)',
         }}
       />
 
@@ -256,6 +257,7 @@ export const Landing: React.FC = () => {
                             size={windowWidth < 640 ? 44 : (windowWidth < 1024 ? 48 : 52)}
                             unitsPerEm={futureFontDetail.unitsPerEm}
                             color="#ffffff"
+                            priority={true}
                           />
                         </span>
                       ))}
@@ -375,6 +377,7 @@ export const Landing: React.FC = () => {
                                 size={heroBallGlyphSize}
                                 unitsPerEm={heroFontDetail.unitsPerEm}
                                 color="#ffffff"
+                                priority={true}
                               />
                             </span>
                           ))}
@@ -667,7 +670,7 @@ export const Landing: React.FC = () => {
 
 
       {/* Section 3: Foundry Typeface Catalog Grid */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="catalog">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 content-visibility-section" id="catalog">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full molten-glass-panel text-purple-300 text-xs font-mono uppercase tracking-wider mb-2">
@@ -839,7 +842,7 @@ export const Landing: React.FC = () => {
       </section>
 
       {/* Section 4: Specimen Waterfall & Optical Scalability */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="specimen">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 content-visibility-section" id="specimen">
         <div className="space-y-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
@@ -953,7 +956,7 @@ export const Landing: React.FC = () => {
       </section>
 
       {/* Section 5: Foundry Philosophy & Security */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="about">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 content-visibility-section" id="about">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full molten-glass-panel text-purple-300 text-xs font-mono uppercase tracking-wider">
@@ -1044,7 +1047,7 @@ export const Landing: React.FC = () => {
       </section>
 
       {/* Section 6: Licensing Overview */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10" id="licensing">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative z-10 content-visibility-section" id="licensing">
         <div className="text-center space-y-4 mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full pure-molten-pill-pod text-purple-300 text-xs font-mono uppercase tracking-wider">
             <KeyRound size={13} /> Transparent Commercial EULA
