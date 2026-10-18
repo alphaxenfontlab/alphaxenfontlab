@@ -415,22 +415,8 @@ export const Landing: React.FC = () => {
             </div>
 
             {/* Right Col: Monumental Master Waterbox (Pure Organic Fluid Water Vessel) */}
-            <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full relative">
-              {/* Floating Ambient Live Waterball Satellites */}
-              <div 
-                className="absolute -top-3 left-4 sm:left-12 w-8 h-8 rounded-full waterbox-oceanic waterbox-blob-droplet pointer-events-none hidden sm:block shadow-xl z-20"
-                style={{ animationDuration: '4.8s' }}
-              />
-              <div 
-                className="absolute -bottom-2 right-4 sm:right-10 w-7 h-7 rounded-full waterbox-lava waterbox-blob-pebble pointer-events-none hidden sm:block shadow-xl z-20"
-                style={{ animationDuration: '5.4s', animationDelay: '-1.5s' }}
-              />
-              <div 
-                className="absolute top-1/2 -left-4 w-9 h-9 rounded-full waterbox-violet waterbox-blob-splash pointer-events-none hidden md:block shadow-xl z-20"
-                style={{ animationDuration: '6.2s', animationDelay: '-3.1s' }}
-              />
-
-              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between relative">
+            <div className="lg:col-span-7 flex justify-center lg:justify-end items-center py-4 w-full">
+              <div className="waterbox waterbox-blob-droplet w-full max-w-[560px] sm:max-w-[600px] min-h-[390px] sm:min-h-[420px] p-6 sm:p-9 flex flex-col justify-between">
                 <div className="relative z-10 flex flex-col justify-between h-full w-full space-y-6">
                   
                   {/* Top Badge Row - Placed comfortably inside safe curved bounds */}
