@@ -345,7 +345,7 @@ export const Landing: React.FC = () => {
               <div className="flex flex-wrap items-center gap-3 pt-1 text-[11px] font-mono">
                 <div className="px-4 py-2 rounded-full navbar-glass-capsule text-purple-200 flex items-center gap-2 shadow-[0_0_15px_rgba(168,85,247,0.3)] border border-purple-400/35 backdrop-blur-md">
                   <Layers size={14} className="text-purple-400" />
-                  <span className="font-semibold text-white">{catalog.length || 19} Master Typefaces</span>
+                  <span className="font-semibold text-white">{catalog.length} Master Typefaces</span>
                 </div>
                 <div className="px-4 py-2 rounded-full navbar-glass-capsule text-cyan-200 flex items-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.3)] border border-cyan-400/35 backdrop-blur-md">
                   <ShieldCheck size={14} className="text-cyan-400" />
@@ -646,7 +646,7 @@ export const Landing: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-black text-white font-syne tracking-tight">
-                      EXPLORE {catalog.length || 19} FONTS
+                      EXPLORE {catalog.length} FONTS
                     </h3>
                     <p className="text-xs text-slate-300 mt-1 leading-relaxed">
                       Diverse styles, infinite possibilities, authentic multi-color SVG fonts.
@@ -670,7 +670,7 @@ export const Landing: React.FC = () => {
                   <Layers size={18} />
                 </div>
                 <div className="text-left space-y-0.5">
-                  <span className="text-xl sm:text-2xl font-black text-white block font-syne leading-none">{catalog.length || 19}</span>
+                  <span className="text-xl sm:text-2xl font-black text-white block font-syne leading-none">{catalog.length}</span>
                   <span className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Total Typefaces</span>
                 </div>
               </div>
@@ -729,10 +729,10 @@ export const Landing: React.FC = () => {
               <Layers size={13} /> Complete Foundry Archive
             </div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight font-syne">
-              The {catalog.length || 19} Typefaces
+              The {catalog.length} Typefaces
             </h2>
             <p className="text-slate-400 text-sm mt-1 max-w-2xl">
-              Curated strictly from your &ldquo;all fonts&rdquo; vault. Featuring 18 chromatic 3D material
+              Curated strictly from your &ldquo;all fonts&rdquo; vault. Featuring {catalog.filter(f => f.category === 'chromatic').length} chromatic 3D material
               display typefaces and high-contrast precision vector display suites.
             </p>
           </div>
@@ -1226,7 +1226,7 @@ export const Landing: React.FC = () => {
           className="flex flex-col items-center justify-center gap-1 text-slate-300 hover:text-white flex-1 py-1 transition-colors cursor-pointer"
         >
           <Grid size={20} className="text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]" />
-          <span className="text-[10px] font-mono font-medium">{catalog.length || 19} Fonts</span>
+          <span className="text-[10px] font-mono font-medium">{catalog.length} Fonts</span>
         </button>
 
         {/* Item 4: License */}
