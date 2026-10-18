@@ -26,6 +26,12 @@ html, body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, a, input, select, textarea {
+  touch-action: manipulation;
 }
 
 /* Ensure all images, svgs, and media stay inside containers */
@@ -957,27 +963,27 @@ textarea::placeholder,
   pointer-events: none;
 }
 
-/* Dynamic Organic Molten & Water Droplet Morphing (GPU Hardware Accelerated 60FPS) */
+/* Dynamic Organic Molten & Water Droplet Morphing (Fluid boundary morphing with stable fixed container) */
 @keyframes molten-water-flow {
   0% {
     border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
   25% {
     border-radius: 42% 58% 46% 54% / 58% 38% 62% 42%;
-    transform: translate3d(0, -8px, 0) rotate(1deg);
+    transform: translate3d(0, 0, 0);
   }
   50% {
     border-radius: 64% 36% 58% 42% / 38% 64% 36% 62%;
-    transform: translate3d(0, -14px, 0) rotate(-1deg);
+    transform: translate3d(0, 0, 0);
   }
   75% {
     border-radius: 46% 54% 64% 36% / 52% 44% 56% 48%;
-    transform: translate3d(0, -6px, 0) rotate(0.8deg);
+    transform: translate3d(0, 0, 0);
   }
   100% {
     border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -1124,7 +1130,7 @@ textarea::placeholder,
 .pure-molten-card-explore:hover,
 .pure-molten-font-card:hover,
 .pure-molten-feature-box:hover {
-  transform: scale(1.02) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 85, 0, 0.75),
@@ -1144,7 +1150,7 @@ textarea::placeholder,
 .pure-molten-card-explore:active,
 .pure-molten-font-card:active,
 .pure-molten-feature-box:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1202,7 +1208,7 @@ textarea::placeholder,
 
 .waterbox-lava:hover,
 .molten-lava-box:hover {
-  transform: scale(1.02) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 69, 0, 0.85),
@@ -1212,7 +1218,7 @@ textarea::placeholder,
 
 .waterbox-lava:active,
 .molten-lava-box:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1266,7 +1272,7 @@ textarea::placeholder,
 
 .waterbox-oceanic:hover,
 .molten-oceanic-box:hover {
-  transform: scale(1.02) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(0, 242, 254, 0.85),
@@ -1276,7 +1282,7 @@ textarea::placeholder,
 
 .waterbox-oceanic:active,
 .molten-oceanic-box:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1284,19 +1290,19 @@ textarea::placeholder,
 @keyframes waterfall-waterball-morph {
   0% {
     border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
   33% {
     border-radius: 52% 48% 46% 54% / 25% 22% 23% 25%;
-    transform: translate3d(0, -6px, 0) rotate(0.4deg);
+    transform: translate3d(0, 0, 0);
   }
   66% {
     border-radius: 47% 53% 52% 48% / 23% 24% 25% 22%;
-    transform: translate3d(0, -3px, 0) rotate(-0.3deg);
+    transform: translate3d(0, 0, 0);
   }
   100% {
     border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -1361,7 +1367,7 @@ textarea::placeholder,
 }
 
 .waterbox-waterfall:hover {
-  transform: scale(1.01) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(0, 242, 254, 0.85),
@@ -1370,7 +1376,7 @@ textarea::placeholder,
 }
 
 .waterbox-waterfall:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1439,7 +1445,7 @@ textarea::placeholder,
 }
 
 .waterbox-stage:hover {
-  transform: scale(1.01) translate3d(0, -3px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(255, 85, 0, 0.7),
@@ -1449,7 +1455,7 @@ textarea::placeholder,
 }
 
 .waterbox-stage:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1503,7 +1509,7 @@ textarea::placeholder,
 
 .waterbox-violet:hover,
 .molten-violet-box:hover {
-  transform: scale(1.02) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(192, 38, 211, 0.85),
@@ -1513,7 +1519,7 @@ textarea::placeholder,
 
 .waterbox-violet:active,
 .molten-violet-box:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1567,7 +1573,7 @@ textarea::placeholder,
 
 .waterbox-honey:hover,
 .molten-honey-box:hover {
-  transform: scale(1.02) translate3d(0, -4px, 0);
+  transform: translate3d(0, 0, 0);
   box-shadow: 
     0 50px 140px -10px rgba(0, 0, 0, 0.98),
     0 0 95px rgba(245, 158, 11, 0.85),
@@ -1577,7 +1583,7 @@ textarea::placeholder,
 
 .waterbox-honey:active,
 .molten-honey-box:active {
-  transform: scale(0.985) translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   transition-duration: 0.08s;
 }
 
@@ -1595,38 +1601,38 @@ textarea::placeholder,
 @keyframes molten-water-flow-reverse {
   0% {
     border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
   25% {
     border-radius: 58% 42% 54% 46% / 42% 58% 38% 62%;
-    transform: translate3d(0, 6px, 0) rotate(-1deg);
+    transform: translate3d(0, 0, 0);
   }
   50% {
     border-radius: 36% 64% 42% 58% / 64% 36% 62% 38%;
-    transform: translate3d(0, 12px, 0) rotate(1deg);
+    transform: translate3d(0, 0, 0);
   }
   75% {
     border-radius: 54% 46% 36% 64% / 44% 56% 48% 52%;
-    transform: translate3d(0, 4px, 0) rotate(-0.8deg);
+    transform: translate3d(0, 0, 0);
   }
   100% {
     border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes molten-water-flow-drift {
   0% {
     border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
   50% {
     border-radius: 44% 56% 60% 40% / 54% 46% 42% 58%;
-    transform: translate3d(0, -10px, 0) rotate(1.2deg);
+    transform: translate3d(0, 0, 0);
   }
   100% {
     border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
-    transform: translate3d(0, 0px, 0) rotate(0deg);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -1642,6 +1648,21 @@ textarea::placeholder,
 .catalog-card-contain {
   content-visibility: auto;
   contain-intrinsic-size: auto 380px;
+}
+
+/* Ensure all child elements inside waterboxes remain 100% stationary, anchored and fixed */
+.waterbox > *,
+.waterbox-stage > *,
+.waterbox-waterfall > *,
+.waterbox-lava > *,
+.waterbox-oceanic > *,
+.waterbox-violet > *,
+.waterbox-honey > *,
+.molten-master-box > *,
+.molten-master-card > * {
+  transform: none !important;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 /* Fluid Liquid Input Box */

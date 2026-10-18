@@ -58,10 +58,19 @@ export interface FontDetail extends FontSummary {
   glyphs: Record<string, GlyphItem>;
 }
 
+import initialCatalogData from '../public/foundry_data/catalog.json';
+import initialFutureFontData from '../public/foundry_data/alphaxen-future.json';
+
+// Synchronous default pre-seed for 0ms instant display
+export const initialCatalog: FontSummary[] = initialCatalogData as unknown as FontSummary[];
+export const initialFutureFont: FontDetail = initialFutureFontData as unknown as FontDetail;
+
 // Memory caches & Promise deduplicators
-let cachedCatalog: FontSummary[] | null = null;
+let cachedCatalog: FontSummary[] | null = initialCatalog;
 let pendingCatalogPromise: Promise<FontSummary[]> | null = null;
-const cachedFontDetails: Record<string, FontDetail> = {};
+const cachedFontDetails: Record<string, FontDetail> = {
+  'alphaxen-future': initialFutureFont,
+};
 const pendingFontDetailPromises: Record<string, Promise<FontDetail | null>> = {};
 
 /**

@@ -8,6 +8,8 @@ import {
   CATEGORY_FILTERS,
   MYFONTS_SHOP_URL,
   getAssetUrl,
+  initialCatalog,
+  initialFutureFont,
 } from '../services/fontData';
 import { FoundryNavbar } from '../components/FoundryNavbar';
 import { FoundryFooter } from '../components/FoundryFooter';
@@ -38,15 +40,15 @@ import {
 } from 'lucide-react';
 
 export const Landing: React.FC = () => {
-  const [catalog, setCatalog] = useState<FontSummary[]>([]);
-  const [loadingCatalog, setLoadingCatalog] = useState<boolean>(true);
+  const [catalog, setCatalog] = useState<FontSummary[]>(() => initialCatalog || []);
+  const [loadingCatalog, setLoadingCatalog] = useState<boolean>(!initialCatalog || initialCatalog.length === 0);
 
   // Selected state
   const [heroFontId, setHeroFontId] = useState<string>('alphaxen-future');
-  const [heroFontDetail, setHeroFontDetail] = useState<FontDetail | null>(null);
+  const [heroFontDetail, setHeroFontDetail] = useState<FontDetail | null>(() => initialFutureFont || null);
 
   // Alphaxen Future font detail for the headline "MOLTEN" word
-  const [futureFontDetail, setFutureFontDetail] = useState<FontDetail | null>(null);
+  const [futureFontDetail, setFutureFontDetail] = useState<FontDetail | null>(() => initialFutureFont || null);
 
   // Filter state
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -58,17 +60,26 @@ export const Landing: React.FC = () => {
 
   // Waterfall font
   const [waterfallFontId, setWaterfallFontId] = useState<string>('alphaxen-future');
-  const [waterfallDetail, setWaterfallDetail] = useState<FontDetail | null>(null);
+  const [waterfallDetail, setWaterfallDetail] = useState<FontDetail | null>(() => initialFutureFont || null);
 
-  // Responsive glyph sizing to ensure full text always fits inside the waterball
+  // Responsive glyph sizing with throttled resize
   const [windowWidth, setWindowWidth] = useState<number>(() =>
     typeof window !== 'undefined' ? window.innerWidth : 1200
   );
 
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    let rAF = 0;
+    const handleResize = () => {
+      cancelAnimationFrame(rAF);
+      rAF = requestAnimationFrame(() => {
+        setWindowWidth(window.innerWidth);
+      });
+    };
+    window.addEventListener('resize', handleResize, { passive: true });
+    return () => {
+      cancelAnimationFrame(rAF);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const heroBallGlyphSize = useMemo(() => {
