@@ -330,7 +330,7 @@ export const LiveTypeTester: React.FC<LiveTypeTesterProps> = ({
 
       {/* Interactive Render Stage with Selected Molten Glass Architecture */}
       <div
-        className={`w-full min-h-[340px] mt-8 waterbox p-6 sm:p-14 transition-all duration-300 flex flex-col justify-center relative overflow-hidden shadow-2xl ${activeTheme.bg} ${activeTheme.text}`}
+        className={`w-full min-h-[340px] mt-8 waterbox p-6 sm:p-14 flex flex-col justify-center relative overflow-hidden shadow-2xl ${activeTheme.bg} ${activeTheme.text}`}
       >
         <div className="relative z-10 w-full flex flex-col justify-center">
           {/* Subtle background branding watermark */}

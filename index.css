@@ -927,56 +927,41 @@ textarea::placeholder,
 }
 
 /* Dynamic Organic Molten & Water Droplet Morphing (Smooth fluid harmonics & quick responsive undulation) */
+/* Dynamic Organic Molten & Water Droplet Morphing (Smooth, stable liquid surface tension with zero flicker) */
 @keyframes molten-water-flow {
-  0% {
-    border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translate3d(0, 0, 0);
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   }
-  20% {
-    border-radius: 46% 54% 48% 52% / 56% 42% 58% 44%;
-    transform: translate3d(0, 0, 0);
+  25% {
+    border-radius: 51.5% 48.5% 51% 49% / 49% 51% 49% 51%;
   }
-  40% {
-    border-radius: 60% 40% 56% 44% / 42% 60% 40% 60%;
-    transform: translate3d(0, 0, 0);
+  50% {
+    border-radius: 49% 51% 50.5% 49.5% / 51% 49% 51% 49%;
   }
-  60% {
-    border-radius: 44% 56% 62% 38% / 54% 44% 58% 42%;
-    transform: translate3d(0, 0, 0);
-  }
-  80% {
-    border-radius: 58% 42% 46% 54% / 46% 54% 44% 56%;
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
-    transform: translate3d(0, 0, 0);
+  75% {
+    border-radius: 50.5% 49.5% 49% 51% / 49.5% 50.5% 51% 49%;
   }
 }
 
 @keyframes water-shimmer {
   0%, 100% {
-    opacity: 0.6;
-    transform: translate3d(-3%, -2%, 0) scale(1);
+    opacity: 0.7;
+    transform: translateZ(0);
   }
   50% {
-    opacity: 1;
-    transform: translate3d(3%, 2%, 0) scale(1.08);
+    opacity: 0.7;
+    transform: translateZ(0);
   }
 }
 
 @keyframes water-ripple-pulse {
-  0% {
-    transform: scale(0.92);
-    opacity: 0.4;
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
   }
   50% {
-    transform: scale(1.05);
-    opacity: 0.85;
-  }
-  100% {
-    transform: scale(0.92);
-    opacity: 0.4;
+    transform: scale(1);
+    opacity: 0.6;
   }
 }
 
@@ -998,7 +983,7 @@ textarea::placeholder,
 .pure-molten-font-card,
 .pure-molten-waterfall-vessel,
 .pure-molten-feature-box {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.22) 0%, transparent 55%),
@@ -1020,12 +1005,10 @@ textarea::placeholder,
     inset 0 0 25px rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 /* Specular Water Surface Glint */
@@ -1089,7 +1072,7 @@ textarea::placeholder,
 /* 1. Volcanic Magma / Lava Waterbox */
 .waterbox-lava,
 .molten-lava-box {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.35) 0%, transparent 55%),
@@ -1109,12 +1092,10 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-lava::before,
@@ -1135,7 +1116,7 @@ textarea::placeholder,
 /* 2. Oceanic Bioluminescent Waterbox */
 .waterbox-oceanic,
 .molten-oceanic-box {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 20%, rgba(0, 242, 254, 0.32) 0%, transparent 55%),
@@ -1155,12 +1136,10 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-oceanic::before,
@@ -1180,7 +1159,7 @@ textarea::placeholder,
 
 /* Specimen Waterfall Dedicated Oceanic Waterball Container (Pure Water Ball Shape) */
 .waterbox-waterfall {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.32) 0%, transparent 55%),
@@ -1200,12 +1179,10 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-waterfall::before {
@@ -1231,14 +1208,14 @@ textarea::placeholder,
     radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(59, 130, 246, 0.18) 0%, transparent 60%);
   pointer-events: none;
-  opacity: 0.85;
-  animation: water-shimmer 4.5s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
+  opacity: 0.7;
+  transform: translateZ(0);
   z-index: 1;
 }
 
 /* Hero Stage Waterbox with Pure Water Ball Shape */
 .waterbox-stage {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 15%, rgba(255, 69, 0, 0.25) 0%, transparent 55%),
@@ -1260,12 +1237,10 @@ textarea::placeholder,
     inset 0 0 25px rgba(0, 0, 0, 0.35);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-stage::before {
@@ -1291,15 +1266,15 @@ textarea::placeholder,
     radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
     radial-gradient(ellipse 50% 40% at 70% 30%, rgba(255, 85, 0, 0.18) 0%, transparent 60%);
   pointer-events: none;
-  opacity: 0.85;
-  animation: water-shimmer 4.5s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
+  opacity: 0.7;
+  transform: translateZ(0);
   z-index: 1;
 }
 
 /* 3. Cosmic Violet / Amethyst Waterbox */
 .waterbox-violet,
 .molten-violet-box {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 20%, rgba(192, 38, 211, 0.32) 0%, transparent 55%),
@@ -1319,12 +1294,10 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-violet::before,
@@ -1345,7 +1318,7 @@ textarea::placeholder,
 /* 4. Honey / Liquid Gold Waterbox */
 .waterbox-honey,
 .molten-honey-box {
-  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  border-radius: 50%;
   animation: molten-water-flow 6s cubic-bezier(0.44, 0.05, 0.55, 0.95) infinite alternate;
   background: 
     radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.32) 0%, transparent 55%),
@@ -1365,12 +1338,10 @@ textarea::placeholder,
   -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(105%);
   position: relative;
   overflow: hidden;
-  will-change: border-radius;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  contain: layout style;
 }
 
 .waterbox-honey::before,
@@ -1400,52 +1371,29 @@ textarea::placeholder,
 
 /* Additional organic water flow animations for diverse liquid rhythm */
 @keyframes molten-water-flow-reverse {
-  0% {
-    border-radius: 46% 54% 40% 60% / 54% 44% 58% 42%;
-    transform: translate3d(0, 0, 0);
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   }
-  20% {
-    border-radius: 56% 44% 52% 48% / 44% 58% 42% 58%;
-    transform: translate3d(0, 0, 0);
+  25% {
+    border-radius: 49% 51% 50.5% 49.5% / 51% 49% 50% 50%;
   }
-  40% {
-    border-radius: 42% 58% 44% 56% / 60% 40% 56% 44%;
-    transform: translate3d(0, 0, 0);
+  50% {
+    border-radius: 51% 49% 49% 51% / 49% 51% 51% 49%;
   }
-  60% {
-    border-radius: 58% 42% 58% 42% / 44% 54% 46% 54%;
-    transform: translate3d(0, 0, 0);
-  }
-  80% {
-    border-radius: 46% 54% 44% 56% / 54% 44% 58% 42%;
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    border-radius: 46% 54% 40% 60% / 54% 44% 58% 42%;
-    transform: translate3d(0, 0, 0);
+  75% {
+    border-radius: 50% 50% 51% 49% / 50.5% 49.5% 49% 51%;
   }
 }
 
 @keyframes molten-water-flow-drift {
-  0% {
-    border-radius: 58% 42% 52% 48% / 42% 58% 48% 52%;
-    transform: translate3d(0, 0, 0);
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   }
-  25% {
-    border-radius: 48% 52% 58% 42% / 54% 46% 44% 56%;
-    transform: translate3d(0, 0, 0);
+  33% {
+    border-radius: 51% 49% 50% 50% / 50% 50% 49% 51%;
   }
-  50% {
-    border-radius: 44% 56% 52% 48% / 52% 48% 44% 56%;
-    transform: translate3d(0, 0, 0);
-  }
-  75% {
-    border-radius: 56% 44% 44% 56% / 44% 56% 54% 46%;
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    border-radius: 58% 42% 52% 48% / 42% 58% 48% 52%;
-    transform: translate3d(0, 0, 0);
+  66% {
+    border-radius: 49% 51% 51% 49% / 51% 49% 50% 50%;
   }
 }
 
@@ -1459,7 +1407,7 @@ textarea::placeholder,
 
 /* Layout and style containment for catalog cards - Instant 60-120fps scrolling */
 .catalog-card-contain {
-  contain: layout style;
+  contain: none;
 }
 
 /* Ensure all child elements inside waterboxes remain 100% stationary, anchored and fixed */
@@ -1734,10 +1682,9 @@ textarea::placeholder,
   }
 }
 
-/* Off-screen section virtualization for instantaneous initial paint */
+/* Off-screen section virtualization - visible to ensure zero pop or fade when moving */
 .content-visibility-section {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 1200px;
+  content-visibility: visible !important;
 }
 
 
