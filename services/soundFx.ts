@@ -68,6 +68,19 @@ class CyberHapticAudioEngine {
    * Dedicated Cyber Haptic Synthesizer
    */
   public play(type: SoundType = 'click'): void {
+    // Physical micro-haptic impulse on touch devices (Android & Touch Web standard)
+    if (typeof navigator !== 'undefined' && 'vibrate' in navigator) {
+      try {
+        if (type === 'pop' || type === 'watermark') {
+          navigator.vibrate(12);
+        } else if (type === 'key') {
+          navigator.vibrate(5);
+        } else {
+          navigator.vibrate(8);
+        }
+      } catch (_) {}
+    }
+
     if (this.muted) return;
 
     try {

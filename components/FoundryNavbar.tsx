@@ -154,53 +154,53 @@ export const FoundryNavbar: React.FC<FoundryNavbarProps> = ({
             </button>
           )}
 
-          {/* Button 4: Circular Dark Glass Hamburger Menu (Standalone Circle on Mobile matching image) */}
+          {/* Button 4: Circular Dark Glass Hamburger Menu (Touch friendly 40px minimum) */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden navbar-btn-circle-mode cursor-pointer"
+            className="lg:hidden navbar-btn-circle-mode cursor-pointer min-w-[38px] min-h-[38px] w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center active:scale-90 transition-transform"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
-              <X className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <X className="w-4 h-4 sm:w-5 sm:h-5" />
             ) : (
-              <Menu className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <Menu className="w-4 h-4 sm:w-5 sm:h-5" />
             )}
           </button>
 
         </div>
       </div>
 
-      {/* Mobile Drawer Menu (When user clicks Hamburger on mobile) */}
+      {/* Mobile Drawer Menu (Touch-Optimized Large Targets) */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden max-w-md mx-auto mt-3 px-6 py-5 navbar-glass-capsule rounded-3xl space-y-3.5 shadow-2xl pointer-events-auto animate-fade-in border border-white/20">
+        <div className="lg:hidden max-w-md mx-auto mt-3 p-4 navbar-glass-capsule rounded-3xl space-y-2 shadow-2xl pointer-events-auto animate-fade-in border border-white/20">
           <button
             onClick={() => handleNavClick('catalog')}
-            className="w-full text-left py-2 text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center justify-between border-b border-white/10"
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center justify-between rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>Typefaces</span>
-            <span className="px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300 text-[10px]">(22)</span>
+            <span className="px-2.5 py-0.5 rounded-full bg-blue-500/25 text-blue-300 text-xs">(22)</span>
           </button>
           <button
             onClick={() => handleNavClick('type-tester')}
-            className="w-full text-left py-2 text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2 border-b border-white/10"
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2 rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>Type Tester</span>
           </button>
           <button
             onClick={() => handleNavClick('specimen')}
-            className="w-full text-left py-2 text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2 border-b border-white/10"
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2 rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>Specimens</span>
           </button>
           <button
             onClick={() => handleNavClick('about')}
-            className="w-full text-left py-2 text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2 border-b border-white/10"
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2 rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>About</span>
           </button>
           <button
             onClick={() => handleNavClick('licensing')}
-            className="w-full text-left py-2 text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2"
+            className="w-full text-left py-3 px-4 text-sm font-mono font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2 rounded-2xl border border-white/5 active:bg-white/10 active:scale-[0.98] transition-all"
           >
             <span>Licensing</span>
           </button>

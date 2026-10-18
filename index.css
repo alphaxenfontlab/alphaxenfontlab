@@ -34,8 +34,72 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 
-button, a, input, select, textarea {
+button, a, input, select, textarea, [role="button"], .cursor-pointer,
+.waterbox, .waterbox-stage, .waterbox-waterfall, .waterbox-lava,
+.waterbox-oceanic, .waterbox-violet, .waterbox-honey, .molten-master-box,
+.navbar-btn-orange-lava, .navbar-btn-circle-mode, .neu-convex-btn, .neu-btn {
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Instant High-Response Mobile Touch Feedback */
+@media (hover: none) and (pointer: coarse) {
+  button:active,
+  a:active,
+  [role="button"]:active,
+  .cursor-pointer:active,
+  .neu-btn:active,
+  .neu-convex-btn:active,
+  .navbar-btn-orange-lava:active,
+  .navbar-btn-circle-mode:active {
+    transform: scale(0.95) !important;
+    transition: transform 0.06s cubic-bezier(0, 0, 0.2, 1) !important;
+  }
+
+  .waterbox:active,
+  .waterbox-stage:active,
+  .waterbox-waterfall:active,
+  .molten-master-box:active {
+    transform: scale(0.985) !important;
+    transition: transform 0.08s ease !important;
+  }
+}
+
+/* Touch-friendly range slider thumbs for responsive mobile dragging */
+input[type="range"] {
+  touch-action: pan-x;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: #a855f7;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.8), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #a855f7;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.8), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Mobile minimum touch targets */
+@media (max-width: 768px) {
+  .navbar-btn-circle-mode {
+    min-width: 38px;
+    min-height: 38px;
+  }
+  .navbar-btn-orange-lava {
+    min-height: 38px;
+  }
 }
 
 /* Touch-friendly horizontal containers: ensure vertical swipes pass through cleanly without blocking */
