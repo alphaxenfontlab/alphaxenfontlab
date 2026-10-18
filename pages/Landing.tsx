@@ -242,21 +242,19 @@ export const Landing: React.FC = () => {
         }}
       />
 
-      {/* Desktop Dynamic Molten Blobs Background Mesh (Hidden on Mobile so background.png shows crisp) */}
+      {/* Desktop & Laptop Fixed UI Background from bgdesk.png (Matches Mobile Architecture) */}
       <div 
-        className="hidden md:block fixed inset-0 pointer-events-none overflow-hidden z-0"
+        className="hidden md:block fixed inset-0 pointer-events-none z-0 transform-gpu"
         style={{
+          backgroundImage: `url('${getAssetUrl('bgdesk.png')}')`,
+          backgroundPosition: 'center top',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
           contain: 'strict',
           isolation: 'isolate',
           transform: 'translate3d(0, 0, 0)',
         }}
-      >
-        <div className="molten-blob molten-blob-purple w-[480px] sm:w-[700px] h-[450px] -top-32 -left-24" />
-        <div className="molten-blob molten-blob-lava w-[420px] sm:w-[600px] h-[400px] top-1/4 -right-32" />
-        <div className="molten-blob molten-blob-cyan w-[500px] sm:w-[750px] h-[500px] top-2/3 -left-40" />
-        <div className="molten-blob molten-blob-honey w-[380px] sm:w-[550px] h-[350px] bottom-10 right-0" />
-        <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:40px_40px] opacity-[0.025]" />
-      </div>
+      />
 
       {/* Top Fixed Navbar */}
       <div className="relative z-40">
