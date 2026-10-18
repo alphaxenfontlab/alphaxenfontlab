@@ -1,0 +1,1351 @@
+{
+  "id": "alphaxen-octopus",
+  "name": "Alphaxen Octopus",
+  "category": "chromatic",
+  "subCategory": "Oceanic & Creature",
+  "theme": "Deep Ocean Color Specimen",
+  "accent": "#0ea5e9",
+  "badge": "CHROMATIC DISPLAY",
+  "description": "Deep oceanic edition of the Octopus suite, highlighting the anatomical nuance and muscular flexibility of marine mollusks.",
+  "specimenWords": [
+    "OCTOPUS",
+    "AQUATIC",
+    "FLEXIBLE",
+    "MARINE",
+    "MOTION"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 146,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 380,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/65.png",
+      "advance": 977,
+      "lsb": 35
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/66.png",
+      "advance": 673,
+      "lsb": 35
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/67.png",
+      "advance": 613,
+      "lsb": 35
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/68.png",
+      "advance": 600,
+      "lsb": 35
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/69.png",
+      "advance": 626,
+      "lsb": 35
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/70.png",
+      "advance": 546,
+      "lsb": 35
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/71.png",
+      "advance": 667,
+      "lsb": 35
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/72.png",
+      "advance": 780,
+      "lsb": 35
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/73.png",
+      "advance": 370,
+      "lsb": 35
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/74.png",
+      "advance": 566,
+      "lsb": 35
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/75.png",
+      "advance": 741,
+      "lsb": 35
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/76.png",
+      "advance": 634,
+      "lsb": 35
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/77.png",
+      "advance": 894,
+      "lsb": 35
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/78.png",
+      "advance": 719,
+      "lsb": 35
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/79.png",
+      "advance": 684,
+      "lsb": 35
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/80.png",
+      "advance": 537,
+      "lsb": 35
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/81.png",
+      "advance": 701,
+      "lsb": 35
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/82.png",
+      "advance": 742,
+      "lsb": 35
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/83.png",
+      "advance": 545,
+      "lsb": 35
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/84.png",
+      "advance": 534,
+      "lsb": 35
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/85.png",
+      "advance": 595,
+      "lsb": 35
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/86.png",
+      "advance": 682,
+      "lsb": 35
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/87.png",
+      "advance": 927,
+      "lsb": 35
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/88.png",
+      "advance": 801,
+      "lsb": 35
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/89.png",
+      "advance": 531,
+      "lsb": 35
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/90.png",
+      "advance": 708,
+      "lsb": 35
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/97.png",
+      "advance": 523,
+      "lsb": 30
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/98.png",
+      "advance": 435,
+      "lsb": 30
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/99.png",
+      "advance": 430,
+      "lsb": 30
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/100.png",
+      "advance": 520,
+      "lsb": 30
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/101.png",
+      "advance": 418,
+      "lsb": 30
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/102.png",
+      "advance": 420,
+      "lsb": 30
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/103.png",
+      "advance": 464,
+      "lsb": 30
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/104.png",
+      "advance": 567,
+      "lsb": 30
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/105.png",
+      "advance": 247,
+      "lsb": 30
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/106.png",
+      "advance": 378,
+      "lsb": 30
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/107.png",
+      "advance": 533,
+      "lsb": 30
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/108.png",
+      "advance": 371,
+      "lsb": 30
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/109.png",
+      "advance": 742,
+      "lsb": 30
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/110.png",
+      "advance": 569,
+      "lsb": 30
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/111.png",
+      "advance": 454,
+      "lsb": 30
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/112.png",
+      "advance": 472,
+      "lsb": 30
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/113.png",
+      "advance": 585,
+      "lsb": 30
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/114.png",
+      "advance": 380,
+      "lsb": 30
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/115.png",
+      "advance": 401,
+      "lsb": 30
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/116.png",
+      "advance": 383,
+      "lsb": 30
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/117.png",
+      "advance": 550,
+      "lsb": 30
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/118.png",
+      "advance": 472,
+      "lsb": 30
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/119.png",
+      "advance": 588,
+      "lsb": 30
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/120.png",
+      "advance": 607,
+      "lsb": 30
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/121.png",
+      "advance": 428,
+      "lsb": 30
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/122.png",
+      "advance": 530,
+      "lsb": 30
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "num_0",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/48.png",
+      "advance": 567,
+      "lsb": 32
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "num_1",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/49.png",
+      "advance": 370,
+      "lsb": 32
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "num_2",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/50.png",
+      "advance": 642,
+      "lsb": 32
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "num_3",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/51.png",
+      "advance": 592,
+      "lsb": 32
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "num_4",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/52.png",
+      "advance": 639,
+      "lsb": 32
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "num_5",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/53.png",
+      "advance": 527,
+      "lsb": 32
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "num_6",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/54.png",
+      "advance": 503,
+      "lsb": 32
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "num_7",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/55.png",
+      "advance": 484,
+      "lsb": 32
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "num_8",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/56.png",
+      "advance": 496,
+      "lsb": 32
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "num_9",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57.png",
+      "advance": 441,
+      "lsb": 32
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/33.png",
+      "advance": 220,
+      "lsb": 28
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/64.png",
+      "advance": 670,
+      "lsb": 28
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/35.png",
+      "advance": 641,
+      "lsb": 28
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/37.png",
+      "advance": 621,
+      "lsb": 28
+    },
+    "94": {
+      "code": 94,
+      "char": "^",
+      "name": "asciicircum",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/94.png",
+      "advance": 450,
+      "lsb": 28
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/38.png",
+      "advance": 685,
+      "lsb": 28
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/42.png",
+      "advance": 382,
+      "lsb": 28
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/40.png",
+      "advance": 400,
+      "lsb": 28
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/41.png",
+      "advance": 400,
+      "lsb": 28
+    },
+    "95": {
+      "code": 95,
+      "char": "_",
+      "name": "underscore",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/95.png",
+      "advance": 403,
+      "lsb": 28
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/45.png",
+      "advance": 411,
+      "lsb": 28
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/91.png",
+      "advance": 322,
+      "lsb": 28
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/93.png",
+      "advance": 310,
+      "lsb": 28
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/123.png",
+      "advance": 302,
+      "lsb": 28
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/125.png",
+      "advance": 298,
+      "lsb": 28
+    },
+    "92": {
+      "code": 92,
+      "char": "\\",
+      "name": "backslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/92.png",
+      "advance": 445,
+      "lsb": 28
+    },
+    "124": {
+      "code": 124,
+      "char": "|",
+      "name": "bar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/124.png",
+      "advance": 161,
+      "lsb": 28
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/59.png",
+      "advance": 162,
+      "lsb": 28
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/58.png",
+      "advance": 135,
+      "lsb": 28
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/39.png",
+      "advance": 174,
+      "lsb": 28
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/34.png",
+      "advance": 340,
+      "lsb": 28
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/44.png",
+      "advance": 192,
+      "lsb": 28
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/46.png",
+      "advance": 182,
+      "lsb": 28
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/47.png",
+      "advance": 464,
+      "lsb": 28
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/63.png",
+      "advance": 406,
+      "lsb": 28
+    },
+    "96": {
+      "code": 96,
+      "char": "`",
+      "name": "grave",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/96.png",
+      "advance": 390,
+      "lsb": 28
+    },
+    "126": {
+      "code": 126,
+      "char": "~",
+      "name": "asciitilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/126.png",
+      "advance": 1095,
+      "lsb": 28
+    },
+    "169": {
+      "code": 169,
+      "char": "\u00a9",
+      "name": "copyright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/169.png",
+      "advance": 608,
+      "lsb": 30
+    },
+    "174": {
+      "code": 174,
+      "char": "\u00ae",
+      "name": "registered",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/174.png",
+      "advance": 608,
+      "lsb": 30
+    },
+    "8482": {
+      "code": 8482,
+      "char": "\u2122",
+      "name": "trademark",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8482.png",
+      "advance": 1110,
+      "lsb": 30
+    },
+    "176": {
+      "code": 176,
+      "char": "\u00b0",
+      "name": "degree",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/176.png",
+      "advance": 266,
+      "lsb": 30
+    },
+    "8226": {
+      "code": 8226,
+      "char": "\u2022",
+      "name": "bullet",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8226.png",
+      "advance": 170,
+      "lsb": 30
+    },
+    "183": {
+      "code": 183,
+      "char": "\u00b7",
+      "name": "middledot",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/183.png",
+      "advance": 193,
+      "lsb": 30
+    },
+    "215": {
+      "code": 215,
+      "char": "\u00d7",
+      "name": "multiply_sp",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/215.png",
+      "advance": 430,
+      "lsb": 30
+    },
+    "247": {
+      "code": 247,
+      "char": "\u00f7",
+      "name": "divide_sp",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/247.png",
+      "advance": 374,
+      "lsb": 30
+    },
+    "177": {
+      "code": 177,
+      "char": "\u00b1",
+      "name": "plusminus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/177.png",
+      "advance": 336,
+      "lsb": 30
+    },
+    "8800": {
+      "code": 8800,
+      "char": "\u2260",
+      "name": "notequal_sp",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8800.png",
+      "advance": 555,
+      "lsb": 30
+    },
+    "8776": {
+      "code": 8776,
+      "char": "\u2248",
+      "name": "approxequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8776.png",
+      "advance": 848,
+      "lsb": 30
+    },
+    "167": {
+      "code": 167,
+      "char": "\u00a7",
+      "name": "section",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/167.png",
+      "advance": 363,
+      "lsb": 30
+    },
+    "182": {
+      "code": 182,
+      "char": "\u00b6",
+      "name": "paragraph",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/182.png",
+      "advance": 448,
+      "lsb": 30
+    },
+    "8224": {
+      "code": 8224,
+      "char": "\u2020",
+      "name": "dagger",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8224.png",
+      "advance": 442,
+      "lsb": 30
+    },
+    "8225": {
+      "code": 8225,
+      "char": "\u2021",
+      "name": "daggerdbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8225.png",
+      "advance": 417,
+      "lsb": 30
+    },
+    "10022": {
+      "code": 10022,
+      "char": "\u2726",
+      "name": "star_diamond",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/10022.png",
+      "advance": 657,
+      "lsb": 30
+    },
+    "9733": {
+      "code": 9733,
+      "char": "\u2605",
+      "name": "star_5pt",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/9733.png",
+      "advance": 638,
+      "lsb": 30
+    },
+    "9824": {
+      "code": 9824,
+      "char": "\u2660",
+      "name": "spade",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/9824.png",
+      "advance": 558,
+      "lsb": 30
+    },
+    "9827": {
+      "code": 9827,
+      "char": "\u2663",
+      "name": "club",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/9827.png",
+      "advance": 599,
+      "lsb": 30
+    },
+    "9829": {
+      "code": 9829,
+      "char": "\u2665",
+      "name": "heart",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/9829.png",
+      "advance": 621,
+      "lsb": 30
+    },
+    "9830": {
+      "code": 9830,
+      "char": "\u2666",
+      "name": "diamond_gem",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/9830.png",
+      "advance": 604,
+      "lsb": 30
+    },
+    "8592": {
+      "code": 8592,
+      "char": "\u2190",
+      "name": "arrowleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8592.png",
+      "advance": 617,
+      "lsb": 30
+    },
+    "8594": {
+      "code": 8594,
+      "char": "\u2192",
+      "name": "arrowright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8594.png",
+      "advance": 630,
+      "lsb": 30
+    },
+    "8593": {
+      "code": 8593,
+      "char": "\u2191",
+      "name": "arrowup",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8593.png",
+      "advance": 385,
+      "lsb": 30
+    },
+    "8595": {
+      "code": 8595,
+      "char": "\u2193",
+      "name": "arrowdown",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8595.png",
+      "advance": 398,
+      "lsb": 30
+    },
+    "8596": {
+      "code": 8596,
+      "char": "\u2194",
+      "name": "arrowleftright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8596.png",
+      "advance": 579,
+      "lsb": 30
+    },
+    "8597": {
+      "code": 8597,
+      "char": "\u2195",
+      "name": "arrowupdown",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8597.png",
+      "advance": 340,
+      "lsb": 30
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/36.png",
+      "advance": 459,
+      "lsb": 32
+    },
+    "8364": {
+      "code": 8364,
+      "char": "\u20ac",
+      "name": "euro",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8364.png",
+      "advance": 586,
+      "lsb": 32
+    },
+    "163": {
+      "code": 163,
+      "char": "\u00a3",
+      "name": "sterling",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/163.png",
+      "advance": 595,
+      "lsb": 32
+    },
+    "165": {
+      "code": 165,
+      "char": "\u00a5",
+      "name": "yen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/165.png",
+      "advance": 658,
+      "lsb": 32
+    },
+    "8377": {
+      "code": 8377,
+      "char": "\u20b9",
+      "name": "rupee",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8377.png",
+      "advance": 489,
+      "lsb": 32
+    },
+    "8361": {
+      "code": 8361,
+      "char": "\u20a9",
+      "name": "won",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8361.png",
+      "advance": 826,
+      "lsb": 32
+    },
+    "8378": {
+      "code": 8378,
+      "char": "\u20ba",
+      "name": "lira",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8378.png",
+      "advance": 476,
+      "lsb": 32
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "math_plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/43.png",
+      "advance": 408,
+      "lsb": 28
+    },
+    "8722": {
+      "code": 8722,
+      "char": "\u2212",
+      "name": "math_minus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8722.png",
+      "advance": 1503,
+      "lsb": 28
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "math_equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/61.png",
+      "advance": 551,
+      "lsb": 28
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "math_less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/60.png",
+      "advance": 231,
+      "lsb": 28
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "math_greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/62.png",
+      "advance": 346,
+      "lsb": 28
+    },
+    "8804": {
+      "code": 8804,
+      "char": "\u2264",
+      "name": "lessequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8804.png",
+      "advance": 336,
+      "lsb": 28
+    },
+    "8730": {
+      "code": 8730,
+      "char": "\u221a",
+      "name": "radical",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8730.png",
+      "advance": 440,
+      "lsb": 30
+    },
+    "8721": {
+      "code": 8721,
+      "char": "\u2211",
+      "name": "summation",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8721.png",
+      "advance": 547,
+      "lsb": 30
+    },
+    "8719": {
+      "code": 8719,
+      "char": "\u220f",
+      "name": "product",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8719.png",
+      "advance": 617,
+      "lsb": 30
+    },
+    "8747": {
+      "code": 8747,
+      "char": "\u222b",
+      "name": "integral",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/8747.png",
+      "advance": 331,
+      "lsb": 30
+    },
+    "57344": {
+      "code": 57344,
+      "char": "\ue000",
+      "name": "master_octopus_emblem",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57344.png",
+      "advance": 3233,
+      "lsb": 40
+    },
+    "57345": {
+      "code": 57345,
+      "char": "\ue001",
+      "name": "swash_tentacle_tl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57345.png",
+      "advance": 768,
+      "lsb": 30
+    },
+    "57346": {
+      "code": 57346,
+      "char": "\ue002",
+      "name": "swash_tentacle_tr",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57346.png",
+      "advance": 1568,
+      "lsb": 30
+    },
+    "57347": {
+      "code": 57347,
+      "char": "\ue003",
+      "name": "swash_tentacle_bl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57347.png",
+      "advance": 381,
+      "lsb": 30
+    },
+    "57348": {
+      "code": 57348,
+      "char": "\ue004",
+      "name": "swash_tentacle_br",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57348.png",
+      "advance": 718,
+      "lsb": 30
+    },
+    "57360": {
+      "code": 57360,
+      "char": "\ue010",
+      "name": "hero_O1",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57360.png",
+      "advance": 714,
+      "lsb": 35
+    },
+    "57361": {
+      "code": 57361,
+      "char": "\ue011",
+      "name": "hero_C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57361.png",
+      "advance": 619,
+      "lsb": 35
+    },
+    "57362": {
+      "code": 57362,
+      "char": "\ue012",
+      "name": "hero_T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57362.png",
+      "advance": 523,
+      "lsb": 35
+    },
+    "57363": {
+      "code": 57363,
+      "char": "\ue013",
+      "name": "hero_O2",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57363.png",
+      "advance": 637,
+      "lsb": 35
+    },
+    "57364": {
+      "code": 57364,
+      "char": "\ue014",
+      "name": "hero_P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57364.png",
+      "advance": 553,
+      "lsb": 35
+    },
+    "57365": {
+      "code": 57365,
+      "char": "\ue015",
+      "name": "hero_U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57365.png",
+      "advance": 632,
+      "lsb": 35
+    },
+    "57366": {
+      "code": 57366,
+      "char": "\ue016",
+      "name": "hero_S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-octopus/57366.png",
+      "advance": 554,
+      "lsb": 35
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 380,
+      "lsb": 0
+    }
+  }
+}

@@ -1,0 +1,937 @@
+{
+  "id": "alphaxen-enofloma",
+  "name": "Alphaxen Enofloma",
+  "category": "chromatic",
+  "subCategory": "Bio-Luminescent",
+  "theme": "Exotic Flora & Luminous Petals",
+  "accent": "#ec4899",
+  "badge": "ORGANIC CHROMATIC",
+  "description": "Bio-luminescent chromatic typography sculpted from rare alien flora, velvety petals, and vibrant neon organic lighting.",
+  "specimenWords": [
+    "FLORA",
+    "BLOOM",
+    "ORGANIC",
+    "LUMINOUS",
+    "PETALS"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 100,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 380,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/65.png",
+      "advance": 979,
+      "lsb": 67
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/66.png",
+      "advance": 773,
+      "lsb": 53
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/67.png",
+      "advance": 803,
+      "lsb": 55
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/68.png",
+      "advance": 824,
+      "lsb": 56
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/69.png",
+      "advance": 691,
+      "lsb": 47
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/70.png",
+      "advance": 715,
+      "lsb": 49
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/71.png",
+      "advance": 794,
+      "lsb": 54
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/72.png",
+      "advance": 832,
+      "lsb": 57
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/73.png",
+      "advance": 394,
+      "lsb": 35
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/74.png",
+      "advance": 603,
+      "lsb": 41
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/75.png",
+      "advance": 803,
+      "lsb": 55
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/76.png",
+      "advance": 677,
+      "lsb": 46
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/77.png",
+      "advance": 1038,
+      "lsb": 71
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/78.png",
+      "advance": 832,
+      "lsb": 57
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/79.png",
+      "advance": 832,
+      "lsb": 57
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/80.png",
+      "advance": 715,
+      "lsb": 49
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/81.png",
+      "advance": 929,
+      "lsb": 64
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/82.png",
+      "advance": 759,
+      "lsb": 52
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/83.png",
+      "advance": 641,
+      "lsb": 44
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/84.png",
+      "advance": 729,
+      "lsb": 50
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/85.png",
+      "advance": 759,
+      "lsb": 52
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/86.png",
+      "advance": 803,
+      "lsb": 55
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/87.png",
+      "advance": 1076,
+      "lsb": 74
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/88.png",
+      "advance": 862,
+      "lsb": 59
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/89.png",
+      "advance": 744,
+      "lsb": 51
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/90.png",
+      "advance": 715,
+      "lsb": 49
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/97.png",
+      "advance": 706,
+      "lsb": 48
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/98.png",
+      "advance": 700,
+      "lsb": 48
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/99.png",
+      "advance": 633,
+      "lsb": 43
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/100.png",
+      "advance": 715,
+      "lsb": 49
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/101.png",
+      "advance": 618,
+      "lsb": 42
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/102.png",
+      "advance": 574,
+      "lsb": 39
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/103.png",
+      "advance": 662,
+      "lsb": 45
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/104.png",
+      "advance": 729,
+      "lsb": 50
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/105.png",
+      "advance": 388,
+      "lsb": 35
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/106.png",
+      "advance": 603,
+      "lsb": 41
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/107.png",
+      "advance": 765,
+      "lsb": 52
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/108.png",
+      "advance": 496,
+      "lsb": 35
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/109.png",
+      "advance": 988,
+      "lsb": 68
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/110.png",
+      "advance": 744,
+      "lsb": 51
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/111.png",
+      "advance": 700,
+      "lsb": 48
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/112.png",
+      "advance": 706,
+      "lsb": 48
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/113.png",
+      "advance": 809,
+      "lsb": 55
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/114.png",
+      "advance": 603,
+      "lsb": 41
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/115.png",
+      "advance": 603,
+      "lsb": 41
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/116.png",
+      "advance": 633,
+      "lsb": 43
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/117.png",
+      "advance": 677,
+      "lsb": 46
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/118.png",
+      "advance": 765,
+      "lsb": 52
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/119.png",
+      "advance": 1017,
+      "lsb": 70
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/120.png",
+      "advance": 706,
+      "lsb": 48
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/121.png",
+      "advance": 700,
+      "lsb": 48
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/122.png",
+      "advance": 618,
+      "lsb": 42
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/48.png",
+      "advance": 759,
+      "lsb": 52
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/49.png",
+      "advance": 489,
+      "lsb": 35
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/50.png",
+      "advance": 691,
+      "lsb": 47
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/51.png",
+      "advance": 626,
+      "lsb": 43
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/52.png",
+      "advance": 685,
+      "lsb": 47
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/53.png",
+      "advance": 530,
+      "lsb": 36
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/54.png",
+      "advance": 656,
+      "lsb": 45
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/55.png",
+      "advance": 656,
+      "lsb": 45
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/56.png",
+      "advance": 662,
+      "lsb": 45
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/57.png",
+      "advance": 641,
+      "lsb": 44
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/33.png",
+      "advance": 191,
+      "lsb": 35
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/34.png",
+      "advance": 165,
+      "lsb": 35
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/35.png",
+      "advance": 388,
+      "lsb": 35
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/36.png",
+      "advance": 312,
+      "lsb": 35
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/37.png",
+      "advance": 394,
+      "lsb": 35
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/38.png",
+      "advance": 362,
+      "lsb": 35
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/39.png",
+      "advance": 165,
+      "lsb": 35
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/40.png",
+      "advance": 235,
+      "lsb": 35
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/41.png",
+      "advance": 242,
+      "lsb": 35
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/42.png",
+      "advance": 324,
+      "lsb": 35
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/43.png",
+      "advance": 362,
+      "lsb": 35
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/44.png",
+      "advance": 172,
+      "lsb": 35
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/45.png",
+      "advance": 165,
+      "lsb": 35
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/46.png",
+      "advance": 165,
+      "lsb": 35
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/47.png",
+      "advance": 489,
+      "lsb": 35
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/58.png",
+      "advance": 165,
+      "lsb": 35
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/59.png",
+      "advance": 172,
+      "lsb": 35
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/60.png",
+      "advance": 140,
+      "lsb": 35
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/61.png",
+      "advance": 413,
+      "lsb": 35
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/62.png",
+      "advance": 350,
+      "lsb": 35
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/63.png",
+      "advance": 305,
+      "lsb": 35
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/64.png",
+      "advance": 413,
+      "lsb": 35
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/91.png",
+      "advance": 216,
+      "lsb": 35
+    },
+    "92": {
+      "code": 92,
+      "char": "\\",
+      "name": "backslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/92.png",
+      "advance": 305,
+      "lsb": 35
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/93.png",
+      "advance": 210,
+      "lsb": 35
+    },
+    "95": {
+      "code": 95,
+      "char": "_",
+      "name": "underscore",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/95.png",
+      "advance": 331,
+      "lsb": 35
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/123.png",
+      "advance": 248,
+      "lsb": 35
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/125.png",
+      "advance": 254,
+      "lsb": 35
+    },
+    "162": {
+      "code": 162,
+      "char": "\u00a2",
+      "name": "cent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/162.png",
+      "advance": 324,
+      "lsb": 35
+    },
+    "163": {
+      "code": 163,
+      "char": "\u00a3",
+      "name": "sterling",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/163.png",
+      "advance": 286,
+      "lsb": 35
+    },
+    "165": {
+      "code": 165,
+      "char": "\u00a5",
+      "name": "yen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/165.png",
+      "advance": 715,
+      "lsb": 49
+    },
+    "169": {
+      "code": 169,
+      "char": "\u00a9",
+      "name": "copyright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/169.png",
+      "advance": 216,
+      "lsb": 35
+    },
+    "174": {
+      "code": 174,
+      "char": "\u00ae",
+      "name": "registered",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/174.png",
+      "advance": 229,
+      "lsb": 35
+    },
+    "8212": {
+      "code": 8212,
+      "char": "\u2014",
+      "name": "emdash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/8212.png",
+      "advance": 388,
+      "lsb": 35
+    },
+    "8364": {
+      "code": 8364,
+      "char": "\u20ac",
+      "name": "Euro",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/8364.png",
+      "advance": 736,
+      "lsb": 50
+    },
+    "8482": {
+      "code": 8482,
+      "char": "\u2122",
+      "name": "trademark",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/8482.png",
+      "advance": 229,
+      "lsb": 35
+    },
+    "129419": {
+      "code": 129419,
+      "char": "\ud83e\udd8b",
+      "name": "butterfly",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-enofloma/129419.png",
+      "advance": 496,
+      "lsb": 35
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 380,
+      "lsb": 0
+    }
+  }
+}

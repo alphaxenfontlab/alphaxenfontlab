@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Alphaxen Type Foundry | Chromatic & Next-Gen Typography</title>
+  <link rel="icon" type="image/png" href="./ax.png" />
+  <link rel="alternate icon" href="./ax.png" type="image/png" />
+  <link rel="apple-touch-icon" href="./ax.png" />
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="Alphaxen Type Foundry is an independent digital type studio specializing in chromatic OpenType typography, photorealistic material textures, and monumental display typefaces.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Alphaxen Foundry">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Orbitron:wght@400;600;700;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Unbounded:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { 
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            grotesk: ['"Space Grotesk"', 'sans-serif'],
+            syne: ['"Syne"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            cinzel: ['"Cinzel"', 'serif'],
+            unbounded: ['"Unbounded"', 'sans-serif'],
+            orbitron: ['"Orbitron"', 'sans-serif'],
+            outfit: ['"Outfit"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          colors: {
+            background: '#0b0e17',
+            surface: '#111624',
+            surfaceHighlight: '#182032',
+            border: 'rgba(255, 255, 255, 0.08)',
+            primary: '#8b5cf6',
+            accent: '#6366f1',
+            cyanAccent: '#38bdf8',
+            goldAccent: '#a855f7',
+            muted: '#a1a1aa',
+            success: '#10b981',
+            danger: '#f43f5e',
+            purpleAccent: '#8b5cf6'
+          },
+          animation: {
+            'fade-in': 'fadeIn 0.3s ease-out forwards',
+            'slide-up': 'slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+            'marquee': 'marquee 25s linear infinite',
+            'aurora': 'aurora 20s linear infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'particle': 'particle 15s ease-in-out infinite',
+            'pulse-slow': 'pulseSlow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+          },
+          keyframes: {
+            fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+            slideUp: { '0%': { opacity: '0', transform: 'translateY(40px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+            marquee: { '0%': { transform: 'translateX(80vw)' }, '100%': { transform: 'translateX(-100%)' } },
+            aurora: { '0%': { backgroundPosition: '0% 50%' }, '50%': { backgroundPosition: '100% 50%' }, '100%': { backgroundPosition: '0% 50%' } },
+            float: { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } },
+            particle: { 
+              '0%, 100%': { transform: 'translate(0, 0)' }, 
+              '25%': { transform: 'translate(30px, -30px)' }, 
+              '50%': { transform: 'translate(-20px, -50px)' }, 
+              '75%': { transform: 'translate(-40px, 20px)' } 
+            },
+            pulseSlow: { '0%, 100%': { opacity: '1' }, '50%': { opacity: '0.5' } }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #0b0e17;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #262626;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #8b5cf6;
+    }
+
+    .glass {
+      background: rgba(10, 10, 10, 0.95);
+      border: 1px solid #1f1f1f;
+    }
+
+    .grid-bg {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image: linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px);
+      background-size: 50px 50px;
+    }
+  </style>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

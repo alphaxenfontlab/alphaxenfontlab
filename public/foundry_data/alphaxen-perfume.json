@@ -1,0 +1,829 @@
+{
+  "id": "alphaxen-perfume",
+  "name": "Alphaxen Perfume",
+  "category": "chromatic",
+  "subCategory": "Luxury & Crystal",
+  "theme": "Crystal Flacon & Prismatic Glass",
+  "accent": "#a855f7",
+  "badge": "LUXURY CHROMATIC",
+  "description": "Haute-parfumerie typography evoking hand-blown crystal flacons, refracted lilac and amber scents, and luxurious French editorial poise.",
+  "specimenWords": [
+    "PERFUME",
+    "ESSENCE",
+    "HAUTE COUTURE",
+    "CRYSTAL",
+    "FRAGRANCE"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 88,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 350,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/65.png",
+      "advance": 772,
+      "lsb": 62
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/66.png",
+      "advance": 639,
+      "lsb": 62
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/67.png",
+      "advance": 577,
+      "lsb": 40
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/68.png",
+      "advance": 604,
+      "lsb": 40
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/69.png",
+      "advance": 524,
+      "lsb": 40
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/70.png",
+      "advance": 479,
+      "lsb": 71
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/71.png",
+      "advance": 586,
+      "lsb": 67
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/72.png",
+      "advance": 502,
+      "lsb": 40
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/73.png",
+      "advance": 266,
+      "lsb": 53
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/74.png",
+      "advance": 457,
+      "lsb": 62
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/75.png",
+      "advance": 635,
+      "lsb": 58
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/76.png",
+      "advance": 550,
+      "lsb": 58
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/77.png",
+      "advance": 706,
+      "lsb": 89
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/78.png",
+      "advance": 550,
+      "lsb": 40
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/79.png",
+      "advance": 621,
+      "lsb": 53
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/80.png",
+      "advance": 510,
+      "lsb": 49
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/81.png",
+      "advance": 630,
+      "lsb": 67
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/82.png",
+      "advance": 590,
+      "lsb": 58
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/83.png",
+      "advance": 484,
+      "lsb": 53
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/84.png",
+      "advance": 559,
+      "lsb": 115
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/85.png",
+      "advance": 590,
+      "lsb": 40
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/86.png",
+      "advance": 555,
+      "lsb": 49
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/87.png",
+      "advance": 697,
+      "lsb": 120
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/88.png",
+      "advance": 586,
+      "lsb": 58
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/89.png",
+      "advance": 546,
+      "lsb": 67
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/90.png",
+      "advance": 577,
+      "lsb": 62
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/97.png",
+      "advance": 488,
+      "lsb": 49
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/98.png",
+      "advance": 528,
+      "lsb": 76
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/99.png",
+      "advance": 528,
+      "lsb": 71
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/100.png",
+      "advance": 493,
+      "lsb": 58
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/101.png",
+      "advance": 497,
+      "lsb": 40
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/102.png",
+      "advance": 386,
+      "lsb": 53
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/103.png",
+      "advance": 528,
+      "lsb": 40
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/104.png",
+      "advance": 502,
+      "lsb": 67
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/105.png",
+      "advance": 297,
+      "lsb": 40
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/106.png",
+      "advance": 439,
+      "lsb": 40
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/107.png",
+      "advance": 479,
+      "lsb": 53
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/108.png",
+      "advance": 364,
+      "lsb": 40
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/109.png",
+      "advance": 590,
+      "lsb": 62
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/110.png",
+      "advance": 497,
+      "lsb": 53
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/111.png",
+      "advance": 550,
+      "lsb": 53
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/112.png",
+      "advance": 479,
+      "lsb": 58
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/113.png",
+      "advance": 510,
+      "lsb": 62
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/114.png",
+      "advance": 439,
+      "lsb": 58
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/115.png",
+      "advance": 457,
+      "lsb": 49
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/116.png",
+      "advance": 404,
+      "lsb": 40
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/117.png",
+      "advance": 519,
+      "lsb": 53
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/118.png",
+      "advance": 488,
+      "lsb": 49
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/119.png",
+      "advance": 710,
+      "lsb": 58
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/120.png",
+      "advance": 471,
+      "lsb": 53
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/121.png",
+      "advance": 431,
+      "lsb": 53
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/122.png",
+      "advance": 528,
+      "lsb": 84
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/48.png",
+      "advance": 408,
+      "lsb": 44
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/49.png",
+      "advance": 311,
+      "lsb": 53
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/50.png",
+      "advance": 453,
+      "lsb": 53
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/51.png",
+      "advance": 426,
+      "lsb": 67
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/52.png",
+      "advance": 493,
+      "lsb": 49
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/53.png",
+      "advance": 435,
+      "lsb": 40
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/54.png",
+      "advance": 466,
+      "lsb": 76
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/55.png",
+      "advance": 408,
+      "lsb": 58
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/56.png",
+      "advance": 453,
+      "lsb": 40
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/57.png",
+      "advance": 453,
+      "lsb": 53
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/33.png",
+      "advance": 218,
+      "lsb": 67
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/63.png",
+      "advance": 297,
+      "lsb": 67
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/44.png",
+      "advance": 195,
+      "lsb": 49
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/59.png",
+      "advance": 209,
+      "lsb": 49
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/58.png",
+      "advance": 191,
+      "lsb": 49
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/34.png",
+      "advance": 306,
+      "lsb": 40
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/39.png",
+      "advance": 302,
+      "lsb": 44
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/40.png",
+      "advance": 226,
+      "lsb": 53
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/41.png",
+      "advance": 213,
+      "lsb": 40
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/91.png",
+      "advance": 204,
+      "lsb": 49
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/93.png",
+      "advance": 311,
+      "lsb": 49
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/123.png",
+      "advance": 275,
+      "lsb": 49
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/125.png",
+      "advance": 275,
+      "lsb": 53
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/43.png",
+      "advance": 280,
+      "lsb": 53
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/45.png",
+      "advance": 289,
+      "lsb": 53
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/42.png",
+      "advance": 284,
+      "lsb": 62
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/47.png",
+      "advance": 333,
+      "lsb": 40
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/61.png",
+      "advance": 346,
+      "lsb": 49
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/62.png",
+      "advance": 306,
+      "lsb": 58
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/60.png",
+      "advance": 289,
+      "lsb": 53
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/64.png",
+      "advance": 337,
+      "lsb": 53
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/35.png",
+      "advance": 333,
+      "lsb": 53
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/36.png",
+      "advance": 311,
+      "lsb": 58
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/37.png",
+      "advance": 302,
+      "lsb": 53
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-perfume/38.png",
+      "advance": 293,
+      "lsb": 49
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 350,
+      "lsb": 0
+    }
+  }
+}

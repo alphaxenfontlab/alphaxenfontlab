@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "alphaxen-dragon",
+    "name": "Alphaxen Dragon",
+    "category": "chromatic",
+    "subCategory": "Fantasy & Mythic",
+    "theme": "Dragon Scales & Golden Flame",
+    "accent": "#eab308",
+    "badge": "FLAGSHIP CHROMATIC",
+    "description": "A monumental fantasy display typeface embedded with photorealistic scaled armor, golden highlights, and fiery dragon hide textures. Every glyph is an artwork.",
+    "specimenWords": [
+      "DRAGON",
+      "WYVERN",
+      "LEGEND",
+      "FIREBORN",
+      "EMPIRE"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 90,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/65.png",
+        "advance": 945,
+        "lsb": 65
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/66.png",
+        "advance": 779,
+        "lsb": 53
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/67.png",
+        "advance": 745,
+        "lsb": 51
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/88.png",
+        "advance": 725,
+        "lsb": 50
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/49.png",
+        "advance": 326,
+        "lsb": 35
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-dragon/50.png",
+        "advance": 538,
+        "lsb": 37
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-eagle",
+    "name": "Alphaxen Eagle",
+    "category": "vector",
+    "subCategory": "Display & Regal",
+    "theme": "Chiseled Monumental Vector",
+    "accent": "#f59e0b",
+    "badge": "VECTOR DISPLAY",
+    "description": "Sharp, soaring display typeface featuring chiseled wing-like bevels, aerodynamic terminals, and authoritative royal presence.",
+    "specimenWords": [
+      "EAGLE",
+      "SOARING",
+      "HORIZON",
+      "COMMAND",
+      "AERODYNAMIC"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 90,
+    "sampleChars": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "spaceAdvance": 450,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/65.svg",
+        "path": "M40 806C40 816 112 807 146 793C170 783 176 782 174 788C171 795 173 795 186 788C217 772 248 746 255 729L263 712L261 728C260 737 257 749 255 754C252 762 252 764 257 761C268 754 298 703 313 664L329 625L361 628C378 629 404 633 418 637C444 643 454 640 444 629C439 623 442 622 461 625C494 630 524 626 520 616C519 612 521 609 528 609C544 609 572 593 569 586C565 578 582 577 587 585C594 595 591 601 584 592C577 583 577 583 574 593C573 599 567 604 562 604C553 604 553 609 563 639C566 648 565 648 560 639C556 634 552 631 549 633C546 635 544 633 544 628C544 620 534 611 530 615C527 618 552 684 567 714C582 743 623 785 627 775C629 770 632 770 641 776C648 780 665 788 679 792C710 801 804 809 804 802C803 799 794 788 782 776C756 751 723 693 727 682C729 677 716 645 695 606C676 569 660 536 660 532C660 528 651 505 639 479C628 454 618 431 618 428C618 425 605 394 588 357C572 321 560 286 561 279C562 268 565 267 587 268C627 269 650 279 650 294C650 313 660 310 669 287C678 267 675 225 665 219C663 217 660 211 660 206C660 200 653 191 643 185C624 173 604 170 611 181C613 184 606 178 594 166C581 153 574 142 575 135C576 127 574 126 564 129C557 131 524 138 491 145C405 163 349 185 306 220C285 238 278 255 290 262C293 264 281 280 260 302C241 321 226 339 226 341C226 343 229 348 233 352C240 359 238 365 222 401C212 424 201 444 199 447C196 450 194 457 194 463C194 471 195 472 200 467C215 452 212 464 189 519C173 557 163 575 160 570C157 566 157 569 159 577C160 584 158 596 154 605C149 613 147 622 149 625C153 632 120 684 114 681C112 679 106 686 102 695C93 714 98 721 112 709C117 705 113 714 104 727C95 741 83 755 77 757C72 760 66 769 64 776C63 783 56 792 51 795C45 798 40 803 40 806ZM546 185C542 191 543 191 533 185C527 181 528 180 537 180C544 180 548 182 546 185ZM494 190C487 190 477 191 471 193C466 194 469 192 478 188C496 179 507 178 507 185C507 188 501 190 494 190ZM484 506C480 510 436 512 408 509L375 506L395 458C407 432 418 399 420 386C423 368 424 365 427 373C431 382 432 382 439 365C453 332 490 293 518 281C547 268 549 268 549 275C549 278 545 280 540 280C534 280 522 288 511 298C496 313 492 319 494 331C496 346 496 346 490 335C483 322 475 319 475 329C475 332 473 334 471 332C465 325 453 357 453 381C453 394 457 416 463 429C473 453 487 503 484 506ZM379 289C380 290 376 297 369 303C362 309 359 312 361 308C364 302 361 301 347 304C331 307 332 306 353 297C366 292 378 288 379 289ZM233 449C235 453 234 455 229 455C224 455 222 452 224 448C227 439 268 411 272 415C273 416 286 406 302 392C325 370 330 367 337 373C344 379 349 376 371 353C389 336 394 329 385 333C369 341 374 336 403 315C423 300 424 302 406 328C399 337 397 347 399 357C402 372 402 373 393 363C384 354 383 354 369 367C349 385 329 396 312 399C304 401 296 404 295 407C294 410 291 412 289 410C286 408 284 411 284 415C284 420 281 423 276 423C272 423 262 429 253 437C245 444 236 448 233 446C231 444 231 445 233 449ZM417 370C417 373 414 376 411 376C408 376 407 373 409 370C410 368 413 365 414 365C415 365 417 368 417 370ZM496 387C510 398 509 404 495 396C490 393 483 393 480 394C474 398 473 392 479 383C482 378 486 380 496 387ZM518 406C522 410 523 414 522 415C518 419 512 413 512 406C512 402 514 403 518 406ZM473 407C475 410 475 415 473 417C471 419 470 415 470 410C470 404 471 402 473 407ZM542 422C544 426 543 431 542 433C540 434 539 431 539 426C539 420 540 418 542 422ZM517 497C517 501 515 503 512 503C508 503 524 459 530 451C531 451 535 460 540 472L549 493L535 484C522 476 522 476 525 487C528 495 527 498 523 495C520 493 517 494 517 497ZM294 480C291 484 287 487 285 487C284 487 285 484 289 480C292 476 293 471 291 469C288 466 290 466 293 468C299 471 299 474 294 480ZM345 515C336 526 295 555 295 549C295 548 308 537 325 524C347 507 352 505 345 515ZM568 527C570 535 570 542 568 544C566 546 565 543 565 538C565 533 563 530 560 532C557 534 555 530 556 524C557 509 564 511 568 527ZM546 530C545 532 541 535 538 535C531 535 532 531 541 528C546 526 548 527 546 530ZM302 564C305 573 302 575 297 566C295 563 295 560 296 558C297 557 300 559 302 564ZM252 600C246 611 240 620 239 620C237 620 238 615 241 609C250 592 248 587 236 593C230 597 224 598 223 597C219 593 229 584 254 570C279 557 280 557 271 568C267 575 258 589 252 600ZM497 572C511 584 506 585 484 575C472 570 470 568 477 565C481 563 490 566 497 572ZM414 584C406 590 403 589 395 580C392 576 391 572 393 572C396 572 403 570 410 569C419 566 422 567 421 573C420 577 417 582 414 584ZM629 608C661 639 662 642 633 622C616 611 613 610 616 618C617 623 613 617 607 605C601 592 597 581 598 581C599 580 613 592 629 608ZM313 599C314 601 311 604 305 608C298 612 295 612 295 609C295 603 309 596 313 599ZM268 604C268 609 265 617 260 623C250 636 250 626 260 609C265 601 268 599 268 604ZM281 617C277 626 273 628 273 620C273 617 276 614 279 612C282 610 282 612 281 617ZM272 640C273 643 273 649 272 653C270 656 269 654 269 646C269 639 270 636 272 640ZM686 662C686 680 684 682 680 670C678 665 678 658 681 653C684 647 685 650 686 662Z",
+        "advance": 844,
+        "lsb": 40
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/66.svg",
+        "path": "M302 803C300 808 306 809 325 807C367 803 419 785 448 765C463 755 477 748 480 749C489 755 518 724 536 687C562 634 566 591 549 543C535 503 513 480 468 458C433 440 434 441 447 427C453 421 464 404 470 389C483 361 482 330 467 302C461 290 461 286 466 284C483 277 508 302 499 317C497 320 499 323 503 323C516 323 530 279 525 255C523 244 521 232 522 228C523 224 521 222 517 224C514 226 512 225 513 222C515 215 504 208 484 204C475 202 467 195 464 188C461 179 449 172 422 162C401 154 381 148 377 148C373 148 363 144 355 140C346 135 330 132 318 132C295 132 241 150 253 154C257 156 244 156 223 154C199 152 188 153 190 157C192 161 181 162 155 161C104 159 103 159 105 154C107 152 99 150 88 150L67 149L74 168C78 179 85 196 89 206C94 216 96 231 95 238C93 247 99 264 111 287L129 322L113 341C104 352 98 362 100 363C103 366 213 308 218 301C223 293 231 295 228 304C224 314 184 340 178 336C175 334 173 336 173 339C173 343 171 344 169 342C167 341 158 345 148 353C134 364 128 375 117 410C110 435 101 456 98 458C95 460 93 464 93 467C93 480 120 462 161 422C186 398 204 383 202 388C201 394 198 404 196 411C194 418 191 422 188 421C182 417 131 459 122 477C111 497 72 611 74 613C75 614 81 612 87 608C93 605 99 603 101 604C102 606 99 625 93 646C87 667 83 688 85 692C88 701 77 739 73 732C70 729 66 728 62 731C55 735 51 753 50 780C50 785 48 791 45 792C36 798 40 805 52 805C58 805 79 801 98 795C117 789 134 786 136 787C138 788 146 784 153 776C161 769 171 763 176 763C183 764 181 766 171 769C148 778 154 782 195 786C216 788 249 791 269 793C294 795 304 798 302 803ZM365 187C368 188 365 189 358 189C351 189 348 188 352 187C355 185 361 185 365 187ZM200 213C193 222 188 224 188 220C188 219 193 215 198 211C206 204 206 204 200 213ZM141 231C145 235 147 239 145 241C143 242 140 239 138 234C136 227 136 226 141 231ZM227 244C224 247 211 250 198 252C172 254 176 251 209 244C224 240 230 240 227 244ZM345 411C339 412 323 414 308 416L282 420L286 383C288 363 292 346 294 345C297 344 300 340 300 336C300 333 304 324 310 318C316 311 321 304 322 302C324 297 387 270 396 270C409 270 412 263 402 256C394 249 395 249 408 254C417 257 427 262 431 265C439 272 440 282 433 278C424 273 374 281 366 289C363 293 358 294 356 292C354 291 353 291 353 293C353 296 359 303 366 310C381 323 387 344 383 361C378 381 356 409 345 411ZM240 279C234 284 220 285 220 280C220 277 225 275 232 275C238 275 242 277 240 279ZM273 294C273 297 269 305 265 312L257 325L260 312C264 298 273 285 273 294ZM385 296C389 299 390 301 387 301C384 301 378 299 374 296C370 293 369 291 371 291C374 291 380 293 385 296ZM257 298C257 300 253 304 247 307C241 310 236 311 236 310C236 308 241 305 247 302C253 298 257 297 257 298ZM289 319C289 330 288 339 287 339C285 339 284 333 284 327C284 317 283 316 279 323C276 327 273 329 271 328C270 327 274 320 279 313L289 300ZM272 390C273 394 273 400 272 404C270 407 269 404 269 397C269 390 270 387 272 390ZM128 588C126 591 122 593 119 593C112 593 155 545 184 520C194 511 213 489 226 473C239 456 251 440 253 438C254 435 255 440 253 448C251 462 236 483 236 473C236 471 233 474 230 480C208 516 190 538 185 536C181 535 176 540 173 546C170 553 168 556 168 554C167 551 161 557 154 568C146 579 138 587 136 585C133 584 129 585 128 588ZM272 480C273 484 273 490 272 494C270 497 269 494 269 487C269 480 270 477 272 480ZM383 495C384 499 385 503 384 503C383 502 377 500 371 499L359 495L372 486C379 480 385 479 387 482C389 485 388 487 385 487C382 487 381 491 383 495ZM358 660C351 661 326 663 304 665L263 669V645C263 632 264 597 266 566L270 511H315C368 511 392 522 408 552C431 595 403 655 358 660ZM188 646C188 652 188 657 187 656C186 656 182 655 177 653C172 652 169 648 171 643C175 632 188 634 188 646ZM189 673C191 678 186 688 177 699C163 716 162 716 171 702C177 693 183 681 184 675C186 667 187 666 189 673ZM506 707C507 709 506 713 502 717C497 722 496 721 499 714C501 708 504 705 506 707ZM233 741C230 745 220 749 210 750L192 752L213 737C224 728 240 721 247 721C259 721 260 721 249 727C244 730 236 736 233 741ZM325 727C330 729 325 730 313 730C301 730 297 729 304 727C310 726 320 726 325 727ZM393 742C389 748 389 748 379 742C373 738 374 737 384 736C391 736 394 739 393 742Z",
+        "advance": 600,
+        "lsb": 40
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/67.svg",
+        "path": "M316 802C349 811 411 813 411 805C411 803 405 797 397 793L383 786L399 785C419 785 461 763 486 740C508 720 534 666 537 631L540 606L520 625C510 635 499 643 497 642C488 640 453 654 456 660C464 681 351 680 323 659C314 652 303 646 299 646C284 646 242 615 242 604C242 598 239 593 237 591C231 588 217 544 215 522C207 463 227 360 245 360C249 360 256 351 261 341C266 330 274 320 278 319C283 317 293 309 300 301C327 273 398 257 438 270C447 273 448 274 442 274C432 275 428 291 437 291C447 291 459 284 457 281C455 279 461 278 470 279C483 281 485 284 486 301L488 320L499 305C513 284 518 234 509 218C505 211 499 207 497 207C490 209 448 184 448 178C448 174 442 168 435 164C428 160 422 155 422 152C422 150 397 148 368 148C303 148 215 162 215 172C215 176 212 180 209 180C206 180 193 186 179 194C165 202 151 209 147 209C136 211 119 228 123 234C125 236 121 240 115 242C109 243 104 246 104 249C104 251 99 258 92 264C86 270 80 281 80 288C79 296 76 305 73 308C65 318 40 391 40 403C40 412 41 413 48 408C58 399 58 400 48 438C44 454 40 482 40 500C40 535 59 625 67 625C70 625 72 611 73 595V564L78 603C83 646 101 689 128 719C141 734 146 737 146 730C146 722 149 723 161 736C169 745 179 753 183 753C188 754 203 764 217 775C248 799 263 802 250 781C231 751 227 744 223 731C222 724 226 729 234 743C249 773 275 791 316 802ZM368 177C373 182 352 187 334 185L313 182L340 179C354 177 367 176 368 177ZM396 194C404 204 400 202 385 190L373 180H385C392 180 396 181 394 183C392 185 393 190 396 194ZM406 248C406 255 405 255 395 248C389 244 389 243 397 243C402 243 406 246 406 248ZM228 275C226 278 223 280 220 280C212 280 214 277 223 273C228 271 230 272 228 275ZM178 298C178 299 163 313 145 329C127 344 114 354 117 349C120 345 122 340 122 338C122 335 178 295 178 298ZM224 327C225 331 225 335 224 337C222 339 220 336 221 330C221 324 222 323 224 327ZM202 346C191 363 187 364 193 348C196 342 200 336 204 334C208 333 207 337 202 346ZM110 350C109 355 104 360 100 360C90 360 91 353 103 346C112 340 113 341 110 350ZM163 381C156 401 141 423 141 414C141 405 165 363 174 355C179 351 181 352 182 360C182 366 180 369 176 367C171 366 166 371 163 381ZM212 373C210 382 206 394 204 400C200 409 200 409 200 397C200 390 203 378 207 370L215 357ZM99 523C91 527 88 537 86 555C85 569 84 574 83 567C80 544 83 535 106 485L129 437L126 463C125 478 120 492 116 494C112 496 109 502 109 507C109 512 104 519 99 523ZM189 478C191 509 191 512 187 504C181 493 178 471 183 460C186 450 188 453 189 478ZM210 581C210 584 206 582 195 572C188 566 183 559 183 558C183 556 189 560 196 567C204 574 210 580 210 581ZM188 627C192 632 193 639 192 642C190 647 189 647 189 643C189 639 187 632 185 627C183 618 183 618 188 627ZM216 672C219 675 221 679 220 681C216 684 210 678 210 671C210 667 212 668 216 672ZM139 693C140 696 140 702 139 706C137 710 136 707 136 699C136 692 137 689 139 693ZM323 734C327 744 324 744 313 731C305 722 305 721 312 723C316 725 322 730 323 734ZM363 772C363 776 359 773 347 759L334 744L349 757C357 764 363 771 363 772Z",
+        "advance": 578,
+        "lsb": 40
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/88.svg",
+        "path": "M49 791C59 794 146 791 174 788C182 786 196 779 204 772C212 764 221 758 224 758C237 758 321 623 321 602C321 592 323 589 328 591C333 593 335 598 333 605C331 613 334 620 345 628C353 635 361 646 361 654C362 662 366 672 370 677C374 682 384 697 392 711C411 744 435 772 454 782C473 792 611 799 626 791C635 786 635 785 624 779C618 776 614 771 615 769C616 766 602 752 583 736C561 718 549 704 549 697C549 690 541 677 530 667C520 657 513 647 514 644C515 641 508 629 499 618C489 608 477 590 472 579C466 568 455 550 448 540C440 530 429 512 422 500L410 479L434 442C448 422 466 395 474 384C482 372 491 359 492 354C494 349 506 329 520 310C533 291 544 272 544 268C544 254 576 217 602 199C617 190 628 180 629 178C629 176 608 174 584 174C557 174 538 172 538 169C538 166 524 164 505 164C479 164 467 167 446 178C432 186 418 196 416 201C414 205 407 220 400 235C393 249 387 264 387 267C386 279 348 345 338 351C335 353 330 348 327 340C323 332 316 319 312 312C307 305 303 298 303 296C302 295 299 282 295 268C290 249 281 237 259 217C243 202 227 190 222 190C218 190 216 188 217 185C219 183 216 182 210 183C204 185 199 183 199 180C199 177 195 176 191 178C186 180 180 178 178 175C174 168 93 173 93 180C93 183 101 196 111 210C133 242 141 257 143 272C144 278 154 299 166 318C178 336 186 353 182 354C179 355 184 363 193 372C201 382 220 410 235 435L262 481L244 500C235 510 228 520 230 521C231 523 229 525 224 527C219 529 216 532 217 534C219 536 210 547 199 558C187 569 179 580 181 583C182 585 180 590 175 593C171 596 165 607 162 617C159 627 154 636 151 636C148 636 147 637 147 640C148 642 146 644 143 645C132 649 119 665 122 672C124 676 122 683 119 686C116 690 115 696 117 699C120 704 111 711 99 713C89 715 77 726 77 734C77 737 72 746 65 753C59 761 50 772 47 778C41 787 42 789 49 791ZM433 319C426 328 422 330 422 326C422 325 426 321 431 317C440 310 440 310 433 319ZM414 328C412 331 408 333 406 333C398 333 400 330 409 326C414 324 416 325 414 328ZM279 442C270 459 263 469 263 463C263 460 268 452 274 445C281 436 283 435 279 442ZM368 442C370 444 364 452 356 459L341 474L353 457C360 447 367 441 368 442ZM398 504C400 506 397 509 392 511C384 514 383 513 389 508C392 504 396 502 398 504ZM360 558C357 568 353 569 353 562C353 559 355 555 358 553C361 552 362 554 360 558ZM475 668C511 684 509 687 471 676C448 670 436 659 412 619L401 600L429 611C460 623 466 630 437 620C428 617 419 615 418 616C417 617 422 626 429 636C437 649 451 658 475 668ZM242 625C238 631 235 636 233 636C232 636 233 631 236 625C239 619 243 614 245 614C246 614 245 619 242 625ZM69 763C64 769 58 773 57 773C55 773 59 769 64 763C69 757 75 752 76 752C78 752 74 757 69 763Z",
+        "advance": 674,
+        "lsb": 43
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "1",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/49.svg",
+        "path": "M54 789C45 800 78 794 120 776C139 769 159 762 165 761C184 758 216 739 227 725C235 714 238 697 242 649C245 615 245 585 244 582C243 580 244 577 247 576C251 575 251 565 247 546C241 516 234 503 223 503C219 503 215 498 213 491C209 476 213 472 218 487C219 493 224 498 228 498C232 498 239 503 243 510C251 521 251 518 249 466C245 384 247 307 252 283C255 271 257 252 258 241C258 229 262 203 268 182C273 162 277 144 276 144C273 140 156 211 120 237C110 245 99 251 94 252C86 253 69 272 66 283C66 286 61 294 56 302C44 319 39 350 45 367C51 382 61 386 61 373C61 364 78 354 87 359C94 364 95 423 90 515C87 565 88 583 92 583C96 583 97 587 96 595C90 618 89 673 93 675C103 682 76 761 54 789ZM204 322C194 334 183 350 179 356C176 363 173 365 173 362C173 351 190 326 207 312L223 299ZM142 337C144 345 141 352 130 362C119 371 114 373 114 368C114 364 113 357 111 352C108 345 110 343 118 346C126 349 130 346 134 338L139 326ZM213 552C215 557 215 566 213 571C212 576 211 572 211 561C211 551 212 547 213 552ZM157 575C157 578 153 585 148 591C141 601 141 600 146 588C154 572 157 569 157 575ZM208 597C210 601 209 606 208 608C206 609 205 606 205 601C205 595 206 593 208 597ZM131 640C128 645 121 653 116 657C110 662 112 658 120 648C133 629 139 625 131 640ZM190 662C187 662 181 669 176 677C170 685 168 687 170 681C172 675 175 665 177 658C180 644 186 643 190 654C192 659 192 662 190 662Z",
+        "advance": 319,
+        "lsb": 42
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "2",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-eagle/50.svg",
+        "path": "M40 796C40 803 54 800 61 793C70 781 161 771 225 775C312 781 354 784 369 787C387 789 448 777 469 766C499 750 529 718 545 686C564 644 565 619 546 638C542 642 534 644 529 643C523 641 507 646 493 653C465 666 433 671 427 662C425 659 414 659 396 661C379 664 369 664 369 661C369 658 358 657 341 659C326 661 306 660 298 658L283 654L301 640C310 633 327 617 339 606C350 595 357 589 355 595C349 611 361 604 399 569C421 550 436 538 434 544C429 559 462 527 490 490C508 465 513 461 510 473C503 500 517 487 537 446C555 409 557 402 557 362C557 336 559 319 562 319C583 323 542 231 510 202C469 166 382 137 336 146C272 158 183 191 183 204C183 207 175 216 165 223C125 250 95 305 102 339C105 354 114 366 114 356C114 353 118 347 123 341C127 335 129 334 128 337C123 347 157 346 171 336C184 327 182 315 169 320C162 322 162 321 166 316C170 312 182 305 193 302C205 298 215 292 217 289C218 285 232 284 261 287C315 291 335 296 343 305C346 309 353 312 358 312C362 312 370 322 376 334C386 356 385 382 372 407C353 443 268 513 239 516C233 517 228 518 228 519C228 519 224 521 219 521C200 525 146 574 146 588C146 591 144 593 142 592C140 591 137 593 136 596C126 624 91 672 82 669C79 668 79 671 81 676C83 682 82 684 78 681C75 679 68 684 63 692C58 701 52 708 50 710C46 714 47 736 52 733C57 730 57 728 48 763C44 779 40 794 40 796ZM353 180 371 190H357C349 190 342 188 342 186C342 183 337 179 330 175C323 172 322 170 326 170C331 169 343 174 353 180ZM520 277C526 281 529 285 527 285C526 286 523 284 521 282C519 281 499 272 476 262C437 247 408 227 390 203C386 197 395 204 410 218C425 232 441 243 445 243C456 243 506 266 520 277ZM413 284C407 299 389 289 387 269C387 263 390 261 398 263C411 267 416 274 413 284ZM379 297C372 309 368 310 370 298C370 292 369 285 367 281C363 275 364 275 373 281C381 286 383 290 379 297ZM438 300C438 303 434 308 430 312C424 317 423 316 424 309C425 299 438 292 438 300ZM399 298C401 300 398 301 392 301C386 301 385 300 389 298C393 296 397 297 399 298ZM513 403C516 416 517 431 516 437C515 443 512 435 510 419C505 391 505 391 494 401C486 407 487 406 496 395L509 380ZM446 423C444 426 437 429 431 428C420 428 420 428 430 423C444 417 450 417 446 423ZM450 484C447 493 443 495 443 487C443 485 445 481 448 479C451 477 452 479 450 484ZM228 697C226 701 220 705 213 705C203 705 204 703 218 688C229 677 237 673 245 675C254 677 259 675 265 663C269 655 273 652 273 656C273 660 275 661 278 660C281 658 284 660 286 664C289 672 280 683 271 683C269 683 262 687 257 692C251 697 247 698 247 695C247 686 231 687 228 697ZM69 702C65 711 61 712 61 705C61 702 64 698 66 697C69 695 70 697 69 702ZM385 715C389 718 390 720 387 719C384 719 359 717 332 715C275 711 277 710 342 708C367 707 392 705 397 702C404 699 405 700 403 706C401 711 396 713 388 711C379 709 378 710 385 715ZM159 721C161 723 158 726 153 728C145 731 145 730 150 725C154 721 158 720 159 721Z",
+        "advance": 610,
+        "lsb": 40
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-enofloma",
+    "name": "Alphaxen Enofloma",
+    "category": "chromatic",
+    "subCategory": "Bio-Luminescent",
+    "theme": "Exotic Flora & Luminous Petals",
+    "accent": "#ec4899",
+    "badge": "ORGANIC CHROMATIC",
+    "description": "Bio-luminescent chromatic typography sculpted from rare alien flora, velvety petals, and vibrant neon organic lighting.",
+    "specimenWords": [
+      "FLORA",
+      "BLOOM",
+      "ORGANIC",
+      "LUMINOUS",
+      "PETALS"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 100,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/65.png",
+        "advance": 979,
+        "lsb": 67
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/66.png",
+        "advance": 773,
+        "lsb": 53
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/67.png",
+        "advance": 803,
+        "lsb": 55
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/88.png",
+        "advance": 862,
+        "lsb": 59
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/49.png",
+        "advance": 489,
+        "lsb": 35
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-enofloma/50.png",
+        "advance": 691,
+        "lsb": 47
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-future",
+    "name": "Alphaxen Future",
+    "category": "chromatic",
+    "subCategory": "Sci-Fi & Cyber",
+    "theme": "Neon Cyberpunk Hologram",
+    "accent": "#06b6d4",
+    "badge": "CYBER CHROMATIC",
+    "description": "Ultra-futuristic cybernetic typography with high-voltage neon glow, layered circuit depth, and holographic surface reflections.",
+    "specimenWords": [
+      "FUTURE",
+      "CYBERNETIC",
+      "NEO-TOKYO",
+      "SYNTHESIS",
+      "HOLOGRAM"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 102,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/65.png",
+        "advance": 842,
+        "lsb": 58
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/66.png",
+        "advance": 741,
+        "lsb": 46
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/67.png",
+        "advance": 706,
+        "lsb": 52
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/88.png",
+        "advance": 741,
+        "lsb": 64
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/49.png",
+        "advance": 375,
+        "lsb": 58
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-future/50.png",
+        "advance": 653,
+        "lsb": 64
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-galaxy-pro",
+    "name": "Alphaxen Galaxy Pro",
+    "category": "chromatic",
+    "subCategory": "Sci-Fi & Cosmic",
+    "theme": "Deep Space Nebula & Starlight",
+    "accent": "#8b5cf6",
+    "badge": "COSMIC CHROMATIC",
+    "description": "Deep space celestial typography infused with swirling interstellar dust clouds, vibrant nebula purples, and radiant distant stars.",
+    "specimenWords": [
+      "GALAXY",
+      "NEBULA",
+      "COSMOS",
+      "INTERSTELLAR",
+      "STARLIGHT"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 91,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/65.png",
+        "advance": 757,
+        "lsb": 58
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/66.png",
+        "advance": 635,
+        "lsb": 58
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/67.png",
+        "advance": 659,
+        "lsb": 58
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/88.png",
+        "advance": 836,
+        "lsb": 70
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/49.png",
+        "advance": 348,
+        "lsb": 58
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-galaxy-pro/50.png",
+        "advance": 531,
+        "lsb": 58
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-honey",
+    "name": "Alphaxen Honey",
+    "category": "chromatic",
+    "subCategory": "Organic & Fluid",
+    "theme": "Golden Viscous Honey & Droplets",
+    "accent": "#f59e0b",
+    "badge": "ORGANIC CHROMATIC",
+    "description": "Warm golden liquid honey frozen in mid-flow, featuring realistic refraction, microscopic bubbles, and luscious dripping curves.",
+    "specimenWords": [
+      "HONEY",
+      "NECTAR",
+      "LIQUID GOLD",
+      "SWEETNESS",
+      "VISCOUS"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 90,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/65.png",
+        "advance": 794,
+        "lsb": 54
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/66.png",
+        "advance": 577,
+        "lsb": 39
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/67.png",
+        "advance": 598,
+        "lsb": 41
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/88.png",
+        "advance": 517,
+        "lsb": 35
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/49.png",
+        "advance": 445,
+        "lsb": 35
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey/50.png",
+        "advance": 621,
+        "lsb": 42
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-honey-2",
+    "name": "Alphaxen Honey II",
+    "category": "chromatic",
+    "subCategory": "Organic & Fluid",
+    "theme": "Amber Crystallized Honey Texture",
+    "accent": "#d97706",
+    "badge": "ORGANIC CHROMATIC",
+    "description": "Rich crystallized amber honey edition with deeper molasses tones, facet reflections, and tactile viscous character shapes.",
+    "specimenWords": [
+      "AMBER",
+      "MOLASSES",
+      "HONEYCOMB",
+      "CRYSTAL",
+      "ORGANIC"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 89,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/65.png",
+        "advance": 843,
+        "lsb": 58
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/66.png",
+        "advance": 605,
+        "lsb": 41
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/67.png",
+        "advance": 612,
+        "lsb": 42
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/88.png",
+        "advance": 569,
+        "lsb": 39
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/49.png",
+        "advance": 477,
+        "lsb": 35
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-honey-2/50.png",
+        "advance": 601,
+        "lsb": 41
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-jellyfish",
+    "name": "Alphaxen Jellyfish",
+    "category": "chromatic",
+    "subCategory": "Oceanic & Abyssal",
+    "theme": "Bioluminescent Deep Sea Tentacles",
+    "accent": "#3b82f6",
+    "badge": "ABYSSAL CHROMATIC",
+    "description": "Translucent deep-ocean creature typography radiating with bioluminescent cyan and violet pulses, fluid membrane tentacles, and watery caustics.",
+    "specimenWords": [
+      "JELLYFISH",
+      "BIOLUMINESCENT",
+      "ABYSS",
+      "AQUATIC",
+      "GLOW"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 77,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 320,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/65.png",
+        "advance": 693,
+        "lsb": 50
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/66.png",
+        "advance": 623,
+        "lsb": 50
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/67.png",
+        "advance": 611,
+        "lsb": 50
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/88.png",
+        "advance": 811,
+        "lsb": 50
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "digit_1",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/49.png",
+        "advance": 391,
+        "lsb": 50
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "digit_2",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-jellyfish/50.png",
+        "advance": 564,
+        "lsb": 50
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-lion",
+    "name": "Alphaxen Lion",
+    "category": "chromatic",
+    "subCategory": "Wild & Beast",
+    "theme": "Majestic Lion Mane & Golden Fur",
+    "accent": "#ea580c",
+    "badge": "BEAST CHROMATIC",
+    "description": "Primal apex-predator typography sculpted from thick golden savannah mane, sunlight-catching hair filaments, and commanding posture.",
+    "specimenWords": [
+      "LION",
+      "MAJESTY",
+      "SAVANNAH",
+      "MONARCH",
+      "ROAR"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 91,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/65.png",
+        "advance": 957,
+        "lsb": 40
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/66.png",
+        "advance": 741,
+        "lsb": 59
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/67.png",
+        "advance": 722,
+        "lsb": 59
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/88.png",
+        "advance": 824,
+        "lsb": 59
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/49.png",
+        "advance": 391,
+        "lsb": 59
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lion/50.png",
+        "advance": 569,
+        "lsb": 59
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-lionel",
+    "name": "Alphaxen Lionel",
+    "category": "chromatic",
+    "subCategory": "Luxury & Regal",
+    "theme": "Gilded Royal Lion Crest",
+    "accent": "#ca8a04",
+    "badge": "REGAL CHROMATIC",
+    "description": "Aristocratic royal edition featuring gilded crest textures, heraldic lion filigree, and polished yellow gold reflections.",
+    "specimenWords": [
+      "LIONEL",
+      "HERALDIC",
+      "SOVEREIGN",
+      "CROWN",
+      "DYNASTY"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 88,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/65.png",
+        "advance": 823,
+        "lsb": 56
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/66.png",
+        "advance": 554,
+        "lsb": 38
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/67.png",
+        "advance": 529,
+        "lsb": 36
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/88.png",
+        "advance": 793,
+        "lsb": 54
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/49.png",
+        "advance": 342,
+        "lsb": 35
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-lionel/50.png",
+        "advance": 569,
+        "lsb": 39
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-ocean-monster",
+    "name": "Alphaxen Ocean Monster",
+    "category": "chromatic",
+    "subCategory": "Oceanic & Abyssal",
+    "theme": "Kraken Deep-Sea Monster Scales",
+    "accent": "#0284c7",
+    "badge": "ABYSSAL CHROMATIC",
+    "description": "Mythical abyssal behemoth typography with damp serpent scales, barnacle-encrusted ridges, and deep trench bioluminescence.",
+    "specimenWords": [
+      "MONSTER",
+      "LEVIATHAN",
+      "TRENCH",
+      "KRAKEN",
+      "DEPTHS"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 90,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/65.png",
+        "advance": 964,
+        "lsb": 54
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/66.png",
+        "advance": 738,
+        "lsb": 54
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/67.png",
+        "advance": 745,
+        "lsb": 54
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/88.png",
+        "advance": 865,
+        "lsb": 54
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/49.png",
+        "advance": 427,
+        "lsb": 54
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-ocean-monster/50.png",
+        "advance": 717,
+        "lsb": 61
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-orca",
+    "name": "Alphaxen Orca",
+    "category": "chromatic",
+    "subCategory": "Oceanic & Beast",
+    "theme": "Glossy Killer Whale Texture",
+    "accent": "#38bdf8",
+    "badge": "BEAST CHROMATIC",
+    "description": "High-gloss obsidian and arctic white marine predator typography modeled after the hydrodynamic elegance and speed of the killer whale.",
+    "specimenWords": [
+      "ORCA",
+      "OCEANIC",
+      "PREDATOR",
+      "ARCTIC",
+      "SPEED"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 90,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/65.png",
+        "advance": 862,
+        "lsb": 59
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/66.png",
+        "advance": 676,
+        "lsb": 72
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/67.png",
+        "advance": 683,
+        "lsb": 53
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/88.png",
+        "advance": 798,
+        "lsb": 66
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/49.png",
+        "advance": 388,
+        "lsb": 53
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-orca/50.png",
+        "advance": 638,
+        "lsb": 59
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-perfume",
+    "name": "Alphaxen Perfume",
+    "category": "chromatic",
+    "subCategory": "Luxury & Crystal",
+    "theme": "Crystal Flacon & Prismatic Glass",
+    "accent": "#a855f7",
+    "badge": "LUXURY CHROMATIC",
+    "description": "Haute-parfumerie typography evoking hand-blown crystal flacons, refracted lilac and amber scents, and luxurious French editorial poise.",
+    "specimenWords": [
+      "PERFUME",
+      "ESSENCE",
+      "HAUTE COUTURE",
+      "CRYSTAL",
+      "FRAGRANCE"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 88,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/65.png",
+        "advance": 772,
+        "lsb": 62
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/66.png",
+        "advance": 639,
+        "lsb": 62
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/67.png",
+        "advance": 577,
+        "lsb": 40
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/88.png",
+        "advance": 586,
+        "lsb": 58
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/49.png",
+        "advance": 311,
+        "lsb": 53
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-perfume/50.png",
+        "advance": 453,
+        "lsb": 53
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-elvaria-black",
+    "name": "Alphaxen Elvaria Black",
+    "category": "vector",
+    "subCategory": "Modern Haute Display",
+    "theme": "Monumental High-Contrast Geometry",
+    "accent": "#64748b",
+    "badge": "VECTOR HAUTE",
+    "description": "Ultra-heavy architectural display serif with razor-sharp hairline contrast, imposing vertical geometry, and high-fashion editorial rhythm.",
+    "specimenWords": [
+      "ELVARIA",
+      "MONUMENTAL",
+      "EDITORIAL",
+      "BLACK",
+      "CHISEL"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 115,
+    "sampleChars": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "spaceAdvance": 300,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/65.svg",
+        "path": "M156 971C110 962 68 940 44 912C23 890 9 849 9 815C9 795 17 757 26 733C45 681 122 599 197 550C212 540 237 525 252 518C294 495 317 479 346 452C384 417 437 383 479 366C548 340 593 327 672 313C740 300 773 297 851 295C912 293 912 293 927 277C961 239 1058 143 1077 127C1101 107 1174 55 1202 39C1211 33 1234 21 1252 12C1290 -7 1307 -9 1323 2C1340 14 1344 24 1344 48C1344 76 1338 91 1298 168C1269 221 1222 319 1224 321C1224 321 1237 323 1252 325C1296 330 1306 340 1304 377C1303 388 1287 403 1267 410C1243 419 1216 425 1198 425C1184 425 1184 425 1172 456C1148 520 1129 588 1117 654C1112 686 1110 728 1113 728C1114 728 1123 724 1132 719C1143 713 1158 701 1176 681C1198 658 1206 651 1214 650C1246 646 1268 670 1260 703C1254 730 1221 775 1180 811C1156 831 1149 835 1118 841C1077 850 1036 842 1003 820C950 784 932 741 935 655C937 616 938 607 951 553C961 512 971 480 983 449C993 425 1000 405 1000 404C999 403 990 402 979 401C959 399 959 399 944 418C935 429 918 453 905 472C893 491 868 525 852 547C835 569 811 601 799 618C773 653 758 672 716 716C664 771 585 837 544 860C533 866 516 877 505 884C468 908 414 933 363 949C277 976 213 982 156 971ZM274 863C319 852 396 816 451 780C520 736 576 687 640 617C724 524 797 439 826 401C833 392 703 407 630 423C616 426 580 436 550 446C503 462 497 465 509 465C544 466 611 478 631 487C665 504 678 536 657 556C647 567 624 570 599 566C589 564 559 562 532 562C448 562 403 574 319 619C263 648 237 665 196 699C163 726 141 750 129 771C121 786 120 789 120 813C120 839 120 839 129 846C140 856 154 862 174 867C194 872 248 870 274 863ZM1075 292C1084 273 1103 240 1115 218C1127 197 1137 178 1137 178C1133 174 994 312 994 320C994 323 1007 324 1035 325C1057 325 1057 325 1075 292Z",
+        "advance": 1379,
+        "lsb": 9
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/66.svg",
+        "path": "M177 882C100 865 44 824 22 772C18 764 14 746 12 731C9 710 10 702 14 684C23 638 45 598 78 565C101 542 158 500 195 480C210 471 220 465 217 465C208 465 186 452 174 441C153 419 147 408 143 381C140 358 140 355 147 327C153 304 158 291 168 274C193 234 238 184 282 148C339 101 443 51 513 37C600 20 742 22 800 41C860 61 908 98 928 141C959 205 930 272 849 327C824 344 824 344 839 353C860 365 899 405 914 430C929 456 935 481 935 518C935 548 931 568 921 593C904 636 839 709 794 736C780 745 758 758 746 767C734 775 722 782 720 782C718 782 703 788 686 796C654 813 644 816 557 845C459 877 411 884 271 886C209 887 197 887 177 882ZM334 780C377 775 443 758 491 740C529 726 541 720 574 701C608 680 614 676 648 647C744 568 777 497 744 442C728 417 693 400 658 403C648 403 638 405 636 406C634 407 621 432 606 463C542 593 489 665 410 725C372 753 341 768 321 768C294 769 282 756 283 728C283 712 284 710 299 689C308 676 319 659 323 650C327 642 336 627 342 617C348 607 361 582 371 562C389 526 389 526 371 528C340 533 326 537 295 549C232 576 165 625 138 666C119 693 111 721 118 741C124 756 169 777 211 783C232 786 300 784 334 780ZM430 446C438 430 438 430 431 430C422 430 404 413 403 402C403 395 403 395 402 403C401 407 395 417 387 425C379 433 374 440 375 440C376 441 382 442 388 443C400 445 418 455 418 459C418 466 423 460 430 446ZM414 365C425 352 448 338 470 329C490 322 501 312 510 292C514 282 521 270 525 266C528 261 536 250 542 240C558 211 593 167 619 142C644 119 644 119 630 120C623 121 609 122 601 123C578 125 535 137 507 149C493 155 478 161 472 163C429 180 366 221 328 258C284 302 254 347 256 367C257 374 258 375 268 376C278 376 291 374 350 359C366 355 380 359 391 370C397 375 401 382 401 386C402 391 402 391 403 384C404 380 409 372 414 365ZM722 263C742 247 753 233 764 209C770 196 772 185 772 175C772 161 772 161 756 179C735 202 725 218 705 255C687 289 686 289 722 263Z",
+        "advance": 976,
+        "lsb": 10
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/67.svg",
+        "path": "M158 807C128 800 112 792 86 774C61 756 53 747 35 716C-1 655 3 543 43 452C49 439 56 426 58 421C61 417 70 403 78 389C86 375 110 341 130 314C178 251 248 180 311 132C347 104 362 95 407 72C436 58 466 44 474 42C517 31 565 22 583 22C609 22 641 29 657 38C705 65 714 124 679 187C655 231 620 264 573 290C554 300 528 305 510 301C462 292 462 234 509 212C518 207 528 203 532 201C551 192 604 126 597 120C594 117 553 130 533 141C486 166 425 218 380 270C367 285 352 303 345 310C323 334 269 414 249 451C222 503 197 561 190 593C185 616 186 658 192 670C200 685 208 688 234 690C255 691 261 690 286 682C320 671 372 643 408 616C457 579 511 518 538 470C563 425 593 411 617 435C625 442 627 447 628 460C633 493 625 516 595 555C523 650 411 746 321 789C275 810 203 819 158 807Z",
+        "advance": 733,
+        "lsb": 10
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/88.svg",
+        "path": "M80 1037C59 1032 36 1018 25 1004C9 984 9 944 26 916C44 885 85 851 136 825C181 803 209 815 207 856C207 862 201 871 183 889C170 903 157 917 154 920C149 927 149 927 161 921C186 911 247 870 289 837C321 812 444 692 473 659C486 644 505 623 515 612C525 601 533 590 533 588C533 582 523 490 517 441C508 366 492 313 478 310C470 309 430 333 412 351C393 371 386 381 372 408C352 448 344 476 344 509C344 525 350 539 357 542C363 544 375 567 376 577C377 595 375 601 366 611C354 622 343 624 322 620C262 606 231 535 250 453C260 406 274 380 315 325C359 267 421 222 474 211C525 201 565 211 607 244C646 275 665 309 679 374C684 396 688 414 688 415C689 415 703 398 720 377C772 315 818 270 852 249C887 226 893 223 926 217C957 210 979 213 998 225C1013 235 1017 244 1017 265C1016 293 1003 307 973 311C948 314 925 330 875 379C823 430 739 519 722 541C714 552 710 560 710 565C710 577 729 707 734 729C742 762 759 816 767 832C782 862 799 882 818 892C842 905 856 904 884 890C908 878 919 866 938 831C950 808 961 796 973 795C998 791 1014 803 1017 828C1020 850 1017 865 1002 894C982 936 954 969 918 992C890 1011 886 1012 839 1022C808 1028 807 1028 779 1023C764 1020 743 1014 733 1010C706 999 668 973 648 951C616 914 599 885 585 842C580 828 574 812 572 807C569 801 565 785 563 771C560 757 557 744 556 743C554 742 545 753 534 767C507 804 429 884 392 913C300 986 246 1014 160 1032C127 1040 97 1041 80 1037Z",
+        "advance": 1052,
+        "lsb": 13
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/49.svg",
+        "path": "M35 774C14 769 2 754 2 733C2 715 12 703 40 685C60 673 62 671 73 649C86 624 128 523 144 475C150 460 161 432 170 414C178 396 185 381 185 381C185 381 180 382 173 383C159 386 136 384 127 378C113 369 107 353 108 330C108 320 127 302 144 296C161 290 195 271 219 253C229 246 249 232 264 222C279 213 297 201 304 196C310 191 324 182 335 177C351 169 358 167 374 167C396 167 406 171 414 185C428 206 427 225 410 263C405 274 381 329 357 384C295 525 286 546 258 608C233 662 233 662 248 677C263 691 264 695 263 715C262 729 257 736 241 747C226 757 225 758 188 760C142 763 111 766 83 772C61 777 49 778 35 774Z",
+        "advance": 457,
+        "lsb": 2
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-black/50.svg",
+        "path": "M731 914C684 909 598 879 541 847C524 838 481 815 445 797C410 779 362 754 338 742C265 703 230 690 194 690C171 690 157 696 139 716C129 725 127 729 127 741C125 769 110 780 75 780C55 780 50 779 37 772C29 767 18 759 14 754C4 742 -2 716 2 700C9 666 58 615 97 600C104 597 115 591 122 587C150 568 324 392 377 329C405 295 428 259 428 247C428 243 406 244 389 249C381 251 361 260 344 269C317 282 308 289 289 308C276 320 264 336 261 342C256 353 256 353 262 362C271 374 271 392 261 407C250 423 239 429 216 429C199 429 196 428 181 418C172 411 162 401 158 395C143 370 147 329 166 297C198 245 224 222 295 188C335 168 346 164 376 158C468 139 529 156 564 210C581 237 587 256 586 285C586 316 580 332 554 371C517 427 422 511 320 580C314 584 314 584 334 590C345 593 364 600 376 605C401 614 479 661 516 689C529 698 549 712 560 718C588 735 643 761 658 765C664 767 674 770 680 773C696 782 759 796 795 799C859 805 916 799 961 780C994 766 1002 759 1024 729C1047 697 1053 692 1072 692C1098 692 1110 705 1109 733C1108 769 1076 816 1028 850C969 892 955 898 885 909C846 915 828 916 789 916C763 915 737 915 731 914Z",
+        "advance": 1141,
+        "lsb": 1
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-elvaria-bold",
+    "name": "Alphaxen Elvaria Bold",
+    "category": "vector",
+    "subCategory": "Modern Haute Display",
+    "theme": "Monumental Chiseled Geometry",
+    "accent": "#94a3b8",
+    "badge": "VECTOR HAUTE",
+    "description": "The bold companion to Elvaria Black, engineered for immaculate headlines, editorial titling, and luxury packaging identity systems.",
+    "specimenWords": [
+      "ELVARIA",
+      "PROPORTION",
+      "ELEGANCE",
+      "HAUTE",
+      "ARCHITECT"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 115,
+    "sampleChars": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "spaceAdvance": 300,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/65.svg",
+        "path": "M157 959C83 944 40 907 25 849C18 824 19 802 27 769C40 720 52 700 98 650C145 599 195 561 254 529C298 506 328 485 357 458C394 424 443 392 478 379C486 376 501 371 510 367C560 346 684 318 759 311C776 309 819 307 854 306C918 304 918 304 932 288C967 250 1069 149 1089 133C1112 113 1177 67 1204 50C1214 45 1236 33 1254 24C1295 3 1307 2 1322 17C1344 39 1338 67 1286 165C1256 221 1236 264 1210 322C1203 337 1203 337 1218 335C1226 334 1243 335 1256 337C1285 340 1293 347 1293 367C1293 377 1291 381 1286 386C1272 399 1224 414 1194 414C1175 414 1175 414 1162 449C1136 520 1120 577 1107 648C1097 709 1098 739 1112 739C1127 739 1156 720 1183 690C1210 663 1211 662 1223 662C1240 662 1250 672 1250 690C1250 714 1233 740 1191 783C1156 818 1154 819 1134 826C1118 831 1106 832 1084 832C1041 832 1017 821 984 789C955 760 945 725 947 658C948 618 949 611 963 556C973 513 983 482 997 446C1008 418 1017 395 1016 394C1015 394 1001 392 984 390C959 387 953 387 951 390C950 392 943 401 936 410C929 419 912 442 900 461C887 480 864 511 849 531C834 551 810 583 795 604C766 644 755 656 707 707C652 765 574 831 535 853C524 858 509 868 500 874C449 908 347 947 276 959C234 967 190 967 157 959ZM276 875C321 864 398 828 458 789C531 742 584 696 647 627C710 557 791 464 819 429C832 414 845 398 848 393C855 385 855 385 818 386C756 390 711 396 634 410C603 416 505 448 474 462C450 473 450 473 486 475C547 478 601 487 624 497C642 505 655 519 655 532C655 539 653 545 649 549C642 556 648 556 546 552C450 549 405 560 313 609C218 659 145 719 119 766C109 785 109 786 109 815C109 845 109 845 121 855C135 866 149 873 172 878C191 883 248 881 276 875ZM1075 292C1084 273 1103 240 1115 218C1127 197 1137 178 1137 178C1133 174 994 312 994 320C994 323 1007 324 1035 325C1057 325 1057 325 1075 292Z",
+        "advance": 1369,
+        "lsb": 20
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/66.svg",
+        "path": "M178 871C123 858 88 838 56 804C36 782 27 761 23 728C21 706 21 700 26 680C38 634 60 596 94 565C116 545 172 505 198 491C239 469 283 457 344 452C372 450 398 455 408 464C416 473 416 494 406 504C399 511 375 519 359 519C336 519 277 541 240 564C215 579 170 612 156 626C128 652 104 697 104 723C104 747 108 754 132 768C163 787 192 794 245 795C302 797 359 791 416 776C517 750 584 716 658 654C707 613 734 581 757 536C777 497 767 442 736 415C713 395 664 385 637 394C626 398 625 399 592 463C537 574 508 618 452 672C382 741 321 772 300 751C295 746 294 741 294 729C294 715 295 712 312 689C322 676 333 659 336 651C339 644 347 630 352 621C361 606 455 424 455 421C455 421 449 420 442 420C424 420 415 410 415 393C415 383 416 380 426 370C438 358 446 353 481 337C502 327 511 318 522 293C526 284 531 276 533 274C536 272 543 261 549 251C577 200 640 131 670 120C698 109 698 109 674 108C617 106 552 117 504 138C490 143 475 150 470 152C416 172 336 227 303 268C297 275 286 288 278 298C259 321 244 351 244 366C244 390 262 393 322 378C346 372 364 368 369 369C382 372 390 382 390 395C390 404 388 408 376 419C364 431 358 434 329 443C302 452 292 454 263 455C212 458 194 450 166 413C160 405 157 397 155 380C152 358 152 355 159 328C164 309 171 292 177 281C200 244 249 190 292 154C346 111 444 64 514 49C543 42 614 36 656 36C779 36 849 59 896 115C915 137 922 151 927 176C932 199 925 229 910 253C889 283 838 326 807 339C797 343 797 343 806 347C811 350 821 355 829 360C837 364 855 379 869 394C911 436 924 465 924 518C924 578 904 618 841 681C815 708 802 718 780 732C764 741 746 752 740 757C734 762 723 768 715 771C707 774 690 781 677 788C652 801 641 805 554 833C453 866 414 872 272 874C209 876 197 875 178 871ZM694 294C733 274 757 250 773 216C783 195 784 191 783 175C782 158 773 139 764 135C762 134 761 135 762 136C766 142 758 161 747 172C740 178 729 192 722 203C710 222 667 300 667 303C667 307 676 304 694 294Z",
+        "advance": 966,
+        "lsb": 22
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/67.svg",
+        "path": "M157 795C125 786 115 781 92 764C46 730 25 687 22 617C19 555 42 466 72 420C77 414 84 401 90 392C95 382 116 352 136 325C184 261 256 189 320 140C356 112 370 103 412 82C440 68 469 56 477 54C559 32 588 29 621 37C648 44 654 47 669 62C695 89 695 130 671 177C649 220 617 252 570 278C533 299 491 294 486 268C482 248 497 226 520 219C544 211 576 181 598 147C612 125 614 111 602 108C591 106 552 118 527 131C479 157 418 208 374 259C361 274 346 291 339 299C317 323 258 410 238 448C216 490 206 511 192 550C178 589 175 600 175 633C175 667 181 682 198 693C207 700 211 700 238 700C263 700 272 699 293 692C321 683 375 654 410 629C459 594 520 527 544 482C550 472 560 457 567 449C578 437 581 435 591 435C599 435 604 437 609 443C616 450 617 452 617 472C617 511 601 536 531 612C463 684 391 741 322 775C273 800 204 808 157 795Z",
+        "advance": 723,
+        "lsb": 22
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/88.svg",
+        "path": "M81 1025C30 1011 12 975 33 928C49 890 137 826 172 826C188 826 196 833 196 848C196 857 192 862 155 901C133 925 115 945 116 946C120 949 146 941 167 931C204 914 277 863 320 826C361 791 468 685 497 650C551 588 547 595 544 579C543 571 539 538 536 506C525 401 515 349 502 323C488 293 481 292 448 310C409 332 384 359 361 405C340 446 333 473 333 510C333 529 337 539 351 553C367 569 370 590 358 603C350 611 341 613 324 608C280 597 256 556 256 496C256 476 264 439 274 414C290 371 333 314 374 279C443 220 509 204 567 231C586 240 616 265 630 281C649 306 668 362 678 425C678 431 680 436 682 437C683 438 698 422 715 402C760 349 817 288 835 274C874 245 894 235 928 228C949 223 955 223 969 226C990 230 1003 240 1005 254C1011 282 994 301 963 301C939 301 883 349 779 460C717 526 698 550 698 563C698 578 718 706 724 735C738 798 756 844 780 874C791 890 798 895 818 905C840 916 858 915 888 901C910 891 914 888 925 872C933 862 943 845 949 835C962 810 967 806 981 806C1000 806 1006 813 1006 840C1006 861 1005 864 992 889C972 928 944 961 912 983C889 998 880 1002 839 1010C808 1016 807 1016 781 1011C731 1002 690 979 657 943C624 906 611 883 596 840C591 825 586 809 583 804C581 798 575 777 571 757C567 736 563 719 561 717C560 716 547 731 533 750C518 769 485 807 459 834C391 905 323 957 260 987C221 1005 166 1022 127 1027C98 1030 98 1030 81 1025Z",
+        "advance": 1042,
+        "lsb": 24
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/49.svg",
+        "path": "M35 762C21 758 13 748 13 734C13 723 15 720 26 710C33 704 46 694 55 689C70 680 72 677 84 653C99 624 140 524 156 478C161 463 175 430 187 406C199 381 208 361 208 361C207 361 197 363 185 367C150 379 126 373 120 349C115 330 125 315 151 306C160 302 172 296 178 293C184 289 194 283 201 279C207 276 220 267 230 260C239 252 259 239 274 230C289 220 305 210 310 206C315 202 327 194 338 188C355 180 361 178 376 178C393 178 395 179 401 186C417 204 416 224 397 263C393 273 369 326 345 381C285 521 275 542 246 608C231 640 220 668 220 671C221 673 224 676 227 676C230 677 237 682 243 687C251 695 252 699 252 710C252 722 251 724 241 733C227 745 215 748 190 748C166 748 128 753 90 760C60 766 49 766 35 762Z",
+        "advance": 447,
+        "lsb": 13
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-elvaria-bold/50.svg",
+        "path": "M724 902C680 896 598 866 544 836C527 826 484 804 448 786C413 768 365 743 341 731C266 691 232 679 192 679C174 678 169 680 156 687C147 692 134 702 128 710C117 722 116 725 115 738C115 756 109 763 93 768C70 774 41 766 25 749C16 739 10 716 13 704C19 673 68 623 103 611C110 608 119 604 122 601C124 599 130 595 134 593C146 585 244 489 305 425C392 333 424 293 438 255C445 238 442 233 421 233C396 233 377 239 341 257C298 279 265 309 251 338C242 356 242 356 249 365C272 388 244 424 208 418C195 415 173 399 167 387C153 361 160 326 186 288C212 248 236 229 298 199C336 180 349 175 378 169C448 154 500 162 534 193C560 216 579 259 576 290C572 330 546 372 492 425C422 492 394 516 313 571C297 582 286 591 288 591C291 592 300 594 310 596C360 606 421 636 487 682C563 736 606 759 657 778C667 781 681 786 687 789C728 804 809 815 862 812C941 808 1001 784 1026 745C1033 735 1043 721 1049 715C1058 705 1060 704 1072 704C1091 704 1098 711 1098 731C1097 764 1066 810 1021 842C967 880 950 887 883 898C847 903 828 905 790 904C763 904 733 903 724 902Z",
+        "advance": 1131,
+        "lsb": 12
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-molten-lava",
+    "name": "Alphaxen Molten Lava",
+    "category": "chromatic",
+    "subCategory": "Elemental & Volcanic",
+    "theme": "Cracked Basalt & Glowing Magma",
+    "accent": "#ef4444",
+    "badge": "ELEMENTAL CHROMATIC",
+    "description": "Incandescent volcanic typography forged from cooling black basalt rock cracked open by glowing 1200-degree liquid magma veins.",
+    "specimenWords": [
+      "MOLTEN",
+      "VOLCANO",
+      "MAGMA",
+      "CRACKED",
+      "INFERNO"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 106,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 300,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/65.png",
+        "advance": 1118,
+        "lsb": 35
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/66.png",
+        "advance": 798,
+        "lsb": 36
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/67.png",
+        "advance": 742,
+        "lsb": 41
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/88.png",
+        "advance": 1198,
+        "lsb": 36
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/49.png",
+        "advance": 598,
+        "lsb": 37
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-molten-lava/50.png",
+        "advance": 806,
+        "lsb": 38
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-nextron",
+    "name": "Alphaxen Nextron",
+    "category": "vector",
+    "subCategory": "Cyber & Modernist",
+    "theme": "Futuristic Tech Minimalist Grid",
+    "accent": "#10b981",
+    "badge": "VECTOR CYBER",
+    "description": "Pure modular tech typeface built on a precision isometric grid with chamfered joints and futuristic aerospace aesthetic.",
+    "specimenWords": [
+      "NEXTRON",
+      "ISOMETRIC",
+      "GRID",
+      "MODULAR",
+      "AEROSPACE"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 92,
+    "sampleChars": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/65.svg",
+        "path": "M61 792C61 787 67 774 75 762C91 739 110 704 297 350L418 122H495C542 122 580 128 591 136C606 148 879 640 879 655C879 657 896 687 917 721C938 756 955 788 955 792C955 797 849 799 721 798L487 795L457 735L428 676L557 673C627 671 685 669 685 667C685 665 651 600 610 522C569 444 535 375 535 369C535 362 546 347 559 336L583 316L545 322C525 326 505 332 501 336C493 345 308 734 295 770L285 800H173C111 800 61 796 61 792Z",
+        "advance": 1004,
+        "lsb": 61
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/66.svg",
+        "path": "M63 598 66 385 342 383 617 380 642 353C664 330 666 322 655 300C649 285 631 270 616 266C602 262 478 261 341 263L93 267L73 202L53 138L84 129C102 124 248 122 410 124L703 127L746 157C835 218 862 328 809 406L782 446L809 479C843 519 851 549 845 622C839 696 803 745 727 783L670 811H60ZM635 648C681 624 689 577 653 542C633 522 617 520 427 520H222V660H417C543 660 620 656 635 648Z",
+        "advance": 896,
+        "lsb": 53
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/67.svg",
+        "path": "M211 770C112 707 61 603 61 469C61 380 73 322 97 289C111 269 114 270 166 303C196 322 224 346 228 356C233 366 237 411 237 455C239 551 262 601 320 630C351 646 389 649 575 649C695 649 793 653 793 658C793 663 779 689 761 715C743 741 729 771 729 781C728 799 710 800 494 800H259ZM228 322C210 314 179 290 159 269L124 232L161 195C228 128 243 125 548 118C722 114 825 116 825 123C825 128 808 167 788 208L750 283H541C333 283 331 283 300 310C263 341 269 340 228 322Z",
+        "advance": 875,
+        "lsb": 61
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/88.svg",
+        "path": "M122 717C162 665 223 588 257 545C291 503 319 463 319 457C319 451 301 423 278 394C187 279 61 111 61 106C61 103 109 100 168 100H275L299 135C312 154 357 212 398 264L472 357L569 229L665 100H772C831 100 879 103 879 106C879 110 818 190 744 284C658 393 612 460 617 469C621 476 682 553 752 640C822 726 879 800 879 804C879 808 829 811 769 811H658L583 714C532 647 505 602 498 571C490 531 487 528 477 545C470 556 422 620 369 688L274 811H49Z",
+        "advance": 929,
+        "lsb": 49
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/49.svg",
+        "path": "M61 757C61 733 64 714 69 714C74 714 82 703 88 690C96 671 109 665 144 662L190 659V326L159 348C138 364 117 370 88 367L48 364L107 283C171 196 207 175 298 175H341V660H481V800H61Z",
+        "advance": 530,
+        "lsb": 48
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "vector",
+        "src": "/demo_glyphs/alphaxen-nextron/50.svg",
+        "path": "M50 712C51 609 71 551 123 508C169 469 296 430 470 402C507 396 544 386 552 379C573 362 571 322 547 301C530 286 498 283 316 283C121 283 104 282 104 264C105 229 172 164 217 153C277 140 520 141 571 155C703 192 764 311 707 423C670 495 616 521 464 540C359 554 279 579 247 609C194 658 204 660 481 660C680 660 739 663 739 673C739 681 730 711 719 741L698 795L374 798L50 802Z",
+        "advance": 789,
+        "lsb": 50
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-octopus-color",
+    "name": "Alphaxen Octopus Color",
+    "category": "chromatic",
+    "subCategory": "Oceanic & Creature",
+    "theme": "Chromatophore Ocean Tentacles",
+    "accent": "#06b6d4",
+    "badge": "CHROMATIC DISPLAY",
+    "description": "Dynamic cephalopod typography shaped from curling suction-cupped tentacles with iridescent shifting chromatophore pigments.",
+    "specimenWords": [
+      "OCTOPUS",
+      "TENTACLES",
+      "CEPHALOPOD",
+      "SUCTION",
+      "CHROMATIC"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 146,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/65.png",
+        "advance": 977,
+        "lsb": 35
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/66.png",
+        "advance": 673,
+        "lsb": 35
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/67.png",
+        "advance": 613,
+        "lsb": 35
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/88.png",
+        "advance": 801,
+        "lsb": 35
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "num_1",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/49.png",
+        "advance": 370,
+        "lsb": 32
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "num_2",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus-color/50.png",
+        "advance": 642,
+        "lsb": 32
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-octopus",
+    "name": "Alphaxen Octopus",
+    "category": "chromatic",
+    "subCategory": "Oceanic & Creature",
+    "theme": "Deep Ocean Color Specimen",
+    "accent": "#0ea5e9",
+    "badge": "CHROMATIC DISPLAY",
+    "description": "Deep oceanic edition of the Octopus suite, highlighting the anatomical nuance and muscular flexibility of marine mollusks.",
+    "specimenWords": [
+      "OCTOPUS",
+      "AQUATIC",
+      "FLEXIBLE",
+      "MARINE",
+      "MOTION"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 146,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 380,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/65.png",
+        "advance": 977,
+        "lsb": 35
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/66.png",
+        "advance": 673,
+        "lsb": 35
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/67.png",
+        "advance": 613,
+        "lsb": 35
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/88.png",
+        "advance": 801,
+        "lsb": 35
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "num_1",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/49.png",
+        "advance": 370,
+        "lsb": 32
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "num_2",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-octopus/50.png",
+        "advance": 642,
+        "lsb": 32
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-peacock",
+    "name": "Alphaxen Peacock",
+    "category": "chromatic",
+    "subCategory": "Nature & Iridescent",
+    "theme": "Iridescent Feather Eye Textures",
+    "accent": "#14b8a6",
+    "badge": "NATURE CHROMATIC",
+    "description": "Exquisite avian display typeface dressed in royal peacock plumage, iridescent emerald-cyan barbules, and hypnotic feather eyes.",
+    "specimenWords": [
+      "PEACOCK",
+      "PLUMAGE",
+      "IRIDESCENT",
+      "FEATHERS",
+      "ROYAL"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 134,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 350,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/65.png",
+        "advance": 752,
+        "lsb": 50
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/66.png",
+        "advance": 664,
+        "lsb": 50
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/67.png",
+        "advance": 688,
+        "lsb": 50
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/88.png",
+        "advance": 776,
+        "lsb": 50
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/49.png",
+        "advance": 457,
+        "lsb": 50
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-peacock/50.png",
+        "advance": 609,
+        "lsb": 50
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-penguin",
+    "name": "Alphaxen Penguin",
+    "category": "chromatic",
+    "subCategory": "Arctic & Polar",
+    "theme": "Antarctic Emperor Penguin Texture",
+    "accent": "#38bdf8",
+    "badge": "POLAR CHROMATIC",
+    "description": "Charming yet commanding Antarctic typography inspired by the waterproof plumage, golden auricular flashes, and resilience of the emperor penguin.",
+    "specimenWords": [
+      "PENGUIN",
+      "ANTARCTIC",
+      "EMPEROR",
+      "BLIZZARD",
+      "COLONY"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 102,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 300,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/65.png",
+        "advance": 793,
+        "lsb": 40
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/66.png",
+        "advance": 676,
+        "lsb": 40
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/67.png",
+        "advance": 662,
+        "lsb": 40
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/88.png",
+        "advance": 754,
+        "lsb": 40
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/49.png",
+        "advance": 482,
+        "lsb": 40
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin/50.png",
+        "advance": 655,
+        "lsb": 40
+      }
+    ]
+  },
+  {
+    "id": "alphaxen-penguin-2",
+    "name": "Alphaxen Penguin II",
+    "category": "chromatic",
+    "subCategory": "Arctic & Polar",
+    "theme": "Glacial Frost & Ice Penguin Texture",
+    "accent": "#0284c7",
+    "badge": "POLAR CHROMATIC",
+    "description": "Glacial frost edition with crystalline ice riming, cool cobalt shadows, and crisp polar lighting.",
+    "specimenWords": [
+      "GLACIAL",
+      "FROST",
+      "ICEBERG",
+      "ARCTIC",
+      "CRYSTAL"
+    ],
+    "designer": "Alphaxen Type Foundry",
+    "releaseYear": 2026,
+    "unitsPerEm": 1000,
+    "glyphCount": 102,
+    "sampleChars": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "spaceAdvance": 300,
+    "previewGlyphs": [
+      {
+        "code": 65,
+        "char": "A",
+        "name": "A",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/65.png",
+        "advance": 801,
+        "lsb": 40
+      },
+      {
+        "code": 66,
+        "char": "B",
+        "name": "B",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/66.png",
+        "advance": 664,
+        "lsb": 40
+      },
+      {
+        "code": 67,
+        "char": "C",
+        "name": "C",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/67.png",
+        "advance": 663,
+        "lsb": 40
+      },
+      {
+        "code": 88,
+        "char": "X",
+        "name": "X",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/88.png",
+        "advance": 780,
+        "lsb": 40
+      },
+      {
+        "code": 49,
+        "char": "1",
+        "name": "one",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/49.png",
+        "advance": 465,
+        "lsb": 40
+      },
+      {
+        "code": 50,
+        "char": "2",
+        "name": "two",
+        "type": "image",
+        "src": "/demo_glyphs/alphaxen-penguin-2/50.png",
+        "advance": 692,
+        "lsb": 40
+      }
+    ]
+  }
+]

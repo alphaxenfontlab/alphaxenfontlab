@@ -1,0 +1,856 @@
+{
+  "id": "alphaxen-galaxy-pro",
+  "name": "Alphaxen Galaxy Pro",
+  "category": "chromatic",
+  "subCategory": "Sci-Fi & Cosmic",
+  "theme": "Deep Space Nebula & Starlight",
+  "accent": "#8b5cf6",
+  "badge": "COSMIC CHROMATIC",
+  "description": "Deep space celestial typography infused with swirling interstellar dust clouds, vibrant nebula purples, and radiant distant stars.",
+  "specimenWords": [
+    "GALAXY",
+    "NEBULA",
+    "COSMOS",
+    "INTERSTELLAR",
+    "STARLIGHT"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 91,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 350,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/65.png",
+      "advance": 757,
+      "lsb": 58
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/66.png",
+      "advance": 635,
+      "lsb": 58
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/67.png",
+      "advance": 659,
+      "lsb": 58
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/68.png",
+      "advance": 708,
+      "lsb": 52
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/69.png",
+      "advance": 671,
+      "lsb": 58
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/70.png",
+      "advance": 665,
+      "lsb": 83
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/71.png",
+      "advance": 793,
+      "lsb": 70
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/72.png",
+      "advance": 732,
+      "lsb": 64
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/73.png",
+      "advance": 373,
+      "lsb": 52
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/74.png",
+      "advance": 653,
+      "lsb": 70
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/75.png",
+      "advance": 763,
+      "lsb": 89
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/76.png",
+      "advance": 732,
+      "lsb": 52
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/77.png",
+      "advance": 763,
+      "lsb": 64
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/78.png",
+      "advance": 720,
+      "lsb": 52
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/79.png",
+      "advance": 763,
+      "lsb": 52
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/80.png",
+      "advance": 647,
+      "lsb": 70
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/81.png",
+      "advance": 726,
+      "lsb": 46
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/82.png",
+      "advance": 757,
+      "lsb": 46
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/83.png",
+      "advance": 671,
+      "lsb": 52
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/84.png",
+      "advance": 684,
+      "lsb": 58
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/85.png",
+      "advance": 818,
+      "lsb": 64
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/86.png",
+      "advance": 848,
+      "lsb": 64
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/87.png",
+      "advance": 775,
+      "lsb": 89
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/88.png",
+      "advance": 836,
+      "lsb": 70
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/89.png",
+      "advance": 678,
+      "lsb": 52
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/90.png",
+      "advance": 714,
+      "lsb": 40
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/97.png",
+      "advance": 684,
+      "lsb": 58
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/98.png",
+      "advance": 629,
+      "lsb": 52
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/99.png",
+      "advance": 580,
+      "lsb": 58
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/100.png",
+      "advance": 635,
+      "lsb": 58
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/101.png",
+      "advance": 617,
+      "lsb": 58
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/102.png",
+      "advance": 464,
+      "lsb": 58
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/103.png",
+      "advance": 610,
+      "lsb": 64
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/104.png",
+      "advance": 629,
+      "lsb": 52
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/105.png",
+      "advance": 293,
+      "lsb": 46
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/106.png",
+      "advance": 580,
+      "lsb": 83
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/107.png",
+      "advance": 617,
+      "lsb": 58
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/108.png",
+      "advance": 324,
+      "lsb": 52
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/109.png",
+      "advance": 830,
+      "lsb": 52
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/110.png",
+      "advance": 592,
+      "lsb": 58
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/111.png",
+      "advance": 623,
+      "lsb": 58
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/112.png",
+      "advance": 623,
+      "lsb": 52
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/113.png",
+      "advance": 647,
+      "lsb": 58
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/114.png",
+      "advance": 489,
+      "lsb": 58
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/115.png",
+      "advance": 519,
+      "lsb": 52
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/116.png",
+      "advance": 464,
+      "lsb": 52
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/117.png",
+      "advance": 629,
+      "lsb": 58
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/118.png",
+      "advance": 629,
+      "lsb": 52
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/119.png",
+      "advance": 781,
+      "lsb": 52
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/120.png",
+      "advance": 641,
+      "lsb": 64
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/121.png",
+      "advance": 623,
+      "lsb": 58
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/122.png",
+      "advance": 598,
+      "lsb": 64
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/48.png",
+      "advance": 641,
+      "lsb": 58
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/49.png",
+      "advance": 348,
+      "lsb": 58
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/50.png",
+      "advance": 531,
+      "lsb": 58
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/51.png",
+      "advance": 556,
+      "lsb": 52
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/52.png",
+      "advance": 568,
+      "lsb": 58
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/53.png",
+      "advance": 489,
+      "lsb": 40
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/54.png",
+      "advance": 519,
+      "lsb": 58
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/55.png",
+      "advance": 501,
+      "lsb": 58
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/56.png",
+      "advance": 513,
+      "lsb": 58
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/57.png",
+      "advance": 568,
+      "lsb": 46
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/33.png",
+      "advance": 220,
+      "lsb": 58
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/63.png",
+      "advance": 367,
+      "lsb": 52
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/44.png",
+      "advance": 202,
+      "lsb": 52
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/46.png",
+      "advance": 208,
+      "lsb": 46
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/59.png",
+      "advance": 196,
+      "lsb": 52
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/58.png",
+      "advance": 208,
+      "lsb": 46
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/34.png",
+      "advance": 202,
+      "lsb": 52
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/39.png",
+      "advance": 251,
+      "lsb": 58
+    },
+    "95": {
+      "code": 95,
+      "char": "_",
+      "name": "underscore",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/95.png",
+      "advance": 330,
+      "lsb": 58
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/47.png",
+      "advance": 324,
+      "lsb": 52
+    },
+    "92": {
+      "code": 92,
+      "char": "\\",
+      "name": "backslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/92.png",
+      "advance": 257,
+      "lsb": 58
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/40.png",
+      "advance": 263,
+      "lsb": 52
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/41.png",
+      "advance": 226,
+      "lsb": 58
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/91.png",
+      "advance": 232,
+      "lsb": 58
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/93.png",
+      "advance": 239,
+      "lsb": 58
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/123.png",
+      "advance": 232,
+      "lsb": 52
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/125.png",
+      "advance": 440,
+      "lsb": 58
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/64.png",
+      "advance": 348,
+      "lsb": 52
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/35.png",
+      "advance": 312,
+      "lsb": 58
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/36.png",
+      "advance": 342,
+      "lsb": 52
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/37.png",
+      "advance": 379,
+      "lsb": 70
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/38.png",
+      "advance": 281,
+      "lsb": 58
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/42.png",
+      "advance": 257,
+      "lsb": 52
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/43.png",
+      "advance": 245,
+      "lsb": 58
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/45.png",
+      "advance": 239,
+      "lsb": 52
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/61.png",
+      "advance": 287,
+      "lsb": 58
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/60.png",
+      "advance": 275,
+      "lsb": 58
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-galaxy-pro/62.png",
+      "advance": 275,
+      "lsb": 52
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 350,
+      "lsb": 0
+    }
+  }
+}

@@ -1,0 +1,1243 @@
+{
+  "id": "alphaxen-peacock",
+  "name": "Alphaxen Peacock",
+  "category": "chromatic",
+  "subCategory": "Nature & Iridescent",
+  "theme": "Iridescent Feather Eye Textures",
+  "accent": "#14b8a6",
+  "badge": "NATURE CHROMATIC",
+  "description": "Exquisite avian display typeface dressed in royal peacock plumage, iridescent emerald-cyan barbules, and hypnotic feather eyes.",
+  "specimenWords": [
+    "PEACOCK",
+    "PLUMAGE",
+    "IRIDESCENT",
+    "FEATHERS",
+    "ROYAL"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 134,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 350,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/65.png",
+      "advance": 752,
+      "lsb": 50
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/66.png",
+      "advance": 664,
+      "lsb": 50
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/67.png",
+      "advance": 688,
+      "lsb": 50
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/68.png",
+      "advance": 664,
+      "lsb": 50
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/69.png",
+      "advance": 640,
+      "lsb": 50
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/70.png",
+      "advance": 736,
+      "lsb": 50
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/71.png",
+      "advance": 704,
+      "lsb": 50
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/72.png",
+      "advance": 784,
+      "lsb": 50
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/73.png",
+      "advance": 386,
+      "lsb": 50
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/74.png",
+      "advance": 577,
+      "lsb": 50
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/75.png",
+      "advance": 768,
+      "lsb": 50
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/76.png",
+      "advance": 648,
+      "lsb": 50
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/77.png",
+      "advance": 871,
+      "lsb": 50
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/78.png",
+      "advance": 728,
+      "lsb": 50
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/79.png",
+      "advance": 760,
+      "lsb": 50
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/80.png",
+      "advance": 640,
+      "lsb": 50
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/81.png",
+      "advance": 744,
+      "lsb": 50
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/82.png",
+      "advance": 728,
+      "lsb": 50
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/83.png",
+      "advance": 680,
+      "lsb": 50
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/84.png",
+      "advance": 688,
+      "lsb": 50
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/85.png",
+      "advance": 696,
+      "lsb": 50
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/86.png",
+      "advance": 760,
+      "lsb": 50
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/87.png",
+      "advance": 959,
+      "lsb": 50
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/88.png",
+      "advance": 776,
+      "lsb": 50
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/89.png",
+      "advance": 712,
+      "lsb": 50
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/90.png",
+      "advance": 656,
+      "lsb": 50
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/97.png",
+      "advance": 577,
+      "lsb": 50
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/98.png",
+      "advance": 489,
+      "lsb": 50
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/99.png",
+      "advance": 497,
+      "lsb": 50
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/100.png",
+      "advance": 537,
+      "lsb": 50
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/101.png",
+      "advance": 489,
+      "lsb": 50
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/102.png",
+      "advance": 553,
+      "lsb": 50
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/103.png",
+      "advance": 505,
+      "lsb": 50
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/104.png",
+      "advance": 585,
+      "lsb": 50
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/105.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/106.png",
+      "advance": 418,
+      "lsb": 50
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/107.png",
+      "advance": 609,
+      "lsb": 50
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/108.png",
+      "advance": 354,
+      "lsb": 50
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/109.png",
+      "advance": 744,
+      "lsb": 50
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/110.png",
+      "advance": 593,
+      "lsb": 50
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/111.png",
+      "advance": 529,
+      "lsb": 50
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/112.png",
+      "advance": 553,
+      "lsb": 50
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/113.png",
+      "advance": 553,
+      "lsb": 50
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/114.png",
+      "advance": 505,
+      "lsb": 50
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/115.png",
+      "advance": 505,
+      "lsb": 50
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/116.png",
+      "advance": 418,
+      "lsb": 50
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/117.png",
+      "advance": 577,
+      "lsb": 50
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/118.png",
+      "advance": 577,
+      "lsb": 50
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/119.png",
+      "advance": 760,
+      "lsb": 50
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/120.png",
+      "advance": 625,
+      "lsb": 50
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/121.png",
+      "advance": 521,
+      "lsb": 50
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/122.png",
+      "advance": 529,
+      "lsb": 50
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/48.png",
+      "advance": 712,
+      "lsb": 50
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/49.png",
+      "advance": 457,
+      "lsb": 50
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/50.png",
+      "advance": 609,
+      "lsb": 50
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/51.png",
+      "advance": 577,
+      "lsb": 50
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/52.png",
+      "advance": 648,
+      "lsb": 50
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/53.png",
+      "advance": 585,
+      "lsb": 50
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/54.png",
+      "advance": 569,
+      "lsb": 50
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/55.png",
+      "advance": 593,
+      "lsb": 50
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/56.png",
+      "advance": 601,
+      "lsb": 50
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/57.png",
+      "advance": 497,
+      "lsb": 50
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/33.png",
+      "advance": 243,
+      "lsb": 50
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/63.png",
+      "advance": 418,
+      "lsb": 50
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/64.png",
+      "advance": 632,
+      "lsb": 50
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/35.png",
+      "advance": 553,
+      "lsb": 50
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/36.png",
+      "advance": 426,
+      "lsb": 50
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/37.png",
+      "advance": 617,
+      "lsb": 50
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/38.png",
+      "advance": 601,
+      "lsb": 50
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/42.png",
+      "advance": 450,
+      "lsb": 50
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/43.png",
+      "advance": 426,
+      "lsb": 50
+    },
+    "8722": {
+      "code": 8722,
+      "char": "\u2212",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/8722.png",
+      "advance": 402,
+      "lsb": 50
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/61.png",
+      "advance": 386,
+      "lsb": 50
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/47.png",
+      "advance": 386,
+      "lsb": 50
+    },
+    "92": {
+      "code": 92,
+      "char": "\\",
+      "name": "backslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/92.png",
+      "advance": 378,
+      "lsb": 50
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/40.png",
+      "advance": 282,
+      "lsb": 50
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/41.png",
+      "advance": 275,
+      "lsb": 50
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/91.png",
+      "advance": 282,
+      "lsb": 50
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/93.png",
+      "advance": 275,
+      "lsb": 50
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/123.png",
+      "advance": 275,
+      "lsb": 50
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/125.png",
+      "advance": 290,
+      "lsb": 50
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/58.png",
+      "advance": 211,
+      "lsb": 50
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/59.png",
+      "advance": 211,
+      "lsb": 50
+    },
+    "8217": {
+      "code": 8217,
+      "char": "\u2019",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/8217.png",
+      "advance": 219,
+      "lsb": 50
+    },
+    "8221": {
+      "code": 8221,
+      "char": "\u201d",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/8221.png",
+      "advance": 211,
+      "lsb": 50
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/44.png",
+      "advance": 227,
+      "lsb": 50
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/46.png",
+      "advance": 235,
+      "lsb": 50
+    },
+    "95": {
+      "code": 95,
+      "char": "_",
+      "name": "underscore",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/95.png",
+      "advance": 442,
+      "lsb": 50
+    },
+    "126": {
+      "code": 126,
+      "char": "~",
+      "name": "asciitilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/126.png",
+      "advance": 442,
+      "lsb": 50
+    },
+    "94": {
+      "code": 94,
+      "char": "^",
+      "name": "asciicircum",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/94.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "124": {
+      "code": 124,
+      "char": "|",
+      "name": "bar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/124.png",
+      "advance": 187,
+      "lsb": 50
+    },
+    "162": {
+      "code": 162,
+      "char": "\u00a2",
+      "name": "cent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/162.png",
+      "advance": 338,
+      "lsb": 50
+    },
+    "163": {
+      "code": 163,
+      "char": "\u00a3",
+      "name": "sterling",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/163.png",
+      "advance": 362,
+      "lsb": 50
+    },
+    "8364": {
+      "code": 8364,
+      "char": "\u20ac",
+      "name": "euro",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/8364.png",
+      "advance": 410,
+      "lsb": 50
+    },
+    "165": {
+      "code": 165,
+      "char": "\u00a5",
+      "name": "yen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/165.png",
+      "advance": 410,
+      "lsb": 50
+    },
+    "169": {
+      "code": 169,
+      "char": "\u00a9",
+      "name": "copyright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/169.png",
+      "advance": 505,
+      "lsb": 50
+    },
+    "174": {
+      "code": 174,
+      "char": "\u00ae",
+      "name": "registered",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/174.png",
+      "advance": 442,
+      "lsb": 50
+    },
+    "8482": {
+      "code": 8482,
+      "char": "\u2122",
+      "name": "trademark",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/8482.png",
+      "advance": 402,
+      "lsb": 50
+    },
+    "224": {
+      "code": 224,
+      "char": "\u00e0",
+      "name": "Agrave",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/224.png",
+      "advance": 330,
+      "lsb": 50
+    },
+    "225": {
+      "code": 225,
+      "char": "\u00e1",
+      "name": "Aacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/225.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "226": {
+      "code": 226,
+      "char": "\u00e2",
+      "name": "Acircumflex",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/226.png",
+      "advance": 322,
+      "lsb": 50
+    },
+    "227": {
+      "code": 227,
+      "char": "\u00e3",
+      "name": "Atilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/227.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "228": {
+      "code": 228,
+      "char": "\u00e4",
+      "name": "Adieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/228.png",
+      "advance": 322,
+      "lsb": 50
+    },
+    "229": {
+      "code": 229,
+      "char": "\u00e5",
+      "name": "Aring",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/229.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "230": {
+      "code": 230,
+      "char": "\u00e6",
+      "name": "AE",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/230.png",
+      "advance": 386,
+      "lsb": 50
+    },
+    "231": {
+      "code": 231,
+      "char": "\u00e7",
+      "name": "Ccedilla",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/231.png",
+      "advance": 298,
+      "lsb": 50
+    },
+    "232": {
+      "code": 232,
+      "char": "\u00e8",
+      "name": "Egrave",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/232.png",
+      "advance": 267,
+      "lsb": 50
+    },
+    "233": {
+      "code": 233,
+      "char": "\u00e9",
+      "name": "Eacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/233.png",
+      "advance": 275,
+      "lsb": 50
+    },
+    "234": {
+      "code": 234,
+      "char": "\u00ea",
+      "name": "Ecircumflex",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/234.png",
+      "advance": 267,
+      "lsb": 50
+    },
+    "235": {
+      "code": 235,
+      "char": "\u00eb",
+      "name": "Edieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/235.png",
+      "advance": 267,
+      "lsb": 50
+    },
+    "236": {
+      "code": 236,
+      "char": "\u00ec",
+      "name": "Igrave",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/236.png",
+      "advance": 195,
+      "lsb": 50
+    },
+    "237": {
+      "code": 237,
+      "char": "\u00ed",
+      "name": "Iacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/237.png",
+      "advance": 195,
+      "lsb": 50
+    },
+    "238": {
+      "code": 238,
+      "char": "\u00ee",
+      "name": "Icircumflex",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/238.png",
+      "advance": 219,
+      "lsb": 50
+    },
+    "239": {
+      "code": 239,
+      "char": "\u00ef",
+      "name": "Idieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/239.png",
+      "advance": 211,
+      "lsb": 50
+    },
+    "241": {
+      "code": 241,
+      "char": "\u00f1",
+      "name": "Ntilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/241.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "242": {
+      "code": 242,
+      "char": "\u00f2",
+      "name": "Ograve",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/242.png",
+      "advance": 322,
+      "lsb": 50
+    },
+    "243": {
+      "code": 243,
+      "char": "\u00f3",
+      "name": "Oacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/243.png",
+      "advance": 322,
+      "lsb": 50
+    },
+    "244": {
+      "code": 244,
+      "char": "\u00f4",
+      "name": "Ocircumflex",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/244.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "245": {
+      "code": 245,
+      "char": "\u00f5",
+      "name": "Otilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/245.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "246": {
+      "code": 246,
+      "char": "\u00f6",
+      "name": "Odieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/246.png",
+      "advance": 322,
+      "lsb": 50
+    },
+    "248": {
+      "code": 248,
+      "char": "\u00f8",
+      "name": "Oslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/248.png",
+      "advance": 346,
+      "lsb": 50
+    },
+    "339": {
+      "code": 339,
+      "char": "\u0153",
+      "name": "OE",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/339.png",
+      "advance": 426,
+      "lsb": 50
+    },
+    "353": {
+      "code": 353,
+      "char": "\u0161",
+      "name": "Scaron",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/353.png",
+      "advance": 290,
+      "lsb": 50
+    },
+    "249": {
+      "code": 249,
+      "char": "\u00f9",
+      "name": "Ugrave",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/249.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "250": {
+      "code": 250,
+      "char": "\u00fa",
+      "name": "Uacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/250.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "251": {
+      "code": 251,
+      "char": "\u00fb",
+      "name": "Ucircumflex",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/251.png",
+      "advance": 314,
+      "lsb": 50
+    },
+    "252": {
+      "code": 252,
+      "char": "\u00fc",
+      "name": "Udieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/252.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "253": {
+      "code": 253,
+      "char": "\u00fd",
+      "name": "Yacute",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/253.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "376": {
+      "code": 376,
+      "char": "\u0178",
+      "name": "Ydieresis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/376.png",
+      "advance": 298,
+      "lsb": 50
+    },
+    "382": {
+      "code": 382,
+      "char": "\u017e",
+      "name": "Zcaron",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/382.png",
+      "advance": 306,
+      "lsb": 50
+    },
+    "309": {
+      "code": 309,
+      "char": "\u0135",
+      "name": "J.alt",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/309.png",
+      "advance": 497,
+      "lsb": 50
+    },
+    "658": {
+      "code": 658,
+      "char": "\u0292",
+      "name": "z.alt",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/658.png",
+      "advance": 386,
+      "lsb": 50
+    },
+    "164": {
+      "code": 164,
+      "char": "\u00a4",
+      "name": "currency_alt",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-peacock/164.png",
+      "advance": 370,
+      "lsb": 50
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 350,
+      "lsb": 0
+    }
+  }
+}

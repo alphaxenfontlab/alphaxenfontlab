@@ -1,0 +1,991 @@
+{
+  "id": "alphaxen-molten-lava",
+  "name": "Alphaxen Molten Lava",
+  "category": "chromatic",
+  "subCategory": "Elemental & Volcanic",
+  "theme": "Cracked Basalt & Glowing Magma",
+  "accent": "#ef4444",
+  "badge": "ELEMENTAL CHROMATIC",
+  "description": "Incandescent volcanic typography forged from cooling black basalt rock cracked open by glowing 1200-degree liquid magma veins.",
+  "specimenWords": [
+    "MOLTEN",
+    "VOLCANO",
+    "MAGMA",
+    "CRACKED",
+    "INFERNO"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 106,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 300,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/65.png",
+      "advance": 1118,
+      "lsb": 35
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/66.png",
+      "advance": 798,
+      "lsb": 36
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/67.png",
+      "advance": 742,
+      "lsb": 41
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/68.png",
+      "advance": 886,
+      "lsb": 41
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/69.png",
+      "advance": 742,
+      "lsb": 42
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/70.png",
+      "advance": 854,
+      "lsb": 37
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/71.png",
+      "advance": 854,
+      "lsb": 35
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/72.png",
+      "advance": 1030,
+      "lsb": 40
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/73.png",
+      "advance": 462,
+      "lsb": 35
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/74.png",
+      "advance": 830,
+      "lsb": 35
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/75.png",
+      "advance": 942,
+      "lsb": 35
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/76.png",
+      "advance": 710,
+      "lsb": 36
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/77.png",
+      "advance": 1150,
+      "lsb": 38
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/78.png",
+      "advance": 1046,
+      "lsb": 37
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/79.png",
+      "advance": 846,
+      "lsb": 39
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/80.png",
+      "advance": 846,
+      "lsb": 37
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/81.png",
+      "advance": 918,
+      "lsb": 35
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/82.png",
+      "advance": 950,
+      "lsb": 36
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/83.png",
+      "advance": 726,
+      "lsb": 41
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/84.png",
+      "advance": 934,
+      "lsb": 37
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/85.png",
+      "advance": 830,
+      "lsb": 39
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/86.png",
+      "advance": 998,
+      "lsb": 36
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/87.png",
+      "advance": 1158,
+      "lsb": 39
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/88.png",
+      "advance": 1198,
+      "lsb": 36
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/89.png",
+      "advance": 958,
+      "lsb": 40
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/90.png",
+      "advance": 830,
+      "lsb": 38
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/97.png",
+      "advance": 716,
+      "lsb": 30
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/98.png",
+      "advance": 676,
+      "lsb": 31
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/99.png",
+      "advance": 556,
+      "lsb": 30
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/100.png",
+      "advance": 716,
+      "lsb": 30
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/101.png",
+      "advance": 564,
+      "lsb": 36
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/102.png",
+      "advance": 628,
+      "lsb": 30
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/103.png",
+      "advance": 804,
+      "lsb": 33
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/104.png",
+      "advance": 828,
+      "lsb": 36
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/105.png",
+      "advance": 356,
+      "lsb": 29
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/106.png",
+      "advance": 596,
+      "lsb": 30
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/107.png",
+      "advance": 836,
+      "lsb": 31
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/108.png",
+      "advance": 612,
+      "lsb": 34
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/109.png",
+      "advance": 1124,
+      "lsb": 30
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/110.png",
+      "advance": 812,
+      "lsb": 29
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/111.png",
+      "advance": 604,
+      "lsb": 35
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/112.png",
+      "advance": 812,
+      "lsb": 31
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/113.png",
+      "advance": 716,
+      "lsb": 32
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/114.png",
+      "advance": 708,
+      "lsb": 32
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/115.png",
+      "advance": 668,
+      "lsb": 31
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/116.png",
+      "advance": 708,
+      "lsb": 30
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/117.png",
+      "advance": 740,
+      "lsb": 30
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/118.png",
+      "advance": 788,
+      "lsb": 35
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/119.png",
+      "advance": 996,
+      "lsb": 34
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/120.png",
+      "advance": 996,
+      "lsb": 30
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/121.png",
+      "advance": 956,
+      "lsb": 30
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/122.png",
+      "advance": 780,
+      "lsb": 30
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/48.png",
+      "advance": 838,
+      "lsb": 36
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/49.png",
+      "advance": 598,
+      "lsb": 37
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/50.png",
+      "advance": 806,
+      "lsb": 38
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/51.png",
+      "advance": 774,
+      "lsb": 36
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/52.png",
+      "advance": 854,
+      "lsb": 38
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/53.png",
+      "advance": 886,
+      "lsb": 41
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/54.png",
+      "advance": 758,
+      "lsb": 39
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/55.png",
+      "advance": 846,
+      "lsb": 38
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/56.png",
+      "advance": 694,
+      "lsb": 40
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/57.png",
+      "advance": 894,
+      "lsb": 38
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/33.png",
+      "advance": 338,
+      "lsb": 32
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/63.png",
+      "advance": 618,
+      "lsb": 29
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/46.png",
+      "advance": 218,
+      "lsb": 28
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/44.png",
+      "advance": 210,
+      "lsb": 25
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/59.png",
+      "advance": 202,
+      "lsb": 28
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/58.png",
+      "advance": 602,
+      "lsb": 30
+    },
+    "8230": {
+      "code": 8230,
+      "char": "\u2026",
+      "name": "ellipsis",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8230.png",
+      "advance": 442,
+      "lsb": 27
+    },
+    "8220": {
+      "code": 8220,
+      "char": "\u201c",
+      "name": "quotedblleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8220.png",
+      "advance": 250,
+      "lsb": 30
+    },
+    "8221": {
+      "code": 8221,
+      "char": "\u201d",
+      "name": "quotedblright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8221.png",
+      "advance": 202,
+      "lsb": 28
+    },
+    "8216": {
+      "code": 8216,
+      "char": "\u2018",
+      "name": "quoteleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8216.png",
+      "advance": 218,
+      "lsb": 25
+    },
+    "8217": {
+      "code": 8217,
+      "char": "\u2019",
+      "name": "quoteright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8217.png",
+      "advance": 186,
+      "lsb": 26
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/64.png",
+      "advance": 698,
+      "lsb": 26
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/35.png",
+      "advance": 610,
+      "lsb": 29
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/36.png",
+      "advance": 490,
+      "lsb": 26
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/37.png",
+      "advance": 626,
+      "lsb": 26
+    },
+    "8240": {
+      "code": 8240,
+      "char": "\u2030",
+      "name": "perthousand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8240.png",
+      "advance": 770,
+      "lsb": 25
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/38.png",
+      "advance": 682,
+      "lsb": 28
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/42.png",
+      "advance": 298,
+      "lsb": 27
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/43.png",
+      "advance": 386,
+      "lsb": 27
+    },
+    "8722": {
+      "code": 8722,
+      "char": "\u2212",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8722.png",
+      "advance": 466,
+      "lsb": 28
+    },
+    "215": {
+      "code": 215,
+      "char": "\u00d7",
+      "name": "multiply",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/215.png",
+      "advance": 426,
+      "lsb": 29
+    },
+    "247": {
+      "code": 247,
+      "char": "\u00f7",
+      "name": "divide",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/247.png",
+      "advance": 362,
+      "lsb": 26
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/61.png",
+      "advance": 338,
+      "lsb": 25
+    },
+    "8800": {
+      "code": 8800,
+      "char": "\u2260",
+      "name": "notequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8800.png",
+      "advance": 418,
+      "lsb": 25
+    },
+    "8776": {
+      "code": 8776,
+      "char": "\u2248",
+      "name": "approxequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8776.png",
+      "advance": 394,
+      "lsb": 25
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/60.png",
+      "advance": 394,
+      "lsb": 27
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/62.png",
+      "advance": 378,
+      "lsb": 26
+    },
+    "8804": {
+      "code": 8804,
+      "char": "\u2264",
+      "name": "lessequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8804.png",
+      "advance": 362,
+      "lsb": 28
+    },
+    "8805": {
+      "code": 8805,
+      "char": "\u2265",
+      "name": "greaterequal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8805.png",
+      "advance": 370,
+      "lsb": 25
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/40.png",
+      "advance": 298,
+      "lsb": 30
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/41.png",
+      "advance": 322,
+      "lsb": 29
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/91.png",
+      "advance": 314,
+      "lsb": 29
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/93.png",
+      "advance": 346,
+      "lsb": 29
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/123.png",
+      "advance": 314,
+      "lsb": 25
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/125.png",
+      "advance": 330,
+      "lsb": 31
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/47.png",
+      "advance": 394,
+      "lsb": 25
+    },
+    "92": {
+      "code": 92,
+      "char": "\\",
+      "name": "backslash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/92.png",
+      "advance": 330,
+      "lsb": 25
+    },
+    "124": {
+      "code": 124,
+      "char": "|",
+      "name": "bar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/124.png",
+      "advance": 146,
+      "lsb": 26
+    },
+    "169": {
+      "code": 169,
+      "char": "\u00a9",
+      "name": "copyright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/169.png",
+      "advance": 362,
+      "lsb": 25
+    },
+    "174": {
+      "code": 174,
+      "char": "\u00ae",
+      "name": "registered",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/174.png",
+      "advance": 330,
+      "lsb": 29
+    },
+    "8482": {
+      "code": 8482,
+      "char": "\u2122",
+      "name": "trademark",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/8482.png",
+      "advance": 314,
+      "lsb": 25
+    },
+    "10084": {
+      "code": 10084,
+      "char": "\u2764",
+      "name": "heart_open",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/10084.png",
+      "advance": 626,
+      "lsb": 27
+    },
+    "126": {
+      "code": 126,
+      "char": "~",
+      "name": "asciitilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-molten-lava/126.png",
+      "advance": 538,
+      "lsb": 26
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 300,
+      "lsb": 0
+    }
+  }
+}

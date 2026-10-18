@@ -1,0 +1,847 @@
+{
+  "id": "alphaxen-orca",
+  "name": "Alphaxen Orca",
+  "category": "chromatic",
+  "subCategory": "Oceanic & Beast",
+  "theme": "Glossy Killer Whale Texture",
+  "accent": "#38bdf8",
+  "badge": "BEAST CHROMATIC",
+  "description": "High-gloss obsidian and arctic white marine predator typography modeled after the hydrodynamic elegance and speed of the killer whale.",
+  "specimenWords": [
+    "ORCA",
+    "OCEANIC",
+    "PREDATOR",
+    "ARCTIC",
+    "SPEED"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 90,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 350,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/65.png",
+      "advance": 862,
+      "lsb": 59
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/66.png",
+      "advance": 676,
+      "lsb": 72
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/67.png",
+      "advance": 683,
+      "lsb": 53
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/68.png",
+      "advance": 785,
+      "lsb": 59
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/69.png",
+      "advance": 702,
+      "lsb": 111
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/70.png",
+      "advance": 663,
+      "lsb": 59
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/71.png",
+      "advance": 766,
+      "lsb": 53
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/72.png",
+      "advance": 772,
+      "lsb": 66
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/73.png",
+      "advance": 381,
+      "lsb": 53
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/74.png",
+      "advance": 606,
+      "lsb": 53
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/75.png",
+      "advance": 836,
+      "lsb": 53
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/76.png",
+      "advance": 683,
+      "lsb": 91
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/77.png",
+      "advance": 926,
+      "lsb": 53
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/78.png",
+      "advance": 792,
+      "lsb": 66
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/79.png",
+      "advance": 811,
+      "lsb": 59
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/80.png",
+      "advance": 727,
+      "lsb": 59
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/81.png",
+      "advance": 875,
+      "lsb": 59
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/82.png",
+      "advance": 766,
+      "lsb": 59
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/83.png",
+      "advance": 676,
+      "lsb": 66
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/84.png",
+      "advance": 708,
+      "lsb": 59
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/85.png",
+      "advance": 727,
+      "lsb": 53
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/86.png",
+      "advance": 779,
+      "lsb": 53
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/87.png",
+      "advance": 1016,
+      "lsb": 53
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/88.png",
+      "advance": 798,
+      "lsb": 66
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/89.png",
+      "advance": 721,
+      "lsb": 59
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/90.png",
+      "advance": 759,
+      "lsb": 40
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/97.png",
+      "advance": 638,
+      "lsb": 46
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/98.png",
+      "advance": 625,
+      "lsb": 72
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/99.png",
+      "advance": 509,
+      "lsb": 53
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/100.png",
+      "advance": 644,
+      "lsb": 59
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/101.png",
+      "advance": 574,
+      "lsb": 59
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/102.png",
+      "advance": 516,
+      "lsb": 59
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/103.png",
+      "advance": 580,
+      "lsb": 53
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/104.png",
+      "advance": 683,
+      "lsb": 59
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/105.png",
+      "advance": 330,
+      "lsb": 53
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/106.png",
+      "advance": 433,
+      "lsb": 59
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/107.png",
+      "advance": 663,
+      "lsb": 53
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/108.png",
+      "advance": 420,
+      "lsb": 59
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/109.png",
+      "advance": 702,
+      "lsb": 59
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/110.png",
+      "advance": 708,
+      "lsb": 59
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/111.png",
+      "advance": 644,
+      "lsb": 53
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/112.png",
+      "advance": 638,
+      "lsb": 59
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/113.png",
+      "advance": 663,
+      "lsb": 66
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/114.png",
+      "advance": 599,
+      "lsb": 53
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/115.png",
+      "advance": 535,
+      "lsb": 66
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/116.png",
+      "advance": 535,
+      "lsb": 53
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/117.png",
+      "advance": 618,
+      "lsb": 59
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/118.png",
+      "advance": 663,
+      "lsb": 53
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/119.png",
+      "advance": 804,
+      "lsb": 66
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/120.png",
+      "advance": 676,
+      "lsb": 66
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/121.png",
+      "advance": 702,
+      "lsb": 53
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/122.png",
+      "advance": 638,
+      "lsb": 53
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/48.png",
+      "advance": 689,
+      "lsb": 66
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/49.png",
+      "advance": 388,
+      "lsb": 53
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/50.png",
+      "advance": 638,
+      "lsb": 59
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/51.png",
+      "advance": 567,
+      "lsb": 53
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/52.png",
+      "advance": 644,
+      "lsb": 53
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/53.png",
+      "advance": 580,
+      "lsb": 72
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/54.png",
+      "advance": 593,
+      "lsb": 53
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/55.png",
+      "advance": 580,
+      "lsb": 59
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/56.png",
+      "advance": 606,
+      "lsb": 59
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/57.png",
+      "advance": 586,
+      "lsb": 53
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/33.png",
+      "advance": 170,
+      "lsb": 40
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/63.png",
+      "advance": 259,
+      "lsb": 59
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/44.png",
+      "advance": 368,
+      "lsb": 53
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/46.png",
+      "advance": 221,
+      "lsb": 59
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/59.png",
+      "advance": 215,
+      "lsb": 59
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/58.png",
+      "advance": 215,
+      "lsb": 59
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/34.png",
+      "advance": 208,
+      "lsb": 53
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/39.png",
+      "advance": 247,
+      "lsb": 53
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/40.png",
+      "advance": 240,
+      "lsb": 53
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/41.png",
+      "advance": 253,
+      "lsb": 59
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/91.png",
+      "advance": 253,
+      "lsb": 59
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/93.png",
+      "advance": 285,
+      "lsb": 72
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/123.png",
+      "advance": 266,
+      "lsb": 53
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/125.png",
+      "advance": 311,
+      "lsb": 53
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/43.png",
+      "advance": 311,
+      "lsb": 53
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/45.png",
+      "advance": 368,
+      "lsb": 59
+    },
+    "47": {
+      "code": 47,
+      "char": "/",
+      "name": "slash",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/47.png",
+      "advance": 324,
+      "lsb": 59
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/61.png",
+      "advance": 349,
+      "lsb": 53
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/62.png",
+      "advance": 324,
+      "lsb": 53
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/60.png",
+      "advance": 304,
+      "lsb": 53
+    },
+    "126": {
+      "code": 126,
+      "char": "~",
+      "name": "asciitilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/126.png",
+      "advance": 324,
+      "lsb": 59
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/64.png",
+      "advance": 298,
+      "lsb": 59
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/35.png",
+      "advance": 349,
+      "lsb": 59
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/36.png",
+      "advance": 336,
+      "lsb": 59
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/37.png",
+      "advance": 304,
+      "lsb": 59
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/38.png",
+      "advance": 375,
+      "lsb": 53
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-orca/42.png",
+      "advance": 362,
+      "lsb": 53
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 350,
+      "lsb": 0
+    }
+  }
+}

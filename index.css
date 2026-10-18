@@ -1,0 +1,1786 @@
+/* =========================================================
+   ALPHAXEN - HIGH-PRECISION LIQUID GLASS MORPHISM THEME
+   Red, Obsidian Black & Specular White Palette
+   ========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --bg-dark: #0b0e17;
+  --primary-glow: #8b5cf6;
+  --secondary-glow: #3b82f6;
+  --accent-primary: #8b5cf6;
+  --glass-surface: rgba(17, 22, 36, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-specular: rgba(255, 255, 255, 0.35);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #0b0e17;
+  color: #f4f4f5;
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all images, svgs, and media stay inside containers */
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* All boxes strictly respect their container boundaries */
+.liquid-glass,
+.liquid-glass-sm,
+.liquid-glass-card,
+.liquid-glass-interactive,
+.liquid-glass-inset {
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* =========================================================
+/* =========================================================
+   1. MASTER TACTILE NEOMORPHISM & LIQUID GLASS MORPHISM
+   ========================================================= */
+
+/* Primary Neomorphic Card & Panel (Convex 3D Elevation) */
+.liquid-glass,
+.neu-card {
+  background: 
+    radial-gradient(ellipse 90% 70% at 85% 15%, rgba(168, 85, 247, 0.32) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 15% 85%, rgba(56, 189, 248, 0.26) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.015) 100%),
+    rgba(10, 14, 32, 0.38);
+  backdrop-filter: blur(36px) saturate(240%) contrast(110%);
+  -webkit-backdrop-filter: blur(36px) saturate(240%) contrast(110%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+  box-shadow: 
+    0 24px 60px -10px rgba(0, 0, 0, 0.85),
+    0 0 40px rgba(147, 51, 234, 0.25),
+    inset 0 2.5px 3px rgba(255, 255, 255, 0.4),
+    inset 0 -2.5px 5px rgba(0, 0, 0, 0.45);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Specular Upper Horizon Sheen on Liquid Glass */
+.liquid-glass::before,
+.neu-card::before,
+.liquid-glass-textbox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.03) 65%, transparent 100%);
+  pointer-events: none;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+/* Compact Neomorphic Chip / Small Box */
+.liquid-glass-sm {
+  background: 
+    radial-gradient(ellipse 85% 65% at 85% 15%, rgba(168, 85, 247, 0.28) 0%, transparent 60%),
+    radial-gradient(ellipse 65% 55% at 15% 85%, rgba(56, 189, 248, 0.22) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.015) 100%),
+    rgba(10, 14, 32, 0.4);
+  backdrop-filter: blur(30px) saturate(230%);
+  -webkit-backdrop-filter: blur(30px) saturate(230%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.65);
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 
+    0 12px 30px -4px rgba(0, 0, 0, 0.75),
+    0 0 25px rgba(139, 92, 246, 0.2),
+    inset 0 2px 2.5px rgba(255, 255, 255, 0.35),
+    inset 0 -1.5px 2.5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Interactive Neomorphic Card (Elevates on Hover with Ambient Light Bloom) */
+.liquid-glass-interactive,
+.neu-card-interactive {
+  background: 
+    radial-gradient(ellipse 90% 70% at 85% 15%, rgba(168, 85, 247, 0.32) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 15% 85%, rgba(56, 189, 248, 0.26) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%),
+    rgba(12, 16, 36, 0.4);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.38);
+  box-shadow: 
+    0 16px 36px -8px rgba(0, 0, 0, 0.75),
+    0 0 25px rgba(147, 51, 234, 0.2),
+    inset 0 2px 3px rgba(255, 255, 255, 0.35),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.4);
+  transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.26s ease, border-color 0.26s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-glass-interactive:hover,
+.neu-card-interactive:hover {
+  transform: translateY(-4px) scale(1.01);
+  background: 
+    radial-gradient(ellipse 90% 70% at 85% 15%, rgba(168, 85, 247, 0.45) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 15% 85%, rgba(56, 189, 248, 0.35) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%),
+    rgba(16, 22, 48, 0.48);
+  border-color: rgba(168, 85, 247, 0.75);
+  border-top-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 
+    0 24px 50px -8px rgba(0, 0, 0, 0.85),
+    0 0 40px rgba(168, 85, 247, 0.4),
+    inset 0 2.5px 4px rgba(255, 255, 255, 0.55);
+}
+
+/* =========================================================
+   LIQUID GLASS TEXT BOXES, INPUTS, TEXTAREAS & INSET WELLS
+   ========================================================= */
+
+/* All Text Inputs, Textareas, Selects & Search Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select,
+.liquid-glass-input,
+.liquid-glass-textbox,
+.liquid-glass-textarea,
+.liquid-glass-inset,
+.neu-inset {
+  background: 
+    radial-gradient(ellipse 90% 75% at 85% 15%, rgba(168, 85, 247, 0.32) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 15% 85%, rgba(56, 189, 248, 0.26) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.015) 100%),
+    rgba(10, 14, 30, 0.38) !important;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(168, 85, 247, 0.35) !important;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 
+    0 16px 40px -6px rgba(0, 0, 0, 0.75),
+    0 0 32px rgba(139, 92, 246, 0.28),
+    inset 0 2.5px 3px rgba(255, 255, 255, 0.35),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.45) !important;
+  color: #ffffff !important;
+  transition: all 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+/* Liquid Glass Text Box Focus State */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+select:focus,
+.liquid-glass-input:focus,
+.liquid-glass-textbox:focus,
+.liquid-glass-textarea:focus,
+.liquid-glass-inset:focus-within,
+.neu-inset:focus-within {
+  background: 
+    radial-gradient(ellipse 95% 85% at 85% 15%, rgba(168, 85, 247, 0.48) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 70% at 15% 85%, rgba(56, 189, 248, 0.38) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%),
+    rgba(14, 18, 42, 0.48) !important;
+  border-color: rgba(168, 85, 247, 0.95) !important;
+  border-top-color: #ffffff !important;
+  box-shadow: 
+    0 20px 55px -4px rgba(0, 0, 0, 0.85),
+    0 0 55px rgba(168, 85, 247, 0.6),
+    inset 0 2.5px 4px rgba(255, 255, 255, 0.55),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.5) !important;
+  outline: none !important;
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder,
+.liquid-glass-inset input::placeholder,
+.liquid-glass-inset textarea::placeholder,
+.neu-inset input::placeholder,
+.neu-inset textarea::placeholder {
+  color: #94a3b8 !important;
+  opacity: 0.85;
+  font-weight: 500;
+}
+
+/* =========================================================
+   2. TACTILE NEOMORPHIC BUTTONS & CONTROLS
+   ========================================================= */
+
+/* Default Extruded Neomorphic Glass Button */
+.neu-btn {
+  background: linear-gradient(145deg, rgba(38, 44, 70, 0.85) 0%, rgba(16, 20, 36, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    5px 8px 18px -2px rgba(0, 0, 0, 0.88),
+    -3px -3px 10px rgba(255, 255, 255, 0.035),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.3),
+    inset 0 -1.5px 2px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  color: #f1f5f9;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.neu-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(145deg, rgba(50, 58, 92, 0.9) 0%, rgba(22, 28, 50, 0.98) 100%);
+  box-shadow: 
+    8px 14px 28px -3px rgba(0, 0, 0, 0.96),
+    -4px -4px 14px rgba(255, 255, 255, 0.06),
+    0 0 22px rgba(139, 92, 246, 0.3),
+    inset 0 1.5px 2.5px rgba(255, 255, 255, 0.45);
+  border-color: rgba(168, 85, 247, 0.5);
+  color: #ffffff;
+}
+
+/* Debossed Inset Compression on Click */
+.neu-btn:active {
+  transform: translateY(1.5px) scale(0.98);
+  background: linear-gradient(145deg, rgba(12, 15, 28, 0.98) 0%, rgba(20, 26, 46, 0.95) 100%);
+  box-shadow: 
+    inset 4px 4px 10px rgba(0, 0, 0, 0.96),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.06),
+    0 1px 2px rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Primary Purple & Blue Gradient Neomorphic Button */
+.neu-btn-primary {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #3b82f6 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    6px 10px 26px -3px rgba(99, 102, 241, 0.55),
+    -3px -3px 10px rgba(255, 255, 255, 0.1),
+    inset 0 2px 2px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  color: #ffffff;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.neu-btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #2563eb 100%);
+  box-shadow: 
+    10px 16px 36px -4px rgba(139, 92, 246, 0.8),
+    -4px -4px 14px rgba(255, 255, 255, 0.18),
+    inset 0 2px 3px rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.75);
+}
+
+.neu-btn-primary:active {
+  transform: translateY(1.5px) scale(0.98);
+  box-shadow: 
+    inset 4px 4px 12px rgba(0, 0, 0, 0.85),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.25),
+    0 2px 8px rgba(99, 102, 241, 0.45);
+}
+
+/* Secondary Neomorphic Action Button */
+.neu-btn-cyan {
+  background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    6px 10px 25px -3px rgba(6, 182, 212, 0.55),
+    -3px -3px 10px rgba(255, 255, 255, 0.1),
+    inset 0 2px 2px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  color: #ffffff;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.neu-btn-cyan:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 
+    10px 16px 34px -4px rgba(6, 182, 212, 0.8),
+    -4px -4px 14px rgba(255, 255, 255, 0.18),
+    inset 0 2px 3px rgba(255, 255, 255, 0.85);
+}
+
+.neu-btn-cyan:active {
+  transform: translateY(1.5px) scale(0.98);
+  box-shadow: 
+    inset 4px 4px 12px rgba(0, 0, 0, 0.85),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.25),
+    0 2px 8px rgba(6, 182, 212, 0.45);
+}
+
+/* Tactile Neomorphic Circular Button */
+.neu-btn-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, rgba(36, 42, 68, 0.88), rgba(14, 18, 34, 0.96));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    6px 8px 18px rgba(0, 0, 0, 0.88),
+    -3px -3px 10px rgba(255, 255, 255, 0.04),
+    inset 1.5px 1.5px 2px rgba(255, 255, 255, 0.3),
+    inset -1.5px -1.5px 2px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 1px solid rgba(255, 255, 255, 0.38);
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neu-btn-circle:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 
+    9px 14px 26px rgba(0, 0, 0, 0.96),
+    -4px -4px 14px rgba(255, 255, 255, 0.08),
+    0 0 20px rgba(139, 92, 246, 0.4),
+    inset 1.5px 1.5px 2.5px rgba(255, 255, 255, 0.45);
+  border-color: rgba(168, 85, 247, 0.6);
+  color: #fff;
+}
+
+.neu-btn-circle:active {
+  transform: scale(0.94);
+  box-shadow: 
+    inset 3px 3px 8px rgba(0, 0, 0, 0.96),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.06);
+}
+
+.neu-pill-active {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%) !important;
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.45),
+    0 4px 18px rgba(139, 92, 246, 0.65) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.neu-badge {
+  background: linear-gradient(145deg, rgba(30, 36, 58, 0.85), rgba(14, 18, 32, 0.92));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 
+    4px 6px 14px rgba(0, 0, 0, 0.75),
+    -2px -2px 8px rgba(255, 255, 255, 0.03),
+    inset 1px 1px 1.5px rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.neu-waterfall-row {
+  background: linear-gradient(145deg, rgba(22, 28, 46, 0.8), rgba(10, 13, 24, 0.94));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    inset 2px 2px 5px rgba(0, 0, 0, 0.8),
+    inset -1px -1px 3px rgba(255, 255, 255, 0.04),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  transition: all 0.2s ease;
+}
+
+.neu-waterfall-row:hover {
+  background: linear-gradient(145deg, rgba(32, 40, 68, 0.88), rgba(16, 20, 36, 0.96));
+  border-color: rgba(168, 85, 247, 0.5);
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.85),
+    -3px -3px 10px rgba(255, 255, 255, 0.03),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.25);
+}
+
+/* =========================================================
+   3. MOBILE DEVICE FRAME (Liquid-Glass Edition)
+   ========================================================= */
+
+.mobile-device-frame {
+  width: 100%;
+  max-width: 385px;
+  height: 780px;
+  border-radius: 48px;
+  background: linear-gradient(165deg, rgba(24, 24, 24, 0.85) 0%, rgba(8, 8, 8, 0.96) 100%);
+  backdrop-filter: blur(35px) saturate(200%);
+  -webkit-backdrop-filter: blur(35px) saturate(200%);
+  border: 3.5px solid rgba(255, 255, 255, 0.15);
+  border-top: 3.5px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 
+    0 30px 80px -15px rgba(0, 0, 0, 0.95),
+    0 0 0 1px rgba(0, 0, 0, 0.85),
+    0 0 45px rgba(139, 92, 246, 0.25),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.35);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
+
+/* =========================================================
+   4. VERTEX AUTH STYLES & VIBRANT PURPLE/CYAN RADIAL MESH
+   ========================================================= */
+
+.vertex-bg-gradient {
+  background-color: #0b0c16;
+  background-image: 
+    radial-gradient(ellipse 65% 55% at 75% 38%, rgba(147, 51, 234, 0.58) 0%, rgba(126, 34, 206, 0.42) 30%, rgba(79, 70, 229, 0.22) 55%, rgba(11, 12, 22, 0.95) 80%, #0b0c16 100%),
+    radial-gradient(circle at 95% 10%, rgba(168, 85, 247, 0.38) 0%, transparent 45%),
+    radial-gradient(circle at 10% 85%, rgba(67, 56, 202, 0.18) 0%, transparent 45%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn-vertex-purple {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 45%, #a855f7 75%, #d946ef 100%);
+  box-shadow: 0 10px 32px -4px rgba(168, 85, 247, 0.65), inset 0 1.5px 2px rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  color: #ffffff;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.btn-vertex-purple:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 40px -2px rgba(217, 70, 239, 0.85), inset 0 1.5px 2.5px rgba(255, 255, 255, 0.85);
+}
+
+.btn-vertex-purple:active {
+  transform: translateY(1.5px) scale(0.98);
+  box-shadow: 
+    inset 0 4px 10px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 3px rgba(255, 255, 255, 0.35),
+    0 2px 8px rgba(168, 85, 247, 0.4);
+}
+
+.btn-vertex-cyan {
+  background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%);
+  box-shadow: 0 10px 30px -4px rgba(6, 182, 212, 0.6), inset 0 1.5px 2px rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.65);
+  color: #ffffff;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+.btn-vertex-cyan:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 38px -2px rgba(6, 182, 212, 0.8), inset 0 1.5px 2.5px rgba(255, 255, 255, 0.85);
+}
+
+.btn-vertex-cyan:active {
+  transform: translateY(1.5px) scale(0.98);
+  box-shadow: 
+    inset 0 4px 10px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 3px rgba(255, 255, 255, 0.35),
+    0 2px 8px rgba(6, 182, 212, 0.4);
+}
+
+.shield-badge-vertex {
+  background: linear-gradient(145deg, #7c3aed 0%, #a855f7 45%, #ec4899 100%);
+  box-shadow: 0 20px 50px rgba(168, 85, 247, 0.75), inset 0 2px 3px rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+/* =========================================================
+   5. PREMIUM BLUE & PURPLE GRADIENT FOOTER
+   ========================================================= */
+
+.footer-vertex-gradient {
+  background: 
+    radial-gradient(ellipse 80% 50% at 85% 15%, rgba(147, 51, 234, 0.28) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 15% 85%, rgba(59, 130, 246, 0.2) 0%, transparent 60%),
+    linear-gradient(165deg, #0d102e 0%, #121538 35%, #19123f 70%, #0a0c1e 100%);
+  position: relative;
+  border-top: 1px solid rgba(168, 85, 247, 0.28);
+  box-shadow: 
+    0 -12px 40px -8px rgba(139, 92, 246, 0.18),
+    inset 0 1px 1.5px rgba(255, 255, 255, 0.15);
+}
+
+.footer-vertex-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.6) 25%, rgba(168, 85, 247, 0.95) 60%, rgba(217, 70, 239, 0.7) 85%, transparent 100%);
+  box-shadow: 0 0 20px 3px rgba(168, 85, 247, 0.65);
+  pointer-events: none;
+}
+
+/* =========================================================
+   6. DECORATIVE 3D PERSPECTIVE CARD DISTORTION
+   ========================================================= */
+
+.hero-3d-card-distort {
+  transform: perspective(1300px) rotateY(-21deg) rotateX(13deg) rotateZ(-4.5deg) skewY(-1.5deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s ease;
+}
+
+.hero-3d-card-distort:hover {
+  transform: perspective(1300px) rotateY(-17deg) rotateX(10deg) rotateZ(-3deg) skewY(-1deg) scale3d(1.015, 1.015, 1.015);
+}
+
+/* =========================================================
+   7. FUTURISTIC MOLTEN SHAPES & LIQUID GLASS NEOMORPHISM
+   ========================================================= */
+
+@keyframes molten-morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  33% {
+    border-radius: 40% 60% 60% 40% / 50% 60% 40% 50%;
+  }
+  66% {
+    border-radius: 70% 30% 50% 50% / 30% 40% 60% 70%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@keyframes molten-float {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -14px, 0) scale(1.03);
+  }
+}
+
+@keyframes liquid-glow-pulse {
+  0%, 100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}
+
+@keyframes specular-sweep {
+  0% {
+    transform: translate3d(-150%, 0, 0) rotate(25deg);
+  }
+  100% {
+    transform: translate3d(300%, 0, 0) rotate(25deg);
+  }
+}
+
+/* Molten Liquid Shapes in Background (GPU Accelerated, No Repaint Thrashing) */
+.molten-blob {
+  position: absolute;
+  pointer-events: none;
+  filter: blur(45px);
+  opacity: 0.35;
+  border-radius: 58% 42% 48% 52% / 52% 45% 55% 48%;
+  animation: molten-float 18s ease-in-out infinite;
+  will-change: transform;
+}
+
+.molten-blob-purple {
+  background: radial-gradient(circle at 30% 30%, #a855f7 0%, #6366f1 50%, #1e1b4b 100%);
+}
+
+.molten-blob-lava {
+  background: radial-gradient(circle at 30% 30%, #f97316 0%, #ef4444 50%, #7f1d1d 100%);
+}
+
+.molten-blob-cyan {
+  background: radial-gradient(circle at 30% 30%, #06b6d4 0%, #3b82f6 50%, #0f172a 100%);
+}
+
+.molten-blob-honey {
+  background: radial-gradient(circle at 30% 30%, #fbbf24 0%, #d97706 60%, #451a03 100%);
+}
+
+/* True Tactile Neomorphic Liquid Glass */
+.molten-glass-panel {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.015) 50%, rgba(139, 92, 246, 0.07) 100%),
+              rgba(11, 14, 26, 0.72);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.45);
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 
+    0 24px 50px -12px rgba(0, 0, 0, 0.75),
+    0 0 35px -5px rgba(139, 92, 246, 0.18),
+    inset 0 1px 2px rgba(255, 255, 255, 0.35),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+/* Neumorphic Inset Well for Inputs and Canvas */
+.neu-inset-well {
+  background: #090b14;
+  box-shadow: 
+    inset 3px 3px 10px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.04),
+    0 1px 1px rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Neumorphic Convex Pill Button */
+.neu-convex-btn {
+  background: linear-gradient(145deg, #1b2034 0%, #101322 100%);
+  box-shadow: 
+    5px 5px 14px rgba(0, 0, 0, 0.6),
+    -2px -2px 8px rgba(255, 255, 255, 0.06),
+    inset 0 1px 1.5px rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neu-convex-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    7px 7px 20px rgba(0, 0, 0, 0.75),
+    -3px -3px 10px rgba(255, 255, 255, 0.09),
+    0 0 20px rgba(139, 92, 246, 0.35);
+  border-color: rgba(168, 85, 247, 0.4);
+}
+
+.neu-convex-btn:active {
+  transform: translateY(1px);
+  box-shadow: 
+    inset 3px 3px 8px rgba(0, 0, 0, 0.7),
+    inset -1px -1px 3px rgba(255, 255, 255, 0.1);
+}
+
+/* Liquid Stage / Podium for Font Showcase */
+.liquid-podium {
+  background: radial-gradient(ellipse 70% 35% at 50% 65%, rgba(168, 85, 247, 0.25) 0%, transparent 70%),
+              radial-gradient(ellipse 90% 50% at 50% 100%, rgba(56, 189, 248, 0.15) 0%, transparent 70%);
+  position: relative;
+}
+
+.liquid-podium::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, rgba(168, 85, 247, 0.7) 35%, rgba(56, 189, 248, 0.9) 50%, rgba(168, 85, 247, 0.7) 65%, transparent 100%);
+  filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));
+}
+
+/* Mobile Floating Molten 3D Liquid Droplet (Matching reference image) */
+.mobile-molten-droplet {
+  width: 76px;
+  height: 68px;
+  border-radius: 58% 42% 64% 36% / 46% 58% 42% 54%;
+  background: 
+    radial-gradient(circle at 75% 25%, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.4) 15%, transparent 35%),
+    radial-gradient(circle at 25% 30%, rgba(0, 242, 254, 0.85) 0%, transparent 55%),
+    radial-gradient(circle at 80% 75%, rgba(255, 85, 0, 0.85) 0%, transparent 55%),
+    radial-gradient(circle at 45% 65%, rgba(192, 38, 211, 0.9) 0%, transparent 60%),
+    linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.85),
+    0 0 35px rgba(236, 72, 153, 0.75),
+    0 0 30px rgba(0, 242, 254, 0.7),
+    inset 0 3px 6px rgba(255, 255, 255, 0.95),
+    inset -4px -4px 10px rgba(0, 0, 0, 0.7);
+  animation: molten-droplet-float 6s ease-in-out infinite alternate;
+  position: relative;
+  pointer-events: none;
+}
+
+@keyframes molten-droplet-float {
+  0% {
+    transform: translateY(0px) rotate(0deg) scale(1);
+    border-radius: 58% 42% 64% 36% / 46% 58% 42% 54%;
+  }
+  50% {
+    transform: translateY(-8px) rotate(4deg) scale(1.05);
+    border-radius: 46% 54% 38% 62% / 62% 44% 56% 38%;
+  }
+  100% {
+    transform: translateY(2px) rotate(-3deg) scale(0.98);
+    border-radius: 64% 36% 54% 46% / 40% 64% 36% 60%;
+  }
+}
+
+/* Mobile Quick Floating Liquid Dock (Stadium Glass Vessel) */
+.mobile-nav-dock {
+  border-radius: 9999px;
+  background: 
+    radial-gradient(ellipse 80% 60% at 20% 50%, rgba(6, 182, 212, 0.28) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 60% at 80% 50%, rgba(168, 85, 247, 0.22) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.02) 100%),
+    rgba(6, 9, 24, 0.85);
+  backdrop-filter: blur(32px) saturate(220%);
+  -webkit-backdrop-filter: blur(32px) saturate(220%);
+  border: 1.5px solid rgba(0, 242, 254, 0.45);
+  border-top: 2px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 1.5px solid rgba(168, 85, 247, 0.45);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.95),
+    0 0 35px rgba(0, 242, 254, 0.4),
+    0 0 45px rgba(168, 85, 247, 0.3),
+    inset 0 2.5px 5px rgba(255, 255, 255, 0.7),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* =========================================================
+   PURE PROCEDURAL ORGANIC MOLTEN LIQUID GLASS (NO FAKE BOXES)
+   ========================================================= */
+
+/* Central High-Impact Molten Vessel (Matching art-stage-shell.png) */
+.pure-molten-vessel {
+  border-radius: 40px 60px 40px 60px / 50px 40px 50px 40px;
+  background: 
+    radial-gradient(ellipse 70% 50% at 85% 15%, rgba(255, 85, 0, 0.16) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 15% 85%, rgba(0, 242, 254, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 90% 70% at 50% 50%, rgba(8, 12, 28, 0.92) 0%, rgba(3, 5, 14, 0.98) 100%);
+  backdrop-filter: blur(40px) saturate(220%);
+  -webkit-backdrop-filter: blur(40px) saturate(220%);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-top: 3.5px solid rgba(255, 255, 255, 0.95);
+  border-left: 3px solid #00f2fe;
+  border-bottom: 3px solid #c026d3;
+  border-right: 3px solid #ff5500;
+  box-shadow: 
+    0 35px 100px -10px rgba(0, 0, 0, 0.98),
+    0 0 65px rgba(0, 242, 254, 0.45),
+    0 0 65px rgba(192, 38, 211, 0.4),
+    0 0 55px rgba(255, 85, 0, 0.35),
+    inset 0 3px 6px rgba(255, 255, 255, 0.85),
+    inset 0 -4px 10px rgba(0, 0, 0, 0.85);
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pure-molten-vessel:hover {
+  border-top-color: #ffffff;
+  box-shadow: 
+    0 45px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(0, 242, 254, 0.6),
+    0 0 85px rgba(192, 38, 211, 0.55),
+    inset 0 3.5px 7px rgba(255, 255, 255, 0.95);
+}
+
+/* Organic Molten Trio Card 1 (Shop on MyFonts - Magenta/Rose Glow) */
+.pure-molten-card-shop {
+  border-radius: 28px;
+  background: 
+    radial-gradient(circle at 25% 25%, rgba(192, 38, 211, 0.22) 0%, transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.18) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 40%, rgba(6, 8, 20, 0.95) 100%),
+    rgba(5, 8, 20, 0.92);
+  backdrop-filter: blur(40px) saturate(240%);
+  -webkit-backdrop-filter: blur(40px) saturate(240%);
+  border: 1.5px solid rgba(255, 255, 255, 0.16);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.92);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1.5px solid rgba(236, 72, 153, 0.5);
+  border-right: 1.5px solid rgba(192, 38, 211, 0.35);
+  box-shadow: 
+    0 35px 95px -10px rgba(0, 0, 0, 0.98),
+    0 0 45px rgba(192, 38, 211, 0.35),
+    inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.85);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+}
+
+.pure-molten-card-shop:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-top-color: #ffffff;
+  box-shadow: 
+    0 45px 115px -10px rgba(0, 0, 0, 0.98),
+    0 0 65px rgba(192, 38, 211, 0.55),
+    inset 0 3px 6px rgba(255, 255, 255, 0.85);
+}
+
+/* Organic Molten Trio Card 2 (Open Type Tester - Hot Magenta-Cyan Glow) */
+.pure-molten-card-tester {
+  border-radius: 28px;
+  background: 
+    radial-gradient(circle at 30% 20%, rgba(236, 72, 153, 0.22) 0%, transparent 60%),
+    radial-gradient(circle at 75% 85%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 40%, rgba(6, 8, 20, 0.95) 100%),
+    rgba(5, 8, 20, 0.92);
+  backdrop-filter: blur(40px) saturate(240%);
+  -webkit-backdrop-filter: blur(40px) saturate(240%);
+  border: 1.5px solid rgba(255, 255, 255, 0.16);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.92);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1.5px solid rgba(0, 242, 254, 0.5);
+  border-right: 1.5px solid rgba(236, 72, 153, 0.35);
+  box-shadow: 
+    0 35px 95px -10px rgba(0, 0, 0, 0.98),
+    0 0 45px rgba(236, 72, 153, 0.35),
+    inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.85);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+}
+
+.pure-molten-card-tester:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-top-color: #ffffff;
+  box-shadow: 
+    0 45px 115px -10px rgba(0, 0, 0, 0.98),
+    0 0 65px rgba(236, 72, 153, 0.55),
+    inset 0 3px 6px rgba(255, 255, 255, 0.85);
+}
+
+/* Organic Molten Trio Card 3 (Explore 22 Fonts - Bioluminescent Cyan) */
+.pure-molten-card-explore {
+  border-radius: 28px;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(0, 242, 254, 0.25) 0%, transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.18) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.02) 40%, rgba(4, 7, 18, 0.95) 100%),
+    rgba(5, 8, 20, 0.92);
+  backdrop-filter: blur(40px) saturate(240%);
+  -webkit-backdrop-filter: blur(40px) saturate(240%);
+  border: 1.5px solid rgba(255, 255, 255, 0.16);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.92);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1.5px solid rgba(0, 242, 254, 0.5);
+  border-right: 1.5px solid rgba(59, 130, 246, 0.35);
+  box-shadow: 
+    0 35px 95px -10px rgba(0, 0, 0, 0.98),
+    0 0 45px rgba(0, 242, 254, 0.35),
+    inset 0 2.5px 5px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.85);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+}
+
+.pure-molten-card-explore:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-top-color: #ffffff;
+  box-shadow: 
+    0 45px 115px -10px rgba(0, 0, 0, 0.98),
+    0 0 70px rgba(0, 242, 254, 0.6),
+    inset 0 3px 6px rgba(255, 255, 255, 0.85);
+}
+
+/* Organic Wave Metrics Ribbon Pod */
+.pure-molten-metrics {
+  border-radius: 9999px;
+  background: 
+    radial-gradient(ellipse 90% 65% at 50% 15%, rgba(192, 38, 211, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 10% 85%, rgba(0, 242, 254, 0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 90% 85%, rgba(255, 85, 0, 0.18) 0%, transparent 60%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.08) 0%, rgba(6, 9, 22, 0.96) 100%);
+  backdrop-filter: blur(40px) saturate(220%);
+  -webkit-backdrop-filter: blur(40px) saturate(220%);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.9);
+  border-left: 2.5px solid #00f2fe;
+  border-bottom: 2.5px solid #c026d3;
+  border-right: 2.5px solid #ff5500;
+  box-shadow: 
+    0 30px 80px -10px rgba(0, 0, 0, 0.98),
+    0 0 55px rgba(0, 242, 254, 0.4),
+    0 0 55px rgba(255, 85, 0, 0.35),
+    inset 0 3px 6px rgba(255, 255, 255, 0.75);
+}
+
+/* Reflective 3D Liquid Pool beneath letters */
+.molten-liquid-pool {
+  position: relative;
+  width: 85%;
+  height: 10px;
+  margin: -4px auto 14px auto;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(255, 85, 0, 0.55) 0%, rgba(0, 242, 254, 0.35) 45%, transparent 75%);
+  filter: blur(4px);
+  box-shadow: 0 0 25px rgba(255, 85, 0, 0.65);
+  pointer-events: none;
+}
+
+/* Dynamic Organic Molten & Water Droplet Morphing (User's Exact Reference Liquid Vessel) */
+@keyframes molten-water-flow {
+  0% {
+    border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    border-radius: 42% 58% 46% 54% / 58% 38% 62% 42%;
+    transform: translateY(-8px) rotate(1deg);
+  }
+  50% {
+    border-radius: 64% 36% 58% 42% / 38% 64% 36% 62%;
+    transform: translateY(-14px) rotate(-1deg);
+  }
+  75% {
+    border-radius: 46% 54% 64% 36% / 52% 44% 56% 48%;
+    transform: translateY(-6px) rotate(0.8deg);
+  }
+  100% {
+    border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes water-shimmer {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translate(-3%, -2%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(3%, 2%) scale(1.08);
+  }
+}
+
+@keyframes water-ripple-pulse {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(0.92);
+    opacity: 0.4;
+  }
+}
+
+/* =========================================================
+   GENUINE 100% PURE CODE WATERBOX ARCHITECTURE (THE LIQUID WATER VESSEL)
+   ========================================================= */
+
+/* The Signature Master Waterbox (Pure Organic Fluid Water Vessel matching reference image) */
+.waterbox,
+.molten-master-box,
+.molten-master-card,
+.molten-hero-glass-card,
+.pure-molten-vessel,
+.pure-molten-studio,
+.pure-molten-card-shop,
+.pure-molten-card-tester,
+.pure-molten-card-explore,
+.pure-molten-stage-pod,
+.pure-molten-font-card,
+.pure-molten-waterfall-vessel,
+.pure-molten-feature-box {
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.45) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(0, 242, 254, 0.42) 0%, transparent 55%),
+    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.22) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.78) 0%, rgba(3, 5, 14, 0.94) 100%);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  border-top: 4px solid rgba(255, 255, 255, 0.96);
+  border-right: 3.5px solid #ff5500;
+  border-bottom: 3.5px solid #00f2fe;
+  border-left: 3px solid #c026d3;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 75px rgba(255, 85, 0, 0.65),
+    0 0 75px rgba(0, 242, 254, 0.6),
+    0 0 65px rgba(192, 38, 211, 0.45),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(0, 242, 254, 0.45),
+    inset 10px 0 25px rgba(255, 85, 0, 0.45),
+    inset 0 0 40px rgba(0, 0, 0, 0.85);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+/* Specular Water Surface Glint */
+.waterbox::before,
+.molten-master-box::before,
+.molten-master-card::before,
+.molten-hero-glass-card::before,
+.pure-molten-vessel::before,
+.pure-molten-studio::before,
+.pure-molten-card-shop::before,
+.pure-molten-card-tester::before,
+.pure-molten-card-explore::before,
+.pure-molten-stage-pod::before,
+.pure-molten-font-card::before,
+.pure-molten-waterfall-vessel::before,
+.pure-molten-feature-box::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 12%;
+  right: 18%;
+  height: 30%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+/* Water Caustic Swirl Shimmer Overlay */
+.waterbox::after,
+.molten-master-box::after,
+.molten-master-card::after,
+.molten-hero-glass-card::after,
+.pure-molten-vessel::after,
+.pure-molten-studio::after,
+.pure-molten-card-shop::after,
+.pure-molten-card-tester::after,
+.pure-molten-card-explore::after,
+.pure-molten-stage-pod::after,
+.pure-molten-font-card::after,
+.pure-molten-waterfall-vessel::after,
+.pure-molten-feature-box::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: 
+    radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 70% 30%, rgba(255, 85, 0, 0.2) 0%, transparent 60%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: water-shimmer 8s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
+.waterbox:hover,
+.molten-master-box:hover,
+.molten-master-card:hover,
+.molten-hero-glass-card:hover,
+.pure-molten-vessel:hover,
+.pure-molten-studio:hover,
+.pure-molten-card-shop:hover,
+.pure-molten-card-tester:hover,
+.pure-molten-card-explore:hover,
+.pure-molten-font-card:hover,
+.pure-molten-feature-box:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(255, 85, 0, 0.75),
+    0 0 90px rgba(0, 242, 254, 0.7),
+    0 0 80px rgba(192, 38, 211, 0.6),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* =========================================================
+   DIFFERENT WATERBOX THEMATIC FLAVORS (STANDALONE LIQUID VESSELS)
+   ========================================================= */
+
+/* 1. Volcanic Magma / Lava Waterbox */
+.waterbox-lava,
+.molten-lava-box {
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 20%, rgba(255, 69, 0, 0.65) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(251, 146, 60, 0.5) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(16, 5, 5, 0.6) 0%, rgba(8, 2, 2, 0.92) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-top: 4px solid #ffffff;
+  border-right: 3.5px solid #ff3b00;
+  border-bottom: 3.5px solid #ff8800;
+  border-left: 3px solid #ff1100;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(255, 69, 0, 0.75),
+    0 0 70px rgba(255, 140, 0, 0.6),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(255, 69, 0, 0.5);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-lava::before,
+.molten-lava-box::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 12%;
+  right: 18%;
+  height: 30%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-lava:hover,
+.molten-lava-box:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(255, 69, 0, 0.85),
+    0 0 80px rgba(255, 140, 0, 0.7),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* 2. Oceanic Bioluminescent Waterbox */
+.waterbox-oceanic,
+.molten-oceanic-box {
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 20%, rgba(0, 242, 254, 0.6) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(59, 130, 246, 0.5) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(3, 10, 24, 0.6) 0%, rgba(2, 5, 16, 0.92) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-top: 4px solid #ffffff;
+  border-right: 3.5px solid #00f2fe;
+  border-bottom: 3.5px solid #3b82f6;
+  border-left: 3px solid #0284c7;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(0, 242, 254, 0.75),
+    0 0 70px rgba(59, 130, 246, 0.6),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(0, 242, 254, 0.5);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-oceanic::before,
+.molten-oceanic-box::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 12%;
+  right: 18%;
+  height: 30%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-oceanic:hover,
+.molten-oceanic-box:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(0, 242, 254, 0.85),
+    0 0 80px rgba(59, 130, 246, 0.7),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* Specimen Waterfall Dedicated Oceanic Waterball Container (Full Text Safe Clearance) */
+@keyframes waterfall-waterball-morph {
+  0% {
+    border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    border-radius: 52% 48% 46% 54% / 25% 22% 23% 25%;
+    transform: translateY(-6px) rotate(0.4deg);
+  }
+  66% {
+    border-radius: 47% 53% 52% 48% / 23% 24% 25% 22%;
+    transform: translateY(-3px) rotate(-0.3deg);
+  }
+  100% {
+    border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.waterbox-waterfall {
+  border-radius: 48% 52% 49% 51% / 22% 25% 24% 23%;
+  animation: waterfall-waterball-morph 14s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 15%, rgba(0, 242, 254, 0.55) 0%, transparent 55%),
+    radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.45) 0%, transparent 55%),
+    radial-gradient(ellipse 75% 65% at 50% 50%, rgba(3, 10, 26, 0.75) 0%, rgba(2, 5, 18, 0.96) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  border-top: 4px solid #ffffff;
+  border-right: 3.5px solid #00f2fe;
+  border-bottom: 3.5px solid #3b82f6;
+  border-left: 3px solid #0284c7;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(0, 242, 254, 0.75),
+    0 0 70px rgba(59, 130, 246, 0.6),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(0, 242, 254, 0.45),
+    inset 0 0 35px rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-waterfall::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 15%;
+  right: 20%;
+  height: 18%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.08) 70%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-waterfall::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: 
+    radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 70% 30%, rgba(59, 130, 246, 0.18) 0%, transparent 60%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: water-shimmer 8s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
+.waterbox-waterfall:hover {
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(0, 242, 254, 0.85),
+    0 0 80px rgba(59, 130, 246, 0.7),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* Hero Stage Waterbox with Safe Full Clearance */
+.waterbox-stage {
+  border-radius: 48% 52% 50% 50% / 20% 22% 24% 22%;
+  animation: waterfall-waterball-morph 14s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 15%, rgba(255, 69, 0, 0.35) 0%, transparent 55%),
+    radial-gradient(circle at 18% 85%, rgba(0, 242, 254, 0.35) 0%, transparent 55%),
+    radial-gradient(circle at 50% 50%, rgba(192, 38, 211, 0.18) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(6, 9, 22, 0.82) 0%, rgba(3, 5, 14, 0.96) 100%);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  border: 3px solid rgba(255, 255, 255, 0.16);
+  border-top: 4px solid rgba(255, 255, 255, 0.96);
+  border-right: 3.5px solid #ff5500;
+  border-bottom: 3.5px solid #00f2fe;
+  border-left: 3px solid #c026d3;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 75px rgba(255, 85, 0, 0.55),
+    0 0 75px rgba(0, 242, 254, 0.5),
+    0 0 65px rgba(192, 38, 211, 0.4),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(0, 242, 254, 0.35),
+    inset 10px 0 25px rgba(255, 85, 0, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.85);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-stage::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 15%;
+  right: 20%;
+  height: 18%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.08) 70%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-stage::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: 
+    radial-gradient(ellipse 60% 40% at 30% 70%, rgba(0, 242, 254, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 70% 30%, rgba(255, 85, 0, 0.18) 0%, transparent 60%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: water-shimmer 8s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
+.waterbox-stage:hover {
+  transform: scale(1.01) translateY(-3px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(255, 85, 0, 0.7),
+    0 0 90px rgba(0, 242, 254, 0.65),
+    0 0 80px rgba(192, 38, 211, 0.55),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* 3. Cosmic Violet / Amethyst Waterbox */
+.waterbox-violet,
+.molten-violet-box {
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 20%, rgba(192, 38, 211, 0.6) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(236, 72, 153, 0.5) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(14, 5, 24, 0.6) 0%, rgba(7, 2, 14, 0.92) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-top: 4px solid #ffffff;
+  border-right: 3.5px solid #c026d3;
+  border-bottom: 3.5px solid #ec4899;
+  border-left: 3px solid #8b5cf6;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(192, 38, 211, 0.75),
+    0 0 70px rgba(236, 72, 153, 0.6),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(192, 38, 211, 0.5);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-violet::before,
+.molten-violet-box::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 12%;
+  right: 18%;
+  height: 30%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-violet:hover,
+.molten-violet-box:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(192, 38, 211, 0.85),
+    0 0 80px rgba(236, 72, 153, 0.7),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* 4. Honey / Liquid Gold Waterbox */
+.waterbox-honey,
+.molten-honey-box {
+  border-radius: 54% 46% 62% 38% / 44% 56% 44% 56%;
+  animation: molten-water-flow 12s ease-in-out infinite alternate;
+  background: 
+    radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.6) 0%, transparent 55%),
+    radial-gradient(circle at 18% 82%, rgba(251, 191, 36, 0.5) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 50%, rgba(20, 14, 4, 0.6) 0%, rgba(10, 7, 2, 0.92) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-top: 4px solid #ffffff;
+  border-right: 3.5px solid #f59e0b;
+  border-bottom: 3.5px solid #fbbf24;
+  border-left: 3px solid #d97706;
+  box-shadow: 
+    0 40px 120px -10px rgba(0, 0, 0, 0.98),
+    0 0 85px rgba(245, 158, 11, 0.75),
+    0 0 70px rgba(251, 191, 36, 0.6),
+    inset 0 4px 12px rgba(255, 255, 255, 0.95),
+    inset 0 -10px 25px rgba(245, 158, 11, 0.5);
+  backdrop-filter: blur(28px) saturate(220%);
+  -webkit-backdrop-filter: blur(28px) saturate(220%);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.waterbox-honey::before,
+.molten-honey-box::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 12%;
+  right: 18%;
+  height: 30%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.12) 65%, transparent 100%);
+  pointer-events: none;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.waterbox-honey:hover,
+.molten-honey-box:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 
+    0 50px 140px -10px rgba(0, 0, 0, 0.98),
+    0 0 95px rgba(245, 158, 11, 0.85),
+    0 0 80px rgba(251, 191, 36, 0.7),
+    inset 0 5px 15px rgba(255, 255, 255, 1);
+}
+
+/* Remove separate redundant aura elements so there is NEVER an extra double shape */
+.molten-master-aura,
+.pure-molten-hero-orb,
+.molten-oceanic-aura,
+.molten-violet-aura,
+.molten-honey-aura,
+.molten-lava-aura {
+  display: none !important;
+}
+
+/* Additional organic water flow animations for diverse liquid rhythm */
+@keyframes molten-water-flow-reverse {
+  0% {
+    border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    border-radius: 58% 42% 54% 46% / 42% 58% 38% 62%;
+    transform: translateY(6px) rotate(-1deg);
+  }
+  50% {
+    border-radius: 36% 64% 42% 58% / 64% 36% 62% 38%;
+    transform: translateY(12px) rotate(1deg);
+  }
+  75% {
+    border-radius: 54% 46% 36% 64% / 44% 56% 48% 52%;
+    transform: translateY(4px) rotate(-0.8deg);
+  }
+  100% {
+    border-radius: 46% 54% 38% 62% / 56% 44% 56% 44%;
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes molten-water-flow-drift {
+  0% {
+    border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    border-radius: 44% 56% 60% 40% / 54% 46% 42% 58%;
+    transform: translateY(-10px) rotate(1.2deg);
+  }
+  100% {
+    border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.waterbox-flow-reverse {
+  animation: molten-water-flow-reverse 14s ease-in-out infinite alternate !important;
+}
+
+.waterbox-flow-drift {
+  animation: molten-water-flow-drift 10s ease-in-out infinite alternate !important;
+}
+
+/* Viewport offscreen containment for catalog cards - Instant 60-120fps scrolling */
+.catalog-card-contain {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 380px;
+}
+
+/* Fluid Liquid Input Box */
+.pure-molten-input-wrap {
+  background: rgba(6, 8, 18, 0.85);
+  border: 1.5px solid rgba(168, 85, 247, 0.4);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.45);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.85), 0 0 25px rgba(168, 85, 247, 0.2);
+  border-radius: 9999px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.pure-molten-input-wrap:focus-within {
+  border-color: rgba(168, 85, 247, 0.8);
+  border-top-color: #ffffff;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.9), 0 0 35px rgba(168, 85, 247, 0.5);
+}
+
+/* Sleek Pill Pod for Controls */
+.pure-molten-pill-pod {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.15), 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Glowing Viscous Lava Bubbles */
+.lava-bubble {
+  position: absolute;
+  border-radius: 50% 50% 45% 55% / 55% 45% 55% 45%;
+  background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.95) 0%, rgba(251, 146, 60, 0.85) 40%, rgba(168, 85, 247, 0.88) 75%, rgba(59, 130, 246, 0.95) 100%);
+  box-shadow: 
+    0 10px 35px rgba(251, 146, 60, 0.7),
+    0 0 30px rgba(168, 85, 247, 0.8),
+    inset -3px -3px 8px rgba(0, 0, 0, 0.7),
+    inset 3px 3px 6px rgba(255, 255, 255, 0.95);
+  pointer-events: none;
+  animation: molten-float 10s ease-in-out infinite;
+}
+
+/* =========================================================
+   SIGNATURE PURE CODED LIQUID GLASS LUXURY NAVBAR (MATCHING REFERENCE IMAGE)
+   ========================================================= */
+
+/* Main Long Translucent Liquid Glass Stadium Capsule */
+.navbar-glass-capsule {
+  background: 
+    radial-gradient(ellipse 70% 60% at 20% 50%, rgba(56, 189, 248, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 85% 50%, rgba(168, 85, 247, 0.14) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(16, 20, 42, 0.82) 0%, rgba(8, 10, 24, 0.94) 100%);
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.7);
+  border-left: 1.5px solid rgba(56, 189, 248, 0.5);
+  border-right: 1.5px solid rgba(236, 72, 153, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  box-shadow: 
+    0 16px 40px -8px rgba(0, 0, 0, 0.9),
+    0 0 30px rgba(56, 189, 248, 0.18),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.4),
+    inset 0 -1.5px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 9999px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Specular Upper Meniscus Highlight Reflection */
+.navbar-glass-capsule::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 4%;
+  right: 4%;
+  height: 42%;
+  border-radius: 9999px 9999px 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.02) 80%, transparent 100%);
+  pointer-events: none;
+}
+
+/* Orange-Red Fiery Hot Magma Gel Capsule Button ("SHOP ON MYFONTS") */
+.navbar-btn-orange-lava {
+  background: linear-gradient(135deg, #ff4d00 0%, #ff6a00 45%, #ff2a5f 100%);
+  border-radius: 9999px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 
+    0 12px 28px -4px rgba(255, 69, 0, 0.75),
+    0 0 35px rgba(255, 106, 0, 0.5),
+    inset 0 2px 3px rgba(255, 255, 255, 0.8),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.45);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #ffffff;
+  user-select: none;
+}
+
+.navbar-btn-orange-lava::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 8%;
+  right: 8%;
+  height: 45%;
+  border-radius: 9999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.05) 100%);
+  pointer-events: none;
+}
+
+.navbar-btn-orange-lava:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 
+    0 16px 36px -4px rgba(255, 69, 0, 0.95),
+    0 0 50px rgba(255, 106, 0, 0.75),
+    inset 0 2px 4px rgba(255, 255, 255, 0.95);
+}
+
+.navbar-btn-orange-lava:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Standalone Circular Dark Glass Icon Button */
+.navbar-btn-circle-mode {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(24, 28, 54, 0.9) 0%, rgba(10, 12, 28, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 
+    0 10px 24px rgba(0, 0, 0, 0.85),
+    0 0 18px rgba(56, 189, 248, 0.25),
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #93c5fd;
+  transition: all 0.22s ease;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .navbar-btn-circle-mode {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-btn-circle-mode {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.navbar-btn-circle-mode::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 20%;
+  right: 20%;
+  height: 38%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.navbar-btn-circle-mode:hover {
+  transform: scale(1.08);
+  color: #ffffff;
+  border-color: rgba(56, 189, 248, 0.6);
+  box-shadow: 
+    0 12px 28px rgba(0, 0, 0, 0.95),
+    0 0 30px rgba(56, 189, 248, 0.55),
+    inset 0 2px 3px rgba(255, 255, 255, 0.65);
+}
+
+.navbar-btn-circle-mode:active {
+  transform: scale(0.95);
+}
+
+/* Electric Blue/Violet Neon Glass Capsule Button ("COMMISSION / LICENSE") */
+.navbar-btn-purple-neon {
+  background: linear-gradient(135deg, #1d4ed8 0%, #4f46e5 35%, #7c3aed 70%, #c026d3 100%);
+  border-radius: 9999px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 
+    0 12px 28px -4px rgba(79, 70, 229, 0.75),
+    0 0 35px rgba(168, 85, 247, 0.5),
+    inset 0 2px 3px rgba(255, 255, 255, 0.8),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.45);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  color: #ffffff;
+  user-select: none;
+}
+
+.navbar-btn-purple-neon::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 8%;
+  right: 8%;
+  height: 45%;
+  border-radius: 9999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.05) 100%);
+  pointer-events: none;
+}
+
+.navbar-btn-purple-neon:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 
+    0 16px 36px -4px rgba(79, 70, 229, 0.95),
+    0 0 50px rgba(192, 38, 211, 0.75),
+    inset 0 2px 4px rgba(255, 255, 255, 0.95);
+}
+
+.navbar-btn-purple-neon:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+
+
+
+
+

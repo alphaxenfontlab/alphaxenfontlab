@@ -1,0 +1,847 @@
+{
+  "id": "alphaxen-dragon",
+  "name": "Alphaxen Dragon",
+  "category": "chromatic",
+  "subCategory": "Fantasy & Mythic",
+  "theme": "Dragon Scales & Golden Flame",
+  "accent": "#eab308",
+  "badge": "FLAGSHIP CHROMATIC",
+  "description": "A monumental fantasy display typeface embedded with photorealistic scaled armor, golden highlights, and fiery dragon hide textures. Every glyph is an artwork.",
+  "specimenWords": [
+    "DRAGON",
+    "WYVERN",
+    "LEGEND",
+    "FIREBORN",
+    "EMPIRE"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 90,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 380,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/65.png",
+      "advance": 945,
+      "lsb": 65
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/66.png",
+      "advance": 779,
+      "lsb": 53
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/67.png",
+      "advance": 745,
+      "lsb": 51
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/68.png",
+      "advance": 725,
+      "lsb": 50
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/69.png",
+      "advance": 703,
+      "lsb": 48
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/70.png",
+      "advance": 614,
+      "lsb": 42
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/71.png",
+      "advance": 842,
+      "lsb": 58
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/72.png",
+      "advance": 725,
+      "lsb": 50
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/73.png",
+      "advance": 296,
+      "lsb": 35
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/74.png",
+      "advance": 606,
+      "lsb": 41
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/75.png",
+      "advance": 773,
+      "lsb": 53
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/76.png",
+      "advance": 634,
+      "lsb": 43
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/77.png",
+      "advance": 876,
+      "lsb": 60
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/78.png",
+      "advance": 779,
+      "lsb": 53
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/79.png",
+      "advance": 814,
+      "lsb": 56
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/80.png",
+      "advance": 655,
+      "lsb": 45
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/81.png",
+      "advance": 814,
+      "lsb": 56
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/82.png",
+      "advance": 800,
+      "lsb": 55
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/83.png",
+      "advance": 614,
+      "lsb": 42
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/84.png",
+      "advance": 689,
+      "lsb": 47
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/85.png",
+      "advance": 711,
+      "lsb": 49
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/86.png",
+      "advance": 779,
+      "lsb": 53
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/87.png",
+      "advance": 842,
+      "lsb": 58
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/88.png",
+      "advance": 725,
+      "lsb": 50
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/89.png",
+      "advance": 552,
+      "lsb": 38
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/90.png",
+      "advance": 648,
+      "lsb": 44
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/97.png",
+      "advance": 675,
+      "lsb": 46
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/98.png",
+      "advance": 669,
+      "lsb": 46
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/99.png",
+      "advance": 592,
+      "lsb": 40
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/100.png",
+      "advance": 669,
+      "lsb": 46
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/101.png",
+      "advance": 634,
+      "lsb": 43
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/102.png",
+      "advance": 566,
+      "lsb": 39
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/103.png",
+      "advance": 648,
+      "lsb": 44
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/104.png",
+      "advance": 648,
+      "lsb": 44
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/105.png",
+      "advance": 266,
+      "lsb": 35
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/106.png",
+      "advance": 524,
+      "lsb": 36
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/107.png",
+      "advance": 683,
+      "lsb": 47
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/108.png",
+      "advance": 356,
+      "lsb": 35
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/109.png",
+      "advance": 876,
+      "lsb": 60
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/110.png",
+      "advance": 675,
+      "lsb": 46
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/111.png",
+      "advance": 661,
+      "lsb": 45
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/112.png",
+      "advance": 620,
+      "lsb": 42
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/113.png",
+      "advance": 661,
+      "lsb": 45
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/114.png",
+      "advance": 505,
+      "lsb": 35
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/115.png",
+      "advance": 552,
+      "lsb": 38
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/116.png",
+      "advance": 463,
+      "lsb": 35
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/117.png",
+      "advance": 642,
+      "lsb": 44
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/118.png",
+      "advance": 745,
+      "lsb": 51
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/119.png",
+      "advance": 779,
+      "lsb": 53
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/120.png",
+      "advance": 689,
+      "lsb": 47
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/121.png",
+      "advance": 586,
+      "lsb": 40
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/122.png",
+      "advance": 614,
+      "lsb": 42
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "zero",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/48.png",
+      "advance": 572,
+      "lsb": 39
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "one",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/49.png",
+      "advance": 326,
+      "lsb": 35
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "two",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/50.png",
+      "advance": 538,
+      "lsb": 37
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "three",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/51.png",
+      "advance": 552,
+      "lsb": 38
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "four",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/52.png",
+      "advance": 600,
+      "lsb": 41
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "five",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/53.png",
+      "advance": 510,
+      "lsb": 35
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "six",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/54.png",
+      "advance": 530,
+      "lsb": 36
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "seven",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/55.png",
+      "advance": 524,
+      "lsb": 36
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "eight",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/56.png",
+      "advance": 510,
+      "lsb": 35
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "nine",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/57.png",
+      "advance": 493,
+      "lsb": 35
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/33.png",
+      "advance": 195,
+      "lsb": 35
+    },
+    "34": {
+      "code": 34,
+      "char": "\"",
+      "name": "quotedbl",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/34.png",
+      "advance": 201,
+      "lsb": 35
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/35.png",
+      "advance": 320,
+      "lsb": 35
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/36.png",
+      "advance": 266,
+      "lsb": 35
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/37.png",
+      "advance": 272,
+      "lsb": 35
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/38.png",
+      "advance": 326,
+      "lsb": 35
+    },
+    "39": {
+      "code": 39,
+      "char": "'",
+      "name": "quotesingle",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/39.png",
+      "advance": 201,
+      "lsb": 35
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/40.png",
+      "advance": 189,
+      "lsb": 35
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/41.png",
+      "advance": 183,
+      "lsb": 35
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/42.png",
+      "advance": 272,
+      "lsb": 35
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/43.png",
+      "advance": 344,
+      "lsb": 35
+    },
+    "44": {
+      "code": 44,
+      "char": ",",
+      "name": "comma",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/44.png",
+      "advance": 159,
+      "lsb": 35
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/45.png",
+      "advance": 249,
+      "lsb": 35
+    },
+    "46": {
+      "code": 46,
+      "char": ".",
+      "name": "period",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/46.png",
+      "advance": 159,
+      "lsb": 35
+    },
+    "58": {
+      "code": 58,
+      "char": ":",
+      "name": "colon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/58.png",
+      "advance": 177,
+      "lsb": 35
+    },
+    "59": {
+      "code": 59,
+      "char": ";",
+      "name": "semicolon",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/59.png",
+      "advance": 153,
+      "lsb": 35
+    },
+    "60": {
+      "code": 60,
+      "char": "<",
+      "name": "less",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/60.png",
+      "advance": 249,
+      "lsb": 35
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/61.png",
+      "advance": 326,
+      "lsb": 35
+    },
+    "62": {
+      "code": 62,
+      "char": ">",
+      "name": "greater",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/62.png",
+      "advance": 260,
+      "lsb": 35
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/63.png",
+      "advance": 290,
+      "lsb": 35
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/64.png",
+      "advance": 374,
+      "lsb": 35
+    },
+    "91": {
+      "code": 91,
+      "char": "[",
+      "name": "bracketleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/91.png",
+      "advance": 177,
+      "lsb": 35
+    },
+    "93": {
+      "code": 93,
+      "char": "]",
+      "name": "bracketright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/93.png",
+      "advance": 189,
+      "lsb": 35
+    },
+    "123": {
+      "code": 123,
+      "char": "{",
+      "name": "braceleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/123.png",
+      "advance": 207,
+      "lsb": 35
+    },
+    "125": {
+      "code": 125,
+      "char": "}",
+      "name": "braceright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/125.png",
+      "advance": 207,
+      "lsb": 35
+    },
+    "126": {
+      "code": 126,
+      "char": "~",
+      "name": "asciitilde",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/126.png",
+      "advance": 296,
+      "lsb": 35
+    },
+    "247": {
+      "code": 247,
+      "char": "\u00f7",
+      "name": "divide",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-dragon/247.png",
+      "advance": 284,
+      "lsb": 35
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 380,
+      "lsb": 0
+    }
+  }
+}

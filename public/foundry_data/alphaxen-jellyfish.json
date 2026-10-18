@@ -1,0 +1,730 @@
+{
+  "id": "alphaxen-jellyfish",
+  "name": "Alphaxen Jellyfish",
+  "category": "chromatic",
+  "subCategory": "Oceanic & Abyssal",
+  "theme": "Bioluminescent Deep Sea Tentacles",
+  "accent": "#3b82f6",
+  "badge": "ABYSSAL CHROMATIC",
+  "description": "Translucent deep-ocean creature typography radiating with bioluminescent cyan and violet pulses, fluid membrane tentacles, and watery caustics.",
+  "specimenWords": [
+    "JELLYFISH",
+    "BIOLUMINESCENT",
+    "ABYSS",
+    "AQUATIC",
+    "GLOW"
+  ],
+  "designer": "Alphaxen Type Foundry",
+  "releaseYear": 2026,
+  "unitsPerEm": 1000,
+  "glyphCount": 77,
+  "sampleChars": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "spaceAdvance": 320,
+  "glyphs": {
+    "65": {
+      "code": 65,
+      "char": "A",
+      "name": "A",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/65.png",
+      "advance": 693,
+      "lsb": 50
+    },
+    "66": {
+      "code": 66,
+      "char": "B",
+      "name": "B",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/66.png",
+      "advance": 623,
+      "lsb": 50
+    },
+    "67": {
+      "code": 67,
+      "char": "C",
+      "name": "C",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/67.png",
+      "advance": 611,
+      "lsb": 50
+    },
+    "68": {
+      "code": 68,
+      "char": "D",
+      "name": "D",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/68.png",
+      "advance": 733,
+      "lsb": 50
+    },
+    "69": {
+      "code": 69,
+      "char": "E",
+      "name": "E",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/69.png",
+      "advance": 567,
+      "lsb": 50
+    },
+    "70": {
+      "code": 70,
+      "char": "F",
+      "name": "F",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/70.png",
+      "advance": 579,
+      "lsb": 50
+    },
+    "71": {
+      "code": 71,
+      "char": "G",
+      "name": "G",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/71.png",
+      "advance": 705,
+      "lsb": 50
+    },
+    "72": {
+      "code": 72,
+      "char": "H",
+      "name": "H",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/72.png",
+      "advance": 831,
+      "lsb": 50
+    },
+    "73": {
+      "code": 73,
+      "char": "I",
+      "name": "I",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/73.png",
+      "advance": 359,
+      "lsb": 50
+    },
+    "74": {
+      "code": 74,
+      "char": "J",
+      "name": "J",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/74.png",
+      "advance": 713,
+      "lsb": 50
+    },
+    "75": {
+      "code": 75,
+      "char": "K",
+      "name": "K",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/75.png",
+      "advance": 756,
+      "lsb": 50
+    },
+    "76": {
+      "code": 76,
+      "char": "L",
+      "name": "L",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/76.png",
+      "advance": 575,
+      "lsb": 50
+    },
+    "77": {
+      "code": 77,
+      "char": "M",
+      "name": "M",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/77.png",
+      "advance": 788,
+      "lsb": 50
+    },
+    "78": {
+      "code": 78,
+      "char": "N",
+      "name": "N",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/78.png",
+      "advance": 729,
+      "lsb": 50
+    },
+    "79": {
+      "code": 79,
+      "char": "O",
+      "name": "O",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/79.png",
+      "advance": 646,
+      "lsb": 50
+    },
+    "80": {
+      "code": 80,
+      "char": "P",
+      "name": "P",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/80.png",
+      "advance": 587,
+      "lsb": 50
+    },
+    "81": {
+      "code": 81,
+      "char": "Q",
+      "name": "Q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/81.png",
+      "advance": 674,
+      "lsb": 50
+    },
+    "82": {
+      "code": 82,
+      "char": "R",
+      "name": "R",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/82.png",
+      "advance": 638,
+      "lsb": 50
+    },
+    "83": {
+      "code": 83,
+      "char": "S",
+      "name": "S",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/83.png",
+      "advance": 638,
+      "lsb": 50
+    },
+    "84": {
+      "code": 84,
+      "char": "T",
+      "name": "T",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/84.png",
+      "advance": 654,
+      "lsb": 50
+    },
+    "85": {
+      "code": 85,
+      "char": "U",
+      "name": "U",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/85.png",
+      "advance": 807,
+      "lsb": 50
+    },
+    "86": {
+      "code": 86,
+      "char": "V",
+      "name": "V",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/86.png",
+      "advance": 803,
+      "lsb": 50
+    },
+    "87": {
+      "code": 87,
+      "char": "W",
+      "name": "W",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/87.png",
+      "advance": 815,
+      "lsb": 50
+    },
+    "88": {
+      "code": 88,
+      "char": "X",
+      "name": "X",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/88.png",
+      "advance": 811,
+      "lsb": 50
+    },
+    "89": {
+      "code": 89,
+      "char": "Y",
+      "name": "Y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/89.png",
+      "advance": 469,
+      "lsb": 50
+    },
+    "90": {
+      "code": 90,
+      "char": "Z",
+      "name": "Z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/90.png",
+      "advance": 701,
+      "lsb": 50
+    },
+    "97": {
+      "code": 97,
+      "char": "a",
+      "name": "a",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/97.png",
+      "advance": 693,
+      "lsb": 50
+    },
+    "98": {
+      "code": 98,
+      "char": "b",
+      "name": "b",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/98.png",
+      "advance": 623,
+      "lsb": 50
+    },
+    "99": {
+      "code": 99,
+      "char": "c",
+      "name": "c",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/99.png",
+      "advance": 611,
+      "lsb": 50
+    },
+    "100": {
+      "code": 100,
+      "char": "d",
+      "name": "d",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/100.png",
+      "advance": 733,
+      "lsb": 50
+    },
+    "101": {
+      "code": 101,
+      "char": "e",
+      "name": "e",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/101.png",
+      "advance": 567,
+      "lsb": 50
+    },
+    "102": {
+      "code": 102,
+      "char": "f",
+      "name": "f",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/102.png",
+      "advance": 579,
+      "lsb": 50
+    },
+    "103": {
+      "code": 103,
+      "char": "g",
+      "name": "g",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/103.png",
+      "advance": 705,
+      "lsb": 50
+    },
+    "104": {
+      "code": 104,
+      "char": "h",
+      "name": "h",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/104.png",
+      "advance": 831,
+      "lsb": 50
+    },
+    "105": {
+      "code": 105,
+      "char": "i",
+      "name": "i",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/105.png",
+      "advance": 359,
+      "lsb": 50
+    },
+    "106": {
+      "code": 106,
+      "char": "j",
+      "name": "j",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/106.png",
+      "advance": 713,
+      "lsb": 50
+    },
+    "107": {
+      "code": 107,
+      "char": "k",
+      "name": "k",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/107.png",
+      "advance": 756,
+      "lsb": 50
+    },
+    "108": {
+      "code": 108,
+      "char": "l",
+      "name": "l",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/108.png",
+      "advance": 575,
+      "lsb": 50
+    },
+    "109": {
+      "code": 109,
+      "char": "m",
+      "name": "m",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/109.png",
+      "advance": 788,
+      "lsb": 50
+    },
+    "110": {
+      "code": 110,
+      "char": "n",
+      "name": "n",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/110.png",
+      "advance": 729,
+      "lsb": 50
+    },
+    "111": {
+      "code": 111,
+      "char": "o",
+      "name": "o",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/111.png",
+      "advance": 646,
+      "lsb": 50
+    },
+    "112": {
+      "code": 112,
+      "char": "p",
+      "name": "p",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/112.png",
+      "advance": 587,
+      "lsb": 50
+    },
+    "113": {
+      "code": 113,
+      "char": "q",
+      "name": "q",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/113.png",
+      "advance": 674,
+      "lsb": 50
+    },
+    "114": {
+      "code": 114,
+      "char": "r",
+      "name": "r",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/114.png",
+      "advance": 638,
+      "lsb": 50
+    },
+    "115": {
+      "code": 115,
+      "char": "s",
+      "name": "s",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/115.png",
+      "advance": 638,
+      "lsb": 50
+    },
+    "116": {
+      "code": 116,
+      "char": "t",
+      "name": "t",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/116.png",
+      "advance": 654,
+      "lsb": 50
+    },
+    "117": {
+      "code": 117,
+      "char": "u",
+      "name": "u",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/117.png",
+      "advance": 807,
+      "lsb": 50
+    },
+    "118": {
+      "code": 118,
+      "char": "v",
+      "name": "v",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/118.png",
+      "advance": 803,
+      "lsb": 50
+    },
+    "119": {
+      "code": 119,
+      "char": "w",
+      "name": "w",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/119.png",
+      "advance": 815,
+      "lsb": 50
+    },
+    "120": {
+      "code": 120,
+      "char": "x",
+      "name": "x",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/120.png",
+      "advance": 811,
+      "lsb": 50
+    },
+    "121": {
+      "code": 121,
+      "char": "y",
+      "name": "y",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/121.png",
+      "advance": 469,
+      "lsb": 50
+    },
+    "122": {
+      "code": 122,
+      "char": "z",
+      "name": "z",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/122.png",
+      "advance": 701,
+      "lsb": 50
+    },
+    "48": {
+      "code": 48,
+      "char": "0",
+      "name": "digit_0",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/48.png",
+      "advance": 575,
+      "lsb": 50
+    },
+    "49": {
+      "code": 49,
+      "char": "1",
+      "name": "digit_1",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/49.png",
+      "advance": 391,
+      "lsb": 50
+    },
+    "50": {
+      "code": 50,
+      "char": "2",
+      "name": "digit_2",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/50.png",
+      "advance": 564,
+      "lsb": 50
+    },
+    "51": {
+      "code": 51,
+      "char": "3",
+      "name": "digit_3",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/51.png",
+      "advance": 567,
+      "lsb": 50
+    },
+    "52": {
+      "code": 52,
+      "char": "4",
+      "name": "digit_4",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/52.png",
+      "advance": 599,
+      "lsb": 50
+    },
+    "53": {
+      "code": 53,
+      "char": "5",
+      "name": "digit_5",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/53.png",
+      "advance": 540,
+      "lsb": 50
+    },
+    "54": {
+      "code": 54,
+      "char": "6",
+      "name": "digit_6",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/54.png",
+      "advance": 575,
+      "lsb": 50
+    },
+    "55": {
+      "code": 55,
+      "char": "7",
+      "name": "digit_7",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/55.png",
+      "advance": 548,
+      "lsb": 50
+    },
+    "56": {
+      "code": 56,
+      "char": "8",
+      "name": "digit_8",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/56.png",
+      "advance": 595,
+      "lsb": 50
+    },
+    "57": {
+      "code": 57,
+      "char": "9",
+      "name": "digit_9",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/57.png",
+      "advance": 564,
+      "lsb": 50
+    },
+    "33": {
+      "code": 33,
+      "char": "!",
+      "name": "exclam",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/33.png",
+      "advance": 300,
+      "lsb": 50
+    },
+    "35": {
+      "code": 35,
+      "char": "#",
+      "name": "numbersign",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/35.png",
+      "advance": 505,
+      "lsb": 50
+    },
+    "36": {
+      "code": 36,
+      "char": "$",
+      "name": "dollar",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/36.png",
+      "advance": 422,
+      "lsb": 50
+    },
+    "37": {
+      "code": 37,
+      "char": "%",
+      "name": "percent",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/37.png",
+      "advance": 516,
+      "lsb": 50
+    },
+    "38": {
+      "code": 38,
+      "char": "&",
+      "name": "ampersand",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/38.png",
+      "advance": 567,
+      "lsb": 50
+    },
+    "40": {
+      "code": 40,
+      "char": "(",
+      "name": "parenleft",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/40.png",
+      "advance": 288,
+      "lsb": 50
+    },
+    "41": {
+      "code": 41,
+      "char": ")",
+      "name": "parenright",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/41.png",
+      "advance": 284,
+      "lsb": 50
+    },
+    "42": {
+      "code": 42,
+      "char": "*",
+      "name": "asterisk",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/42.png",
+      "advance": 406,
+      "lsb": 50
+    },
+    "43": {
+      "code": 43,
+      "char": "+",
+      "name": "plus",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/43.png",
+      "advance": 426,
+      "lsb": 50
+    },
+    "45": {
+      "code": 45,
+      "char": "-",
+      "name": "hyphen",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/45.png",
+      "advance": 355,
+      "lsb": 50
+    },
+    "61": {
+      "code": 61,
+      "char": "=",
+      "name": "equal",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/61.png",
+      "advance": 371,
+      "lsb": 50
+    },
+    "63": {
+      "code": 63,
+      "char": "?",
+      "name": "question",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/63.png",
+      "advance": 450,
+      "lsb": 50
+    },
+    "64": {
+      "code": 64,
+      "char": "@",
+      "name": "at",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/64.png",
+      "advance": 564,
+      "lsb": 50
+    },
+    "95": {
+      "code": 95,
+      "char": "_",
+      "name": "underscore",
+      "type": "image",
+      "src": "/demo_glyphs/alphaxen-jellyfish/95.png",
+      "advance": 394,
+      "lsb": 50
+    },
+    "32": {
+      "code": 32,
+      "char": " ",
+      "name": "space",
+      "type": "space",
+      "advance": 320,
+      "lsb": 0
+    }
+  }
+}
