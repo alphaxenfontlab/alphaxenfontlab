@@ -583,7 +583,7 @@ export const Landing: React.FC = () => {
               href={MYFONTS_SHOP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="waterbox p-7 sm:p-8 flex flex-col justify-between hover:scale-[1.02] transition-all cursor-pointer min-h-[220px]"
+              className="waterbox p-7 sm:p-8 flex flex-col justify-between cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -610,7 +610,7 @@ export const Landing: React.FC = () => {
             {/* Card 2: Open Type Tester */}
             <button
               onClick={() => scrollToSection('type-tester')}
-              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left hover:scale-[1.02] transition-all cursor-pointer min-h-[220px]"
+              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -637,7 +637,7 @@ export const Landing: React.FC = () => {
             {/* Card 3: Explore 22 Fonts */}
             <button
               onClick={() => scrollToSection('catalog')}
-              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left hover:scale-[1.02] transition-all cursor-pointer min-h-[220px]"
+              className="waterbox w-full p-7 sm:p-8 flex flex-col justify-between text-left cursor-pointer min-h-[220px]"
             >
               <div className="relative z-10 w-full flex flex-col justify-between h-full space-y-4">
                 <div className="space-y-4">
@@ -791,7 +791,7 @@ export const Landing: React.FC = () => {
             {filteredCatalog.map((font, idx) => (
               <div
                 key={font.id}
-                className={`${getFontWaterboxClass(font, idx)} catalog-card-contain p-6 sm:p-7 flex flex-col justify-between transition-[box-shadow,border-color] duration-300 h-full overflow-hidden`}
+                className={`${getFontWaterboxClass(font, idx)} catalog-card-contain p-6 sm:p-7 flex flex-col justify-between h-full overflow-hidden`}
                 style={{
                   borderRightColor: font.accent,
                   borderBottomColor: font.accent,
